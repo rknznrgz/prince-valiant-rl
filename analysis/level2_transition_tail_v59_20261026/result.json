@@ -1,0 +1,97 @@
+{
+  "status": "completed",
+  "error": null,
+  "candidate_flag_frame": 22509,
+  "snapshots": [
+    {
+      "tail_frame": 0,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_0000.png",
+      "sha256": "76d93052aa21637c350a4922b00b25c356602b3724e83e1e555741a193af225a",
+      "F3": 127,
+      "energy": 15,
+      "lives": 2
+    },
+    {
+      "tail_frame": 120,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_0120.png",
+      "sha256": "76d93052aa21637c350a4922b00b25c356602b3724e83e1e555741a193af225a",
+      "F3": 127,
+      "energy": 15,
+      "lives": 2
+    },
+    {
+      "tail_frame": 300,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_0300.png",
+      "sha256": "e64f5c4ffe7e897e67f9cf126e63ca8e82e50e4a823491178282e89f31fda272",
+      "F3": 127,
+      "energy": 15,
+      "lives": 2
+    },
+    {
+      "tail_frame": 600,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_0600.png",
+      "sha256": "44067952ffed1d7e361e9a570acddd662d71716172adfb7a62cf8bb4f9b6336e",
+      "F3": 127,
+      "energy": 15,
+      "lives": 2
+    },
+    {
+      "tail_frame": 900,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_0900.png",
+      "sha256": "33cf56d9d7ea9729fe8442f9920d34aa68cafbb5a41724c660d049b4d5209cda",
+      "F3": 127,
+      "energy": 15,
+      "lives": 2
+    },
+    {
+      "tail_frame": 1200,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_1200.png",
+      "sha256": "6681288be805c46c11b9e8ff4751d2b42f19b4d43f0774aa48836e560b0e3d2f",
+      "F3": 0,
+      "energy": 255,
+      "lives": 2
+    },
+    {
+      "tail_frame": 1500,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_1500.png",
+      "sha256": "fec6207da716c7ec47e6bb0f05c0b5b8b54983731ae7f23fc7aa46c83f8b4e6b",
+      "F3": 0,
+      "energy": 255,
+      "lives": 2
+    },
+    {
+      "tail_frame": 1800,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_1800.png",
+      "sha256": "da61caa912cb06d8537ccc43c893fc4a17a0debf43901f83bd9c5acedf9e6543",
+      "F3": 0,
+      "energy": 255,
+      "lives": 2
+    },
+    {
+      "tail_frame": 2100,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_2100.png",
+      "sha256": "9f6baf4399216f1f675ab900cefd44ebb265240677a670f006037eb53b61c11e",
+      "F3": 0,
+      "energy": 255,
+      "lives": 2
+    },
+    {
+      "tail_frame": 2400,
+      "path": "analysis\\level2_transition_tail_v59_20261026\\after_flag_2400.png",
+      "sha256": "0e44275dd84b1b325b0a0e05549bb04a4d15c35dc5ebc596bc71ed375903fdc5",
+      "F3": 0,
+      "energy": 255,
+      "lives": 2
+    }
+  ],
+  "native_attempted": 24909,
+  "native_completed": 24909,
+  "native_uncertain": 0,
+  "checkpoint_sha256": "900c098cbe0376cfbc5aabc4c145b83fcd96b377772c6528e1a42beb9e9efbbd",
+  "state_sha256": "096ec7772f3d12773e0454dd5550d6c924dc34ec6d3001fcf28e883482621d2b",
+  "dataset_sha256": "62f5a19d20e56ec807f05c7cf075583e779cb39331cd79386ef67d2b630201f3",
+  "video_sha256": "a224ec3de46b2c3cdcee811391657813b6d57c8c07f2e60808ff469835113a83",
+  "optimizer_steps": 0,
+  "completed": false,
+  "classification": "pending independent visual and terminal audit; F3 alone not accepted"
+}

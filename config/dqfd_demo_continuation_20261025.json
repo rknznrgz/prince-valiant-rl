@@ -1,0 +1,20 @@
+{
+  "study_id": "dqfd_demo_continuation_20261025",
+  "user_authorization": "Can we train it further to see how much it improves? You are allowed to make changes to the reward function, and play with its coefficients. Go on.",
+  "allocation": {
+    "start_update": 2000,
+    "end_update": 5000,
+    "model_io_seconds": 1800,
+    "demo_seconds": 1800,
+    "slice_seconds": 3600,
+    "episode_count_max": 3,
+    "native_frames_max": 108000
+  },
+  "parent_checkpoint_sha256": "77a51db47b030fb1a15167774e4c6d2b4d927ae0866ebd6af9d1b7b906c6ae97",
+  "reward_decision": "Keep original verified replay rewards and evaluation weights unchanged for the additional-training comparison. Reward changes permitted but not used in this block.",
+  "historical_gate": "fixed2000 failed; continuation demo training only, no online gate bypass",
+  "cumulative_optimizer_step_ceiling": 7160,
+  "cumulative_native_frame_ceiling": 900640,
+  "effective_cumulative_active_seconds": 12600,
+  "preparation_seconds_conservative": 600
+}

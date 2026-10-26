@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "feature_schema_version": 2,
+  "action_masks": [
+    0,
+    128,
+    64,
+    32,
+    16,
+    2,
+    1,
+    129,
+    130,
+    65,
+    8,
+    131
+  ],
+  "action_names": [
+    "NOOP",
+    "RIGHT",
+    "LEFT",
+    "DOWN",
+    "UP",
+    "B",
+    "A",
+    "RIGHT+A",
+    "RIGHT+B",
+    "LEFT+A",
+    "START",
+    "RIGHT+B+A"
+  ],
+  "frame_skip": 1,
+  "manager_decisions": 30,
+  "gamma": 0.999,
+  "gae_lambda": 0.95,
+  "seed": 20261012,
+  "bc_epochs": 8,
+  "bc_min_batches_per_epoch": 32,
+  "bc_action_balance": "sqrt_inverse_frequency",
+  "batch_size": 256,
+  "worker_steps": 512,
+  "manager_steps": 512,
+  "flat_steps": 2048,
+  "rollout_size": 128,
+  "ppo_epochs": 2,
+  "learning_rate": 0.0003,
+  "bc_lambda": 0.2,
+  "frame_rate_convention": 60,
+  "horizon_frames": 256,
+  "dataset": "training/pipeline/augmented_dataset.npz",
+  "evade_starts": [
+    "training/pipeline/starts/evade_branch1.json",
+    "training/pipeline/starts/evade_branch2.json",
+    "training/pipeline/starts/evade_branch3.json"
+  ],
+  "rewards": {
+    "progress": {
+      "new_progress": 1,
+      "checkpoint_reached": 20,
+      "level_completed": 0,
+      "player_damage": -20,
+      "lives_lost": -150,
+      "elapsed_seconds": -0.1
+    },
+    "evade": {
+      "escape_success": 0,
+      "player_damage": -20,
+      "lives_lost": -150,
+      "elapsed_seconds": -0.1
+    },
+    "fight": {
+      "enemy_kills": 0,
+      "enemy_damage": 1,
+      "encounter_cleared": 20,
+      "player_damage": -20,
+      "lives_lost": -150,
+      "elapsed_seconds": -0.1
+    },
+    "manager": {
+      "new_progress": 1,
+      "checkpoint_reached": 20,
+      "level_completed": 0,
+      "player_damage": -20,
+      "lives_lost": -150,
+      "elapsed_seconds": -0.1,
+      "game_over": -150
+    }
+  },
+  "evaluation_frames": 600
+}

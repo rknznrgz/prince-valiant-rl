@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "error": null,
+  "optimizer_steps": 20000,
+  "best_step": 19500,
+  "best_correct": 49036,
+  "rows": 49100,
+  "runtime_single_row_exact": false,
+  "native_frames": 0,
+  "elapsed_seconds": 38.920915000000605
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "level2_same_capacity_dqn_contract_v1",
+  "architecture": "dueling_window_dqn_v1",
+  "actions": 17,
+  "shapes": {
+    "categorical": [
+      21
+    ],
+    "classes": [
+      12,
+      17
+    ],
+    "dynamic_actors": [
+      12,
+      17,
+      11
+    ],
+    "entities": [
+      10,
+      11
+    ],
+    "entity_codes": [
+      10,
+      9
+    ],
+    "projectile_codes": [
+      3,
+      3
+    ],
+    "projectiles": [
+      3,
+      4
+    ],
+    "resident_codes": [
+      25,
+      11
+    ],
+    "resident_valid": [
+      25,
+      1
+    ],
+    "rope_points": [
+      12,
+      17,
+      9
+    ],
+    "scalars": [
+      61
+    ],
+    "terrain_valid": [
+      12,
+      17
+    ],
+    "tiles": [
+      12,
+      17
+    ],
+    "trigger_codes": [
+      16,
+      5
+    ],
+    "triggers": [
+      16,
+      5
+    ]
+  },
+  "model_config": {
+    "embedding_dim": 3,
+    "terrain_embedding_dim": 4,
+    "mlp_sizes": [
+      128,
+      128
+    ],
+    "cnn_channels": [
+      16,
+      32
+    ],
+    "cnn_projection": 128,
+    "gru_hidden": 128,
+    "gru_layers": 1,
+    "branch_feature_normalization": true,
+    "network_precision": "strict_fp32",
+    "history_offsets": [
+      -60,
+      -30,
+      -15,
+      -9,
+      -6,
+      -3,
+      0
+    ]
+  },
+  "action_masks": [
+    0,
+    128,
+    64,
+    32,
+    16,
+    2,
+    1,
+    129,
+    130,
+    65,
+    131,
+    160,
+    176,
+    144,
+    34,
+    66,
+    96
+  ],
+  "level1_reference_receipt": "training\\level1_dqfd_demo_continuation_20261025\\checkpoint_3000.pt.receipt.json",
+  "level1_reference_receipt_sha256": "db06c3251c923cfb513382ae227b2c6ac81943cbdab3495e2dad29a2165c529d",
+  "initialization": "fresh_random_no_transfer",
+  "level2_seed": 20261026,
+  "observation_schema": "level2_reserved_slots_v2",
+  "training_ready": false,
+  "feature_semantics": "level-specific, never inferred from shared tensor slot names"
+}

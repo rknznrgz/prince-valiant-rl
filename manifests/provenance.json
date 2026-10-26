@@ -1,0 +1,1760 @@
+{
+  "date": "2026-10-26",
+  "source_revision": null,
+  "git_metadata": "Absent at research root",
+  "files": [
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/README.md",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/README.md",
+      "source_bytes": 7609,
+      "source_sha256": "17dec237e866f520f9260307eec58859d3baf9bebf7fb513f06a3619af955943",
+      "export_sha256": "17dec237e866f520f9260307eec58859d3baf9bebf7fb513f06a3619af955943",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/candidate_comparison.png",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/candidate_comparison.png",
+      "source_bytes": 71342,
+      "source_sha256": "084d387d0f7612c068879d294a484e0da52f4fa1aad763f8d46c748f9db68459",
+      "export_sha256": "084d387d0f7612c068879d294a484e0da52f4fa1aad763f8d46c748f9db68459",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/contact_3000.png",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/contact_3000.png",
+      "source_bytes": 572647,
+      "source_sha256": "0cd382002362e181ee53564cd4169a8e3746fa988e58a2d5168ce3cacc4a84d4",
+      "export_sha256": "0cd382002362e181ee53564cd4169a8e3746fa988e58a2d5168ce3cacc4a84d4",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/contact_5000.png",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/contact_5000.png",
+      "source_bytes": 524204,
+      "source_sha256": "9ad18d200695136b2f47929cf804f4ee863d3543dc3a15d69852b7b60c5810de",
+      "export_sha256": "9ad18d200695136b2f47929cf804f4ee863d3543dc3a15d69852b7b60c5810de",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/learning_trends.png",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/learning_trends.png",
+      "source_bytes": 226238,
+      "source_sha256": "b7279824e2209adc82a4db22608704a4b50f1c6282bdf598a92275e55e272292",
+      "export_sha256": "b7279824e2209adc82a4db22608704a4b50f1c6282bdf598a92275e55e272292",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/postrun_budget.json",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/postrun_budget.json",
+      "source_bytes": 380,
+      "source_sha256": "2de812c9e361c5814dc5bf12d229dab64637e2d5c97624d4918870c8a28dc574",
+      "export_sha256": "2de812c9e361c5814dc5bf12d229dab64637e2d5c97624d4918870c8a28dc574",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/result.json",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/result.json",
+      "source_bytes": 24165,
+      "source_sha256": "a38eafbf7cbf3bd0ec32e836b900f15db82b7faa59a4caa4748a1cccff60cf24",
+      "export_sha256": "6ebee3574db406069d4794883754bcb5b9333503ba25d105a1ba7ba067325ac3",
+      "adapted": true
+    },
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/selected_checkpoint.json",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/selected_checkpoint.json",
+      "source_bytes": 9905,
+      "source_sha256": "66102328221f8913ad1852edcb2b4f1bae6d7a823026ca9ff30469f31f4bcfb2",
+      "export_sha256": "66102328221f8913ad1852edcb2b4f1bae6d7a823026ca9ff30469f31f4bcfb2",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_demo_continuation_20261025/verification.json",
+      "destination": "analysis/level1_dqfd_demo_continuation_20261025/verification.json",
+      "source_bytes": 1324,
+      "source_sha256": "76be405d1ca0b51dda5e9b5da01c00c8ba96a0d1226d0efdb7bd585442301560",
+      "export_sha256": "76be405d1ca0b51dda5e9b5da01c00c8ba96a0d1226d0efdb7bd585442301560",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_extended_study_20261025/README.md",
+      "destination": "analysis/level1_dqfd_extended_study_20261025/README.md",
+      "source_bytes": 9501,
+      "source_sha256": "ddbe6444d25f4624f7686a2eeed6807255311e10f6cb6df1844bd29a98d2da98",
+      "export_sha256": "ddbe6444d25f4624f7686a2eeed6807255311e10f6cb6df1844bd29a98d2da98",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_extended_study_20261025/learning_trends.png",
+      "destination": "analysis/level1_dqfd_extended_study_20261025/learning_trends.png",
+      "source_bytes": 326639,
+      "source_sha256": "178297b18eda0c74176cc9373ebb498a1438195a8e3d02e7c481bf00a7275824",
+      "export_sha256": "178297b18eda0c74176cc9373ebb498a1438195a8e3d02e7c481bf00a7275824",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_extended_study_20261025/postrun_budget.json",
+      "destination": "analysis/level1_dqfd_extended_study_20261025/postrun_budget.json",
+      "source_bytes": 537,
+      "source_sha256": "4c2b6d524fccf5da10de7d15e018d5caf6fde30d4fe4ba0afa808fe48465cceb",
+      "export_sha256": "4c2b6d524fccf5da10de7d15e018d5caf6fde30d4fe4ba0afa808fe48465cceb",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_extended_study_20261025/result.json",
+      "destination": "analysis/level1_dqfd_extended_study_20261025/result.json",
+      "source_bytes": 15872,
+      "source_sha256": "6aaa7f4b0395ee38071c4fc46bffe7b621de39dacfa11e3a3d98f2e5a3c347ff",
+      "export_sha256": "7c975923993c3d26daa2743674259ac25976bc3f336b240000615f17aae4aa39",
+      "adapted": true
+    },
+    {
+      "source": "analysis/level1_dqfd_extended_study_20261025/update2000_contact_sheet.png",
+      "destination": "analysis/level1_dqfd_extended_study_20261025/update2000_contact_sheet.png",
+      "source_bytes": 688549,
+      "source_sha256": "0a3849d0620c1734fc62537ad46d5c11f9b367ed6b7f46f4aab03dafc84db303",
+      "export_sha256": "0a3849d0620c1734fc62537ad46d5c11f9b367ed6b7f46f4aab03dafc84db303",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level1_dqfd_extended_study_20261025/verification.json",
+      "destination": "analysis/level1_dqfd_extended_study_20261025/verification.json",
+      "source_bytes": 3273,
+      "source_sha256": "317313e94b862723354709554577404ea680d3b2af5a5fee5774c28dc86a6f40",
+      "export_sha256": "317313e94b862723354709554577404ea680d3b2af5a5fee5774c28dc86a6f40",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_standalone_completion_v58_20261026/README.md",
+      "destination": "analysis/level2_standalone_completion_v58_20261026/README.md",
+      "source_bytes": 4612,
+      "source_sha256": "a1e8fc7d1133c4e8bac00152888c093ed046a831e04f9552093a515456b0a920",
+      "export_sha256": "a1e8fc7d1133c4e8bac00152888c093ed046a831e04f9552093a515456b0a920",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_standalone_completion_v58_20261026/authority.json",
+      "destination": "analysis/level2_standalone_completion_v58_20261026/authority.json",
+      "source_bytes": 1140,
+      "source_sha256": "c5296ad122ad7e3ce1945284923625b6952641c30c4c5571c8c0b6ac88102399",
+      "export_sha256": "c5296ad122ad7e3ce1945284923625b6952641c30c4c5571c8c0b6ac88102399",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_standalone_completion_v58_20261026/ending_review.png",
+      "destination": "analysis/level2_standalone_completion_v58_20261026/ending_review.png",
+      "source_bytes": 87918,
+      "source_sha256": "08ea83249adafa9a190ca5e645b8004db7772a187ab5a0a4dcd2a0d0e3dac337",
+      "export_sha256": "08ea83249adafa9a190ca5e645b8004db7772a187ab5a0a4dcd2a0d0e3dac337",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_standalone_completion_v58_20261026/result.json",
+      "destination": "analysis/level2_standalone_completion_v58_20261026/result.json",
+      "source_bytes": 564,
+      "source_sha256": "dca1322d18910e9451545da70dae64142e9f505c0962b30fd8064dd22d3c25a6",
+      "export_sha256": "dca1322d18910e9451545da70dae64142e9f505c0962b30fd8064dd22d3c25a6",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_standalone_completion_v58_20261026/verification.json",
+      "destination": "analysis/level2_standalone_completion_v58_20261026/verification.json",
+      "source_bytes": 533,
+      "source_sha256": "bc7578fff7d6be9d3da078e6027b3a8f4da5671b5ef1a0aaccf730795ebcfb1f",
+      "export_sha256": "bc7578fff7d6be9d3da078e6027b3a8f4da5671b5ef1a0aaccf730795ebcfb1f",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_title_bc_v57_20261026/README.md",
+      "destination": "analysis/level2_title_bc_v57_20261026/README.md",
+      "source_bytes": 346,
+      "source_sha256": "cec335294abcb918ffbd3d5b2a4a3ab1e650bdd11e880eb27993f4e27191cf92",
+      "export_sha256": "cec335294abcb918ffbd3d5b2a4a3ab1e650bdd11e880eb27993f4e27191cf92",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_title_bc_v57_20261026/verification.json",
+      "destination": "analysis/level2_title_bc_v57_20261026/verification.json",
+      "source_bytes": 1108,
+      "source_sha256": "7bc9741fd691a0eff4eb4f0e591485f6d5a02d0dfa484be88a894d868ec90aff",
+      "export_sha256": "7bc9741fd691a0eff4eb4f0e591485f6d5a02d0dfa484be88a894d868ec90aff",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/README.md",
+      "destination": "analysis/level2_transition_tail_v59_20261026/README.md",
+      "source_bytes": 4919,
+      "source_sha256": "a31fd8fab1479b7d7820cd9e77995ce351c5ee8c284af49f72525b3780ff8487",
+      "export_sha256": "a31fd8fab1479b7d7820cd9e77995ce351c5ee8c284af49f72525b3780ff8487",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_0000.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_0000.png",
+      "source_bytes": 16043,
+      "source_sha256": "76d93052aa21637c350a4922b00b25c356602b3724e83e1e555741a193af225a",
+      "export_sha256": "76d93052aa21637c350a4922b00b25c356602b3724e83e1e555741a193af225a",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_0120.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_0120.png",
+      "source_bytes": 16043,
+      "source_sha256": "76d93052aa21637c350a4922b00b25c356602b3724e83e1e555741a193af225a",
+      "export_sha256": "76d93052aa21637c350a4922b00b25c356602b3724e83e1e555741a193af225a",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_0300.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_0300.png",
+      "source_bytes": 3147,
+      "source_sha256": "e64f5c4ffe7e897e67f9cf126e63ca8e82e50e4a823491178282e89f31fda272",
+      "export_sha256": "e64f5c4ffe7e897e67f9cf126e63ca8e82e50e4a823491178282e89f31fda272",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_0600.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_0600.png",
+      "source_bytes": 3373,
+      "source_sha256": "44067952ffed1d7e361e9a570acddd662d71716172adfb7a62cf8bb4f9b6336e",
+      "export_sha256": "44067952ffed1d7e361e9a570acddd662d71716172adfb7a62cf8bb4f9b6336e",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_0900.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_0900.png",
+      "source_bytes": 4644,
+      "source_sha256": "33cf56d9d7ea9729fe8442f9920d34aa68cafbb5a41724c660d049b4d5209cda",
+      "export_sha256": "33cf56d9d7ea9729fe8442f9920d34aa68cafbb5a41724c660d049b4d5209cda",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_1200.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_1200.png",
+      "source_bytes": 6938,
+      "source_sha256": "6681288be805c46c11b9e8ff4751d2b42f19b4d43f0774aa48836e560b0e3d2f",
+      "export_sha256": "6681288be805c46c11b9e8ff4751d2b42f19b4d43f0774aa48836e560b0e3d2f",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_1500.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_1500.png",
+      "source_bytes": 7528,
+      "source_sha256": "fec6207da716c7ec47e6bb0f05c0b5b8b54983731ae7f23fc7aa46c83f8b4e6b",
+      "export_sha256": "fec6207da716c7ec47e6bb0f05c0b5b8b54983731ae7f23fc7aa46c83f8b4e6b",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_1800.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_1800.png",
+      "source_bytes": 7528,
+      "source_sha256": "da61caa912cb06d8537ccc43c893fc4a17a0debf43901f83bd9c5acedf9e6543",
+      "export_sha256": "da61caa912cb06d8537ccc43c893fc4a17a0debf43901f83bd9c5acedf9e6543",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_2100.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_2100.png",
+      "source_bytes": 7461,
+      "source_sha256": "9f6baf4399216f1f675ab900cefd44ebb265240677a670f006037eb53b61c11e",
+      "export_sha256": "9f6baf4399216f1f675ab900cefd44ebb265240677a670f006037eb53b61c11e",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/after_flag_2400.png",
+      "destination": "analysis/level2_transition_tail_v59_20261026/after_flag_2400.png",
+      "source_bytes": 7538,
+      "source_sha256": "0e44275dd84b1b325b0a0e05549bb04a4d15c35dc5ebc596bc71ed375903fdc5",
+      "export_sha256": "0e44275dd84b1b325b0a0e05549bb04a4d15c35dc5ebc596bc71ed375903fdc5",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/result.json",
+      "destination": "analysis/level2_transition_tail_v59_20261026/result.json",
+      "source_bytes": 3364,
+      "source_sha256": "10c9c1feb410ad924657aeab376b0278b14ae1fb66dc2fbe89631c47511e2e35",
+      "export_sha256": "10c9c1feb410ad924657aeab376b0278b14ae1fb66dc2fbe89631c47511e2e35",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level2_transition_tail_v59_20261026/verification.json",
+      "destination": "analysis/level2_transition_tail_v59_20261026/verification.json",
+      "source_bytes": 5974,
+      "source_sha256": "155a423daaefd7f3028651f5b585bea42e3528592b41958a7f58c0a80dd378b3",
+      "export_sha256": "155a423daaefd7f3028651f5b585bea42e3528592b41958a7f58c0a80dd378b3",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/README.md",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/README.md",
+      "source_bytes": 5827,
+      "source_sha256": "b748c0f48c080937f895110223d997e7d73111816badfb2fea408cf8704806d5",
+      "export_sha256": "b748c0f48c080937f895110223d997e7d73111816badfb2fea408cf8704806d5",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/authority.json",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/authority.json",
+      "source_bytes": 1297,
+      "source_sha256": "821c512982a75299cb344bbc9598379d6bb96a93dab96881c036d85d68417fc8",
+      "export_sha256": "821c512982a75299cb344bbc9598379d6bb96a93dab96881c036d85d68417fc8",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_000060.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_000060.png",
+      "source_bytes": 259,
+      "source_sha256": "179ac232ad73c16707c2abea079f4abafd0e812838ee2a92693ab6f485a47cb6",
+      "export_sha256": "179ac232ad73c16707c2abea079f4abafd0e812838ee2a92693ab6f485a47cb6",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_000120.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_000120.png",
+      "source_bytes": 7533,
+      "source_sha256": "3452f6504ca74f988a6d772a7685a01ac117e51cdf3a92317c499f9cbf0ff1b0",
+      "export_sha256": "3452f6504ca74f988a6d772a7685a01ac117e51cdf3a92317c499f9cbf0ff1b0",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_047675.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_047675.png",
+      "source_bytes": 7230,
+      "source_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "export_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_047705.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_047705.png",
+      "source_bytes": 7230,
+      "source_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "export_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_047735.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_047735.png",
+      "source_bytes": 7230,
+      "source_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "export_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_047795.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_047795.png",
+      "source_bytes": 7230,
+      "source_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "export_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_047915.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_047915.png",
+      "source_bytes": 7230,
+      "source_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "export_sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_047975.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_047975.png",
+      "source_bytes": 3161,
+      "source_sha256": "b1fb70f8cf06d2f70374c6730af8bcd8d42c30f5b382e12109bd4af803df2581",
+      "export_sha256": "b1fb70f8cf06d2f70374c6730af8bcd8d42c30f5b382e12109bd4af803df2581",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_048275.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_048275.png",
+      "source_bytes": 3430,
+      "source_sha256": "8dbfc8e1c44aa40b3a93570a82072821886d7fa9271e8c612990a7d5eb097aa6",
+      "export_sha256": "8dbfc8e1c44aa40b3a93570a82072821886d7fa9271e8c612990a7d5eb097aa6",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_048575.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_048575.png",
+      "source_bytes": 3452,
+      "source_sha256": "337aa8e22c572f4766fcc384791b178fc29a83d157b5fce34a56af39d549bd0c",
+      "export_sha256": "337aa8e22c572f4766fcc384791b178fc29a83d157b5fce34a56af39d549bd0c",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_048875.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_048875.png",
+      "source_bytes": 3396,
+      "source_sha256": "ce744ac131751bea84cc5877a017edbe297ec49c6126c8391494de7c693682f4",
+      "export_sha256": "ce744ac131751bea84cc5877a017edbe297ec49c6126c8391494de7c693682f4",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_049175.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_049175.png",
+      "source_bytes": 5199,
+      "source_sha256": "1524c67580426d2b4999705e1282d8e901c90b01409ee4302a226e4a45668f18",
+      "export_sha256": "1524c67580426d2b4999705e1282d8e901c90b01409ee4302a226e4a45668f18",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_049475.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_049475.png",
+      "source_bytes": 6032,
+      "source_sha256": "1c79883061d61ddb9517bb94f90eb7fc711167a72cc1af7b9be94dd9935f3506",
+      "export_sha256": "1c79883061d61ddb9517bb94f90eb7fc711167a72cc1af7b9be94dd9935f3506",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/frame_049775.png",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/frame_049775.png",
+      "source_bytes": 5895,
+      "source_sha256": "5fda488de67177128b296d961432af6b863ed0edf31df9fd668fd1a8701eb4f0",
+      "export_sha256": "5fda488de67177128b296d961432af6b863ed0edf31df9fd668fd1a8701eb4f0",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/result.json",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/result.json",
+      "source_bytes": 3274,
+      "source_sha256": "c8eef67410206936445efb7cae1a396085837a0b7f1d1259e23caff7122a37bd",
+      "export_sha256": "c8eef67410206936445efb7cae1a396085837a0b7f1d1259e23caff7122a37bd",
+      "adapted": false
+    },
+    {
+      "source": "analysis/level3_imitation_evaluation_v2_20261026/verification.json",
+      "destination": "analysis/level3_imitation_evaluation_v2_20261026/verification.json",
+      "source_bytes": 1309,
+      "source_sha256": "2c7f67b4b7dfdf5f42a791d893b33ed1f07c223421c31a0b60e13165657c9c7f",
+      "export_sha256": "2c7f67b4b7dfdf5f42a791d893b33ed1f07c223421c31a0b60e13165657c9c7f",
+      "adapted": false
+    },
+    {
+      "source": "config/backward_level1_v1.json",
+      "destination": "config/backward_level1_v1.json",
+      "source_bytes": 1852,
+      "source_sha256": "1474f6dd415a98dbb8d04c5b3e9bd381f9fd1a0ad853dd01e828078cbe0fd8ea",
+      "export_sha256": "1474f6dd415a98dbb8d04c5b3e9bd381f9fd1a0ad853dd01e828078cbe0fd8ea",
+      "adapted": false
+    },
+    {
+      "source": "config/controlled_scenes.json",
+      "destination": "config/controlled_scenes.json",
+      "source_bytes": 8005,
+      "source_sha256": "ae31c36fa407d86a9dbf86a3e0c5c1cf69c933c34a68d9e6fc48c7a1b32374a4",
+      "export_sha256": "ae31c36fa407d86a9dbf86a3e0c5c1cf69c933c34a68d9e6fc48c7a1b32374a4",
+      "adapted": false
+    },
+    {
+      "source": "config/dqfd_demo_continuation_20261025.json",
+      "destination": "config/dqfd_demo_continuation_20261025.json",
+      "source_bytes": 1025,
+      "source_sha256": "af0b155c38b6c1a409abbbae634746979c14d5d82c710176c1c7124f36e60e87",
+      "export_sha256": "af0b155c38b6c1a409abbbae634746979c14d5d82c710176c1c7124f36e60e87",
+      "adapted": false
+    },
+    {
+      "source": "config/dqfd_demonstration_extension_20261025.json",
+      "destination": "config/dqfd_demonstration_extension_20261025.json",
+      "source_bytes": 2232,
+      "source_sha256": "5aa466ad0be9528c07add76053b281b2a2887013c1edc9af7a9c970fbdb57bcb",
+      "export_sha256": "5aa466ad0be9528c07add76053b281b2a2887013c1edc9af7a9c970fbdb57bcb",
+      "adapted": false
+    },
+    {
+      "source": "config/level2_dqn_same_capacity_v1.json",
+      "destination": "config/level2_dqn_same_capacity_v1.json",
+      "source_bytes": 2001,
+      "source_sha256": "38bff0b3506d70ef33bd3deca8c9a6ec9338abec2f493678ee80717f2aad2b3d",
+      "export_sha256": "38bff0b3506d70ef33bd3deca8c9a6ec9338abec2f493678ee80717f2aad2b3d",
+      "adapted": false
+    },
+    {
+      "source": "config/ram_map.json",
+      "destination": "config/ram_map.json",
+      "source_bytes": 1076,
+      "source_sha256": "ca2d0c227b7668cfa49d630ad6ddcd95d6c45f40eb9e8339fb455c5396e8eb44",
+      "export_sha256": "ca2d0c227b7668cfa49d630ad6ddcd95d6c45f40eb9e8339fb455c5396e8eb44",
+      "adapted": false
+    },
+    {
+      "source": "config/training.json",
+      "destination": "config/training.json",
+      "source_bytes": 1895,
+      "source_sha256": "7f15b765656b7925c7ffa5160ba58c9dd27308cc88c20ec8c7259422cd0b4372",
+      "export_sha256": "7f15b765656b7925c7ffa5160ba58c9dd27308cc88c20ec8c7259422cd0b4372",
+      "adapted": false
+    },
+    {
+      "source": "docs/LEVEL3_IMITATION.md",
+      "destination": "docs/LEVEL3_IMITATION.md",
+      "source_bytes": 3751,
+      "source_sha256": "bcc89a5f9d565d2d9cbbfe27dd16d01557f4eddf972a900c4933aa6aae057545",
+      "export_sha256": "f694fa1227f7360cd2ec321e0dbbf5f175d35494169ee4aedd176432f7e1d66b",
+      "adapted": true
+    },
+    {
+      "source": "docs/case_study_draft/REPORT_DRAFT.md",
+      "destination": "docs/case_study_draft/REPORT_DRAFT.md",
+      "source_bytes": 23038,
+      "source_sha256": "d870aa8a23b7b6dc187d10472bfb0cd3883ef50e6101e7e1415ad6f391fea624",
+      "export_sha256": "d870aa8a23b7b6dc187d10472bfb0cd3883ef50e6101e7e1415ad6f391fea624",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/REPORT_DRAFT.pdf",
+      "destination": "docs/case_study_draft/REPORT_DRAFT.pdf",
+      "source_bytes": 341171,
+      "source_sha256": "09a6e56365624b460b93cfced4ddefd1e244a3d6d971b48f23ed6b69ef591b0b",
+      "export_sha256": "09a6e56365624b460b93cfced4ddefd1e244a3d6d971b48f23ed6b69ef591b0b",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/source_manifest.json",
+      "destination": "docs/case_study_draft/assets/source_manifest.json",
+      "source_bytes": 2865,
+      "source_sha256": "ce4d58c5e2c9b408c5783f4ae7ea928ee614f9a91f9b4ea7717da7fbc98a0b8a",
+      "export_sha256": "ce4d58c5e2c9b408c5783f4ae7ea928ee614f9a91f9b4ea7717da7fbc98a0b8a",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/build_kind18_observer.py",
+      "destination": "instrumentation/build_kind18_observer.py",
+      "source_bytes": 3417,
+      "source_sha256": "d85019e0c3c5a6b0ab21b8ac36d372910802b0033d02164078cf7aa1e76854b7",
+      "export_sha256": "d85019e0c3c5a6b0ab21b8ac36d372910802b0033d02164078cf7aa1e76854b7",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/build_recorder.py",
+      "destination": "instrumentation/build_recorder.py",
+      "source_bytes": 2850,
+      "source_sha256": "0407387ca1e6ecbb1f6f2c5dbbd33673ef13c54c771a7399fbfdf6d17b226904",
+      "export_sha256": "0407387ca1e6ecbb1f6f2c5dbbd33673ef13c54c771a7399fbfdf6d17b226904",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/kind18_observer.hpp",
+      "destination": "instrumentation/kind18_observer.hpp",
+      "source_bytes": 8435,
+      "source_sha256": "7ebeb3076d2d6301f8c3e2b62d7f2b3f163d6ccd594e203aa1a2082b0a933741",
+      "export_sha256": "7ebeb3076d2d6301f8c3e2b62d7f2b3f163d6ccd594e203aa1a2082b0a933741",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/kind18_sidecar_api.inc",
+      "destination": "instrumentation/kind18_sidecar_api.inc",
+      "source_bytes": 2897,
+      "source_sha256": "6ce58e67718c884ea544efc25481587bda68de343b56512de99502371c558292",
+      "export_sha256": "6ce58e67718c884ea544efc25481587bda68de343b56512de99502371c558292",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/CITATION.cff",
+      "destination": "instrumentation/nes-py/CITATION.cff",
+      "source_bytes": 1113,
+      "source_sha256": "b5bbc9f9d78b539bf97186937ca375c0ae1ef84314766609dd8f214ddd45e072",
+      "export_sha256": "b5bbc9f9d78b539bf97186937ca375c0ae1ef84314766609dd8f214ddd45e072",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/LICENSE",
+      "destination": "instrumentation/nes-py/LICENSE",
+      "source_bytes": 1094,
+      "source_sha256": "c87a694954491c43ea0a558a6e1133ec2fad72c876c2c159dab3527762ba5d5a",
+      "export_sha256": "c87a694954491c43ea0a558a6e1133ec2fad72c876c2c159dab3527762ba5d5a",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/LICENSING.md",
+      "destination": "instrumentation/nes-py/LICENSING.md",
+      "source_bytes": 3382,
+      "source_sha256": "5bea80df882157268f9971c56ba5575a7571c5a61d7e2df097ccac6bb9e25dcc",
+      "export_sha256": "5bea80df882157268f9971c56ba5575a7571c5a61d7e2df097ccac6bb9e25dcc",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/cartridge.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/cartridge.hpp",
+      "source_bytes": 4277,
+      "source_sha256": "c9a87689c82009397626644230c0cb1b3955f00df59709e2ff7c93f94e543bb0",
+      "export_sha256": "c9a87689c82009397626644230c0cb1b3955f00df59709e2ff7c93f94e543bb0",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/common.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/common.hpp",
+      "source_bytes": 642,
+      "source_sha256": "40d8de41da35a8fc845ff4683bf7d57093d6e6a99f71860c960e75e2a1698343",
+      "export_sha256": "40d8de41da35a8fc845ff4683bf7d57093d6e6a99f71860c960e75e2a1698343",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/controller.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/controller.hpp",
+      "source_bytes": 1379,
+      "source_sha256": "dc91fb4401105ede3554b95e715eb075e1f3c0e26e9874476351012254605827",
+      "export_sha256": "dc91fb4401105ede3554b95e715eb075e1f3c0e26e9874476351012254605827",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/cpu.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/cpu.hpp",
+      "source_bytes": 7723,
+      "source_sha256": "d5a8a856b8b6018d23b36233983105b7548309cfdcb3675c340ac7d7fbba2119",
+      "export_sha256": "d5a8a856b8b6018d23b36233983105b7548309cfdcb3675c340ac7d7fbba2119",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/cpu_opcodes.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/cpu_opcodes.hpp",
+      "source_bytes": 5248,
+      "source_sha256": "6e621303bae37c86080be09d70b5b1bd8c45dc620edddfe8a64387624931fa12",
+      "export_sha256": "6e621303bae37c86080be09d70b5b1bd8c45dc620edddfe8a64387624931fa12",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/emulator.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/emulator.hpp",
+      "source_bytes": 5981,
+      "source_sha256": "1407912c0e3d2d1931385aefff3f97c0ad125b564a3f0fdf9dce245f66e8104f",
+      "export_sha256": "1407912c0e3d2d1931385aefff3f97c0ad125b564a3f0fdf9dce245f66e8104f",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/log.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/log.hpp",
+      "source_bytes": 449,
+      "source_sha256": "8280d782414a059a5690e52e4bf19a2e83749bb095ec187afd49630869401a27",
+      "export_sha256": "8280d782414a059a5690e52e4bf19a2e83749bb095ec187afd49630869401a27",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/main_bus.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/main_bus.hpp",
+      "source_bytes": 6203,
+      "source_sha256": "2b525e6e938b6ac5fb74af906c14ffbb46ef2e3a48a8e11138c97feb29f3938d",
+      "export_sha256": "2b525e6e938b6ac5fb74af906c14ffbb46ef2e3a48a8e11138c97feb29f3938d",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mapper.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mapper.hpp",
+      "source_bytes": 11677,
+      "source_sha256": "fa6763c57b40a9a2cf7cca7b7d98acda098bb59df970679be383d7e47d713b42",
+      "export_sha256": "fa6763c57b40a9a2cf7cca7b7d98acda098bb59df970679be383d7e47d713b42",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mapper_bank.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mapper_bank.hpp",
+      "source_bytes": 7854,
+      "source_sha256": "ff7f8f50681db2a438c9b9b0baafb522915eec058962cb0e5e8423f78f6d0948",
+      "export_sha256": "ff7f8f50681db2a438c9b9b0baafb522915eec058962cb0e5e8423f78f6d0948",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mapper_factory.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mapper_factory.hpp",
+      "source_bytes": 675,
+      "source_sha256": "03f5d06bd74baed3389e999f0910ce4118af0ee492afab4d338c28d24476d7e0",
+      "export_sha256": "03f5d06bd74baed3389e999f0910ce4118af0ee492afab4d338c28d24476d7e0",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_AxROM.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_AxROM.hpp",
+      "source_bytes": 2338,
+      "source_sha256": "c0d0f5c32eea535b60054bf71f0adcbfa79b77ec4b518f3a793b47b8b62cb2dd",
+      "export_sha256": "c0d0f5c32eea535b60054bf71f0adcbfa79b77ec4b518f3a793b47b8b62cb2dd",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_CNROM.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_CNROM.hpp",
+      "source_bytes": 3639,
+      "source_sha256": "1be0de58c4b591c785f317b3e12b2a795b4787e66afb538a7e239ba3b28e0990",
+      "export_sha256": "1be0de58c4b591c785f317b3e12b2a795b4787e66afb538a7e239ba3b28e0990",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_FME7.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_FME7.hpp",
+      "source_bytes": 4384,
+      "source_sha256": "895f44a69458cca9f603a4a9d3baef8e06293ee14fc84508e3d0fd4be6e289b1",
+      "export_sha256": "895f44a69458cca9f603a4a9d3baef8e06293ee14fc84508e3d0fd4be6e289b1",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_MMC2.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_MMC2.hpp",
+      "source_bytes": 4209,
+      "source_sha256": "d7b76567e49248c76560e3d29bc70a529ce0243238726d84b99cc3cf2b58662d",
+      "export_sha256": "d7b76567e49248c76560e3d29bc70a529ce0243238726d84b99cc3cf2b58662d",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_MMC3.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_MMC3.hpp",
+      "source_bytes": 4545,
+      "source_sha256": "e7b64d192dc6dc7f15f464859853ce82e4e5b988216505ff41551ee40ddb42bb",
+      "export_sha256": "e7b64d192dc6dc7f15f464859853ce82e4e5b988216505ff41551ee40ddb42bb",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_MMC5.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_MMC5.hpp",
+      "source_bytes": 7012,
+      "source_sha256": "41ef553c5c996119fcf1f64fbcada54c61d392625935b87a8360e3d4cec56965",
+      "export_sha256": "41ef553c5c996119fcf1f64fbcada54c61d392625935b87a8360e3d4cec56965",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_NROM.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_NROM.hpp",
+      "source_bytes": 3539,
+      "source_sha256": "2a7bbf3546b60983436e56bed3331bddc207bea9801bb417edd055397256bb7a",
+      "export_sha256": "2a7bbf3546b60983436e56bed3331bddc207bea9801bb417edd055397256bb7a",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_SxROM.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_SxROM.hpp",
+      "source_bytes": 3557,
+      "source_sha256": "68facf544cb3c4cdc3c21458d71adb4fd0f0640d61e284ab782daacf4f02e64e",
+      "export_sha256": "68facf544cb3c4cdc3c21458d71adb4fd0f0640d61e284ab782daacf4f02e64e",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_UxROM.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/mappers/mapper_UxROM.hpp",
+      "source_bytes": 2572,
+      "source_sha256": "5fe1fcc5d939eae4ffd209cdef8cc40fa2b8475bef831c351a679aeabe5bca15",
+      "export_sha256": "5fe1fcc5d939eae4ffd209cdef8cc40fa2b8475bef831c351a679aeabe5bca15",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/palette.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/palette.hpp",
+      "source_bytes": 1128,
+      "source_sha256": "f4eca54d0f35a9499737e39a623fb8dea61fce9b3621937115cddd98074bbf77",
+      "export_sha256": "f4eca54d0f35a9499737e39a623fb8dea61fce9b3621937115cddd98074bbf77",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/picture_bus.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/picture_bus.hpp",
+      "source_bytes": 7921,
+      "source_sha256": "a33f2f25558edf6758cb44b6221ed01b82700a3c72a3f1fbf28ec478d564c979",
+      "export_sha256": "a33f2f25558edf6758cb44b6221ed01b82700a3c72a3f1fbf28ec478d564c979",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/include/nes_emu/ppu.hpp",
+      "destination": "instrumentation/nes-py/nes_emu/include/nes_emu/ppu.hpp",
+      "source_bytes": 11658,
+      "source_sha256": "7d24b25af5b6afe0d4d09370348f22bf969ad9fa7e8c835e6498707ab62a34bb",
+      "export_sha256": "7d24b25af5b6afe0d4d09370348f22bf969ad9fa7e8c835e6498707ab62a34bb",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/cartridge.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/cartridge.cpp",
+      "source_bytes": 6314,
+      "source_sha256": "d41f033bf6be7f5bdc2acc53d17a14409362d4d36fb7ae875fa2c6dc03ef0f65",
+      "export_sha256": "d41f033bf6be7f5bdc2acc53d17a14409362d4d36fb7ae875fa2c6dc03ef0f65",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/controller.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/controller.cpp",
+      "source_bytes": 509,
+      "source_sha256": "8bbf80b32b65aeeb5048777900a64560999b4ffdbd20e4831a05ba22c0bd9656",
+      "export_sha256": "8bbf80b32b65aeeb5048777900a64560999b4ffdbd20e4831a05ba22c0bd9656",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/cpu.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/cpu.cpp",
+      "source_bytes": 22095,
+      "source_sha256": "685f8a5004005c6f31d55050ab03c8951661b9079f960f1158b8b063fc861098",
+      "export_sha256": "685f8a5004005c6f31d55050ab03c8951661b9079f960f1158b8b063fc861098",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/emulator.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/emulator.cpp",
+      "source_bytes": 5415,
+      "source_sha256": "0c57ceb2e2dd166bda28fffe82dffbf49c2eefd1aefa53b044a8458cfcd4307d",
+      "export_sha256": "0c57ceb2e2dd166bda28fffe82dffbf49c2eefd1aefa53b044a8458cfcd4307d",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/lib_nes_env.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/lib_nes_env.cpp",
+      "source_bytes": 206,
+      "source_sha256": "8998b5ec4027c04506fe796901424385c842d3afab87db397eaae1f83bd93809",
+      "export_sha256": "8998b5ec4027c04506fe796901424385c842d3afab87db397eaae1f83bd93809",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/main_bus.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/main_bus.cpp",
+      "source_bytes": 7980,
+      "source_sha256": "5b628437dbb1ab843345c3cd7de938cbc7fb4eff894094b42b85c42d4833414a",
+      "export_sha256": "5b628437dbb1ab843345c3cd7de938cbc7fb4eff894094b42b85c42d4833414a",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mapper_factory.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mapper_factory.cpp",
+      "source_bytes": 1996,
+      "source_sha256": "6914d2d1e30ce8779ba8fc70cd15990aaa8433f0b9f275b00893ec450045dd6f",
+      "export_sha256": "6914d2d1e30ce8779ba8fc70cd15990aaa8433f0b9f275b00893ec450045dd6f",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_AxROM.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_AxROM.cpp",
+      "source_bytes": 1347,
+      "source_sha256": "8a639245a3665b13d53b5e4f74f33ab8fe8b4b83f062d8963fddbe69f1e45663",
+      "export_sha256": "8a639245a3665b13d53b5e4f74f33ab8fe8b4b83f062d8963fddbe69f1e45663",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_CNROM.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_CNROM.cpp",
+      "source_bytes": 391,
+      "source_sha256": "d56b3aaa4faf5ff556f91493cd26bc96b76cd0a28b7f7383833dd0ecbc6f578f",
+      "export_sha256": "d56b3aaa4faf5ff556f91493cd26bc96b76cd0a28b7f7383833dd0ecbc6f578f",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_FME7.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_FME7.cpp",
+      "source_bytes": 6608,
+      "source_sha256": "f007422cc112c44a00a909ebb35cbf89f9c7678e8a4e9d63152ffddd709148bd",
+      "export_sha256": "f007422cc112c44a00a909ebb35cbf89f9c7678e8a4e9d63152ffddd709148bd",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_MMC2.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_MMC2.cpp",
+      "source_bytes": 5741,
+      "source_sha256": "a4342743f9e59f176aaebc6abcb1b21505c74a73a6a4efcd3fa2b3b0470afa78",
+      "export_sha256": "a4342743f9e59f176aaebc6abcb1b21505c74a73a6a4efcd3fa2b3b0470afa78",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_MMC3.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_MMC3.cpp",
+      "source_bytes": 8091,
+      "source_sha256": "d6006d410c72aa246e94469b8090b311da6232fa76dbda6a3d5688e32a97825f",
+      "export_sha256": "d6006d410c72aa246e94469b8090b311da6232fa76dbda6a3d5688e32a97825f",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_MMC5.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_MMC5.cpp",
+      "source_bytes": 16422,
+      "source_sha256": "f0dca38388a92985e63fb95a2a6a021e953e46becf0e8dcdc2f9c2307b1fd5e5",
+      "export_sha256": "f0dca38388a92985e63fb95a2a6a021e953e46becf0e8dcdc2f9c2307b1fd5e5",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_NROM.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_NROM.cpp",
+      "source_bytes": 800,
+      "source_sha256": "defe7d3206c8317f171a8a3c01497fcaf429eb33063228a637020277e57656d9",
+      "export_sha256": "defe7d3206c8317f171a8a3c01497fcaf429eb33063228a637020277e57656d9",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_SxROM.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_SxROM.cpp",
+      "source_bytes": 4387,
+      "source_sha256": "f5587d30e81e584134b92256b2c993ecda743c91572a97c094463ce623f3480c",
+      "export_sha256": "f5587d30e81e584134b92256b2c993ecda743c91572a97c094463ce623f3480c",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_UxROM.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/mappers/mapper_UxROM.cpp",
+      "source_bytes": 2135,
+      "source_sha256": "49081a4b0c5dca5aa670653cf974f1951058a9d7c30ae5aa35cf492ec2bd59fa",
+      "export_sha256": "49081a4b0c5dca5aa670653cf974f1951058a9d7c30ae5aa35cf492ec2bd59fa",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/picture_bus.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/picture_bus.cpp",
+      "source_bytes": 6444,
+      "source_sha256": "ef215f21b994a4749ffadda4034e03a8c9a98d9fff7f24a6dcf656660131ffc4",
+      "export_sha256": "ef215f21b994a4749ffadda4034e03a8c9a98d9fff7f24a6dcf656660131ffc4",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/nes-py/nes_emu/src/nes_emu/ppu.cpp",
+      "destination": "instrumentation/nes-py/nes_emu/src/nes_emu/ppu.cpp",
+      "source_bytes": 28956,
+      "source_sha256": "21506cd9dfe0151f6de85d66999ebfad6de000c245412b3d95222bc05e70fc57",
+      "export_sha256": "21506cd9dfe0151f6de85d66999ebfad6de000c245412b3d95222bc05e70fc57",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/recorder_api.cpp",
+      "destination": "instrumentation/recorder_api.cpp",
+      "source_bytes": 4306,
+      "source_sha256": "70c6760c51b2e3d977595355fee239c839f2f05cba6d77b211010e365f91f384",
+      "export_sha256": "70c6760c51b2e3d977595355fee239c839f2f05cba6d77b211010e365f91f384",
+      "adapted": false
+    },
+    {
+      "source": "instrumentation/trace_hooks.hpp",
+      "destination": "instrumentation/trace_hooks.hpp",
+      "source_bytes": 289,
+      "source_sha256": "8796e560f41dc0fc16352d4bcfb4a243eb5fd70b1bc0ef3285019d3d44cb6a67",
+      "export_sha256": "8796e560f41dc0fc16352d4bcfb4a243eb5fd70b1bc0ef3285019d3d44cb6a67",
+      "adapted": false
+    },
+    {
+      "source": "scripts/_bootstrap.py",
+      "destination": "scripts/_bootstrap.py",
+      "source_bytes": 222,
+      "source_sha256": "b2cd5f7d9a898dfe28b7cac380fe71fd76045227a30cb5e4887c63169fdee056",
+      "export_sha256": "b2cd5f7d9a898dfe28b7cac380fe71fd76045227a30cb5e4887c63169fdee056",
+      "adapted": false
+    },
+    {
+      "source": "scripts/audit_manual_recording.py",
+      "destination": "scripts/audit_manual_recording.py",
+      "source_bytes": 3124,
+      "source_sha256": "3bdcb3ed0042fc643ce92cf5c08efa1898451fa25b882ef2f9a6794e7274619d",
+      "export_sha256": "3bdcb3ed0042fc643ce92cf5c08efa1898451fa25b882ef2f9a6794e7274619d",
+      "adapted": false
+    },
+    {
+      "source": "scripts/evaluate_level2_confirmed_completion.py",
+      "destination": "scripts/evaluate_level2_confirmed_completion.py",
+      "source_bytes": 2589,
+      "source_sha256": "627c36af17d8ed52f9b687ecdd127f00fa70cada0a9fc13a48503fa01e6cc36e",
+      "export_sha256": "e5dd7f38c2e0b0e0415b3127af69b8dc505d9409878c184ee8e9090f5335aa07",
+      "adapted": true
+    },
+    {
+      "source": "scripts/evaluate_level2_transition_tail.py",
+      "destination": "scripts/evaluate_level2_transition_tail.py",
+      "source_bytes": 4082,
+      "source_sha256": "14d985bd46e6e4c2462d2cc91d0fe36917954210ac35ba7d6b377e46109a95a3",
+      "export_sha256": "d74a16ddd5dd4038ac9f4f7c3b10fa7fccbc4f652a498d70014decd118ce70a1",
+      "adapted": true
+    },
+    {
+      "source": "scripts/evaluate_level3_imitation.py",
+      "destination": "scripts/evaluate_level3_imitation.py",
+      "source_bytes": 5070,
+      "source_sha256": "5031df90b4abb5e7cf2215f5822e1f73630c89372b130a4867dd22ec20824e82",
+      "export_sha256": "5031df90b4abb5e7cf2215f5822e1f73630c89372b130a4867dd22ec20824e82",
+      "adapted": false
+    },
+    {
+      "source": "scripts/level1_dqfd_pilot.py",
+      "destination": "scripts/level1_dqfd_pilot.py",
+      "source_bytes": 8859,
+      "source_sha256": "61ada8e155c113d71180e2e37e7b170458650538439adf157ebbff26692ac850",
+      "export_sha256": "fe10ed365815cae48faf37c3811c1b64275cb31bb99ad33f1a85ab4c1ac65fc3",
+      "adapted": true
+    },
+    {
+      "source": "scripts/level2_v12_rollouts.py",
+      "destination": "scripts/level2_v12_rollouts.py",
+      "source_bytes": 11152,
+      "source_sha256": "4e43d473552380a23b5c3d876ac81af82fd2267b212d773321a218c8d30bcded",
+      "export_sha256": "9236d4750f9368dfb1a6df237d8612ccc70266f40f819acfe085c74f22dd2e07",
+      "adapted": true
+    },
+    {
+      "source": "scripts/prepare_backward_level1.py",
+      "destination": "scripts/prepare_backward_level1.py",
+      "source_bytes": 11276,
+      "source_sha256": "be67588319eb336968834d91b133febdbaf4d3387f2c67dc48ead138481f6f06",
+      "export_sha256": "be67588319eb336968834d91b133febdbaf4d3387f2c67dc48ead138481f6f06",
+      "adapted": false
+    },
+    {
+      "source": "scripts/prepare_level1_dqfd_transitions.py",
+      "destination": "scripts/prepare_level1_dqfd_transitions.py",
+      "source_bytes": 29885,
+      "source_sha256": "6ddede8ef87feb91b3aefa77aab9c6f91a6068577a1c66d668885125c09bb430",
+      "export_sha256": "6ddede8ef87feb91b3aefa77aab9c6f91a6068577a1c66d668885125c09bb430",
+      "adapted": false
+    },
+    {
+      "source": "scripts/prepare_level2_replay.py",
+      "destination": "scripts/prepare_level2_replay.py",
+      "source_bytes": 5632,
+      "source_sha256": "0b3cd1d42b1fac6e182596073b4b0004e92d32aea4996bb991f8c90ae072ef70",
+      "export_sha256": "0b3cd1d42b1fac6e182596073b4b0004e92d32aea4996bb991f8c90ae072ef70",
+      "adapted": false
+    },
+    {
+      "source": "scripts/prepare_level2_title_bc.py",
+      "destination": "scripts/prepare_level2_title_bc.py",
+      "source_bytes": 4590,
+      "source_sha256": "cd4d9c7b38c98e89d06da3d59b27a84132c3f6c3dc8f930787e05f67b7803233",
+      "export_sha256": "920789c2455ed4c106927e9c95617b6a648fc5d2b6dc44d3400d8275e53fc717",
+      "adapted": true
+    },
+    {
+      "source": "scripts/prepare_level3_imitation.py",
+      "destination": "scripts/prepare_level3_imitation.py",
+      "source_bytes": 5657,
+      "source_sha256": "3ef6feebad9c6084f1ead11b8e423d14cec397e8cb7646d1824929b96b4d3786",
+      "export_sha256": "9c8e2e58635f934222268fd032e8474539754dcc14565a960fcd08ae426e1def",
+      "adapted": true
+    },
+    {
+      "source": "scripts/review_level3_imitation.py",
+      "destination": "scripts/review_level3_imitation.py",
+      "source_bytes": 5804,
+      "source_sha256": "bcac4b822e45e98a8e393b540e9cc32d258be0f303088b7d52feddf23c0d6474",
+      "export_sha256": "bcac4b822e45e98a8e393b540e9cc32d258be0f303088b7d52feddf23c0d6474",
+      "adapted": false
+    },
+    {
+      "source": "scripts/run_level2_title_bc.py",
+      "destination": "scripts/run_level2_title_bc.py",
+      "source_bytes": 9754,
+      "source_sha256": "74b8ec3ae4093249915c456e97df1547e0ad9c28f378c814cc4267ead2727a5b",
+      "export_sha256": "f9cec975c4d067a98b105cf4586f8e1aa5fe7d10a0c88941d53ed2844f06c952",
+      "adapted": true
+    },
+    {
+      "source": "scripts/train_backward_level1.py",
+      "destination": "scripts/train_backward_level1.py",
+      "source_bytes": 210634,
+      "source_sha256": "d4d7a6b5b5e442b71bb5132e872c45d3bd8c457a0f4a0ec61bf804587fae50c0",
+      "export_sha256": "d4d7a6b5b5e442b71bb5132e872c45d3bd8c457a0f4a0ec61bf804587fae50c0",
+      "adapted": false
+    },
+    {
+      "source": "scripts/train_level3_imitation.py",
+      "destination": "scripts/train_level3_imitation.py",
+      "source_bytes": 5562,
+      "source_sha256": "dc63281223b9825c118f68bf40fb3ac96bf83aa4f99c7369333cfd96de034e4d",
+      "export_sha256": "151d2161e20134f29a30da662ec19245a879c2d9675798c1066cdec00b90e999",
+      "adapted": true
+    },
+    {
+      "source": "src/prince_valiant_rl/__init__.py",
+      "destination": "src/prince_valiant_rl/__init__.py",
+      "source_bytes": 74,
+      "source_sha256": "b465f76bfbc635476cd22899181c4f0a2838068de7e7d2a059d53ee613817ca2",
+      "export_sha256": "b465f76bfbc635476cd22899181c4f0a2838068de7e7d2a059d53ee613817ca2",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/backward_level1.py",
+      "destination": "src/prince_valiant_rl/backward_level1.py",
+      "source_bytes": 77027,
+      "source_sha256": "92986f85cf24cc02afc447d49869a19d5575635e05b0f65798ec862493acf1eb",
+      "export_sha256": "92986f85cf24cc02afc447d49869a19d5575635e05b0f65798ec862493acf1eb",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/control_history.py",
+      "destination": "src/prince_valiant_rl/control_history.py",
+      "source_bytes": 1656,
+      "source_sha256": "cbae3bc5ee34f091f4c1a543a6ec593459b777d7b902c3e89da5e414433c620a",
+      "export_sha256": "cbae3bc5ee34f091f4c1a543a6ec593459b777d7b902c3e89da5e414433c620a",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/forward_curriculum.py",
+      "destination": "src/prince_valiant_rl/forward_curriculum.py",
+      "source_bytes": 4553,
+      "source_sha256": "17b906d65b2f1c9afdd1c61c8a7939c633d396ec57d21c09b2a297e467be3531",
+      "export_sha256": "17b906d65b2f1c9afdd1c61c8a7939c633d396ec57d21c09b2a297e467be3531",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/game_state.py",
+      "destination": "src/prince_valiant_rl/game_state.py",
+      "source_bytes": 7527,
+      "source_sha256": "4f1114ef6ef66ec9f8d4bb1ab2c34cf23786bfc4cfb3e43e297ad12318fcab75",
+      "export_sha256": "4f1114ef6ef66ec9f8d4bb1ab2c34cf23786bfc4cfb3e43e297ad12318fcab75",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/kind18_events.py",
+      "destination": "src/prince_valiant_rl/kind18_events.py",
+      "source_bytes": 3770,
+      "source_sha256": "f08ae4c3b3e5493e9b2a6f145ecaa0f7646a182fe1b589512597207429848495",
+      "export_sha256": "f08ae4c3b3e5493e9b2a6f145ecaa0f7646a182fe1b589512597207429848495",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/kind18_observer.py",
+      "destination": "src/prince_valiant_rl/kind18_observer.py",
+      "source_bytes": 3396,
+      "source_sha256": "d16a62be73b2ddb21574d7e137e1ed254ee393aa3d5a52087903ca14360f8cdb",
+      "export_sha256": "d16a62be73b2ddb21574d7e137e1ed254ee393aa3d5a52087903ca14360f8cdb",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/level1_potential.py",
+      "destination": "src/prince_valiant_rl/level1_potential.py",
+      "source_bytes": 1441,
+      "source_sha256": "46123358a4ea53435cb8d9693f61d35863df3410fc65ce3c158b94c002a788f0",
+      "export_sha256": "46123358a4ea53435cb8d9693f61d35863df3410fc65ce3c158b94c002a788f0",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/navigation.py",
+      "destination": "src/prince_valiant_rl/navigation.py",
+      "source_bytes": 24603,
+      "source_sha256": "ef8eb59ba4981defc1a146d489387995ead780f13644ecb83d6bbcee5c863322",
+      "export_sha256": "ef8eb59ba4981defc1a146d489387995ead780f13644ecb83d6bbcee5c863322",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/navigation_native.py",
+      "destination": "src/prince_valiant_rl/navigation_native.py",
+      "source_bytes": 2297,
+      "source_sha256": "d73f9af4fb2159a8fa5e7a5794212940434c1144c63ffe3100b1ec87279352d3",
+      "export_sha256": "d73f9af4fb2159a8fa5e7a5794212940434c1144c63ffe3100b1ec87279352d3",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/paths.py",
+      "destination": "src/prince_valiant_rl/paths.py",
+      "source_bytes": 178,
+      "source_sha256": "9c0b047c0e80f2c1b42ace400f89aeb6446518e516e504cfd802954bdd5e7b55",
+      "export_sha256": "9c0b047c0e80f2c1b42ace400f89aeb6446518e516e504cfd802954bdd5e7b55",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/recorder_native.py",
+      "destination": "src/prince_valiant_rl/recorder_native.py",
+      "source_bytes": 4119,
+      "source_sha256": "e6aa9ce20b83690e9d946ed76a78eb324019d20173acc39bea33e2807f5ecc60",
+      "export_sha256": "e6aa9ce20b83690e9d946ed76a78eb324019d20173acc39bea33e2807f5ecc60",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/rl_env.py",
+      "destination": "src/prince_valiant_rl/rl_env.py",
+      "source_bytes": 13898,
+      "source_sha256": "a3ba8f20ae9425df5ccb125039a39660b0ff276da5c0a0953b1cbba04997a091",
+      "export_sha256": "a3ba8f20ae9425df5ccb125039a39660b0ff276da5c0a0953b1cbba04997a091",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/rope_geometry.py",
+      "destination": "src/prince_valiant_rl/rope_geometry.py",
+      "source_bytes": 2954,
+      "source_sha256": "c2510c7445ee2081528f4ca1024dbf892ec125f2564cfa623e1b2f9d79615887",
+      "export_sha256": "c2510c7445ee2081528f4ca1024dbf892ec125f2564cfa623e1b2f9d79615887",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/route_guidance.py",
+      "destination": "src/prince_valiant_rl/route_guidance.py",
+      "source_bytes": 4092,
+      "source_sha256": "121fb71ba59657ce71b5ea0a8e075e400594435bb75093546a3719171df71697",
+      "export_sha256": "121fb71ba59657ce71b5ea0a8e075e400594435bb75093546a3719171df71697",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/route_waypoints.py",
+      "destination": "src/prince_valiant_rl/route_waypoints.py",
+      "source_bytes": 2532,
+      "source_sha256": "fec121e8b5c50f50220e99755eee8706b8c1c5b834d7bf956e1ef8b0c5d1816a",
+      "export_sha256": "fec121e8b5c50f50220e99755eee8706b8c1c5b834d7bf956e1ef8b0c5d1816a",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/scene_state.py",
+      "destination": "src/prince_valiant_rl/scene_state.py",
+      "source_bytes": 6544,
+      "source_sha256": "9e0fd6be3114907409f63231a704c608a87863ef456d4d662ad9bdd03468fbdf",
+      "export_sha256": "9e0fd6be3114907409f63231a704c608a87863ef456d4d662ad9bdd03468fbdf",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/score_clear_capture.py",
+      "destination": "src/prince_valiant_rl/score_clear_capture.py",
+      "source_bytes": 3994,
+      "source_sha256": "9088e07a1d71143753d6f12bdfa2805486277b279c769c363d9eef4069395244",
+      "export_sha256": "9088e07a1d71143753d6f12bdfa2805486277b279c769c363d9eef4069395244",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/__init__.py",
+      "destination": "src/prince_valiant_rl/training/__init__.py",
+      "source_bytes": 66,
+      "source_sha256": "45a0f2684291ba3e5306d2bc6c6bb6c0de17494db45d772aeefcbf7a30684dc5",
+      "export_sha256": "45a0f2684291ba3e5306d2bc6c6bb6c0de17494db45d772aeefcbf7a30684dc5",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/baseline_gpu_control.py",
+      "destination": "src/prince_valiant_rl/training/baseline_gpu_control.py",
+      "source_bytes": 2443,
+      "source_sha256": "c3a5a7057d8d6230d5964ea17e32f65e780f64953c09d71679a9839e0c12d7ff",
+      "export_sha256": "c3a5a7057d8d6230d5964ea17e32f65e780f64953c09d71679a9839e0c12d7ff",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/checkpoint_io.py",
+      "destination": "src/prince_valiant_rl/training/checkpoint_io.py",
+      "source_bytes": 5960,
+      "source_sha256": "8bdabe84ead06e1d6586016f37225b92cdc977ce18c973d921a87c6677ba68f2",
+      "export_sha256": "8bdabe84ead06e1d6586016f37225b92cdc977ce18c973d921a87c6677ba68f2",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd.py",
+      "destination": "src/prince_valiant_rl/training/dqfd.py",
+      "source_bytes": 24292,
+      "source_sha256": "bcd5e75fc240d2e583df6ff9948160690b85bb49fbba25aade68e204559c4992",
+      "export_sha256": "bcd5e75fc240d2e583df6ff9948160690b85bb49fbba25aade68e204559c4992",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_continuation.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_continuation.py",
+      "source_bytes": 11117,
+      "source_sha256": "51cdb89d70f6171759ab44f7a3008cfe211a805e69929131ac809d169f327f21",
+      "export_sha256": "51cdb89d70f6171759ab44f7a3008cfe211a805e69929131ac809d169f327f21",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_evaluation.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_evaluation.py",
+      "source_bytes": 12253,
+      "source_sha256": "e47b2f0c090976fb65c270dd9849fe2a4c4ff3b7a0865a86d267e4b3e3d9b3ca",
+      "export_sha256": "e47b2f0c090976fb65c270dd9849fe2a4c4ff3b7a0865a86d267e4b3e3d9b3ca",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_execution.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_execution.py",
+      "source_bytes": 22669,
+      "source_sha256": "8bf5afce01eba85c056100a4417d3c2094ad6f95ac1dbfa29b568f5ecfe450a8",
+      "export_sha256": "8bf5afce01eba85c056100a4417d3c2094ad6f95ac1dbfa29b568f5ecfe450a8",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_level1_adapter.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_level1_adapter.py",
+      "source_bytes": 24423,
+      "source_sha256": "2b3d0c70ba966b6b2e448e2040ba599cec3f0fe0f2f907d423961cbd3d8466d8",
+      "export_sha256": "2b3d0c70ba966b6b2e448e2040ba599cec3f0fe0f2f907d423961cbd3d8466d8",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_pretrain_entrypoint.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_pretrain_entrypoint.py",
+      "source_bytes": 52070,
+      "source_sha256": "a568af3816cb49f5c3ed8756dc7cb3ef0f3d40b1dee3330e8c9acb90ead49c34",
+      "export_sha256": "1246682e1c4f1d2512f2796c08191ccee5e6d0c703e007fc09ded313c7ad3765",
+      "adapted": true
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_pretraining.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_pretraining.py",
+      "source_bytes": 19875,
+      "source_sha256": "b2f557a2a70bf4a93485c63e7bc537eca0291df781cc4ff879954f993aa0dafa",
+      "export_sha256": "b2f557a2a70bf4a93485c63e7bc537eca0291df781cc4ff879954f993aa0dafa",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_process_ownership.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_process_ownership.py",
+      "source_bytes": 2854,
+      "source_sha256": "cc16d3aad3cc2ab8a88f50146183abad161a272a9c9aae94e7120045b5b70d94",
+      "export_sha256": "cc16d3aad3cc2ab8a88f50146183abad161a272a9c9aae94e7120045b5b70d94",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_production.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_production.py",
+      "source_bytes": 20456,
+      "source_sha256": "b3e5e205fb9f68cc4364c578918bf1a0479531ceab096e50e24b4e0bbff62883",
+      "export_sha256": "b3e5e205fb9f68cc4364c578918bf1a0479531ceab096e50e24b4e0bbff62883",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_receipts.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_receipts.py",
+      "source_bytes": 7802,
+      "source_sha256": "fbd23d536bfc45789a3e42aec40b68dc41de7cfd437fc696d791ca7e92038d86",
+      "export_sha256": "fbd23d536bfc45789a3e42aec40b68dc41de7cfd437fc696d791ca7e92038d86",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_replay.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_replay.py",
+      "source_bytes": 10087,
+      "source_sha256": "159ac33f66ea403e287ad2a4100bba7218fc870a27fd9f9caa6481579bfd3526",
+      "export_sha256": "159ac33f66ea403e287ad2a4100bba7218fc870a27fd9f9caa6481579bfd3526",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_study_budget.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_study_budget.py",
+      "source_bytes": 6655,
+      "source_sha256": "56c72039c6d273c83000f93a1f27c24a92d75ec9ee2e23b341af0bce526431d0",
+      "export_sha256": "56c72039c6d273c83000f93a1f27c24a92d75ec9ee2e23b341af0bce526431d0",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_supervision.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_supervision.py",
+      "source_bytes": 41842,
+      "source_sha256": "72881e2af9a24e05a2378248ecac84034e592cf4045f773c11c3461050aaedf4",
+      "export_sha256": "72881e2af9a24e05a2378248ecac84034e592cf4045f773c11c3461050aaedf4",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqfd_transitions.py",
+      "destination": "src/prince_valiant_rl/training/dqfd_transitions.py",
+      "source_bytes": 93637,
+      "source_sha256": "a3d6c7a8cdebd9642dc517c9fae3e963d3b2ab5dfb0d3d362c19ec306138f754",
+      "export_sha256": "a3d6c7a8cdebd9642dc517c9fae3e963d3b2ab5dfb0d3d362c19ec306138f754",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/dqn.py",
+      "destination": "src/prince_valiant_rl/training/dqn.py",
+      "source_bytes": 9382,
+      "source_sha256": "99c34d3593c7f4fcbf84fc05901cc4f0ef5191a5d5461577bb84f8c955a1f3df",
+      "export_sha256": "99c34d3593c7f4fcbf84fc05901cc4f0ef5191a5d5461577bb84f8c955a1f3df",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/evaluation_capture.py",
+      "destination": "src/prince_valiant_rl/training/evaluation_capture.py",
+      "source_bytes": 21784,
+      "source_sha256": "3a01706d64ec60d2b8d5ad421e4f36e9ee0ed7fe13197b295d02958a0f988998",
+      "export_sha256": "3a01706d64ec60d2b8d5ad421e4f36e9ee0ed7fe13197b295d02958a0f988998",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/events.py",
+      "destination": "src/prince_valiant_rl/training/events.py",
+      "source_bytes": 6442,
+      "source_sha256": "e8427cb92f238af77bfda7344dbf0a8bb7afc1c1084e40078323eb66d9da6bd0",
+      "export_sha256": "e8427cb92f238af77bfda7344dbf0a8bb7afc1c1084e40078323eb66d9da6bd0",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/input_features.py",
+      "destination": "src/prince_valiant_rl/training/input_features.py",
+      "source_bytes": 3430,
+      "source_sha256": "972a9a0fb66682e4d1abae63665c75cd2adb4b15d9105f8a7f553d2ba4ff8244",
+      "export_sha256": "972a9a0fb66682e4d1abae63665c75cd2adb4b15d9105f8a7f553d2ba4ff8244",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/interface.py",
+      "destination": "src/prince_valiant_rl/training/interface.py",
+      "source_bytes": 9807,
+      "source_sha256": "7f4f7db3d5297791c0e7becd8d7bc85883f10aedef0151904fb21faf53306fcf",
+      "export_sha256": "7f4f7db3d5297791c0e7becd8d7bc85883f10aedef0151904fb21faf53306fcf",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/level2_completion_evidence.py",
+      "destination": "src/prince_valiant_rl/training/level2_completion_evidence.py",
+      "source_bytes": 1975,
+      "source_sha256": "94c5ef2ae50b7d64398a6f18ea303b0379da4eb00265409fb63d9b11514b6b01",
+      "export_sha256": "94c5ef2ae50b7d64398a6f18ea303b0379da4eb00265409fb63d9b11514b6b01",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/level2_demonstration_policy.py",
+      "destination": "src/prince_valiant_rl/training/level2_demonstration_policy.py",
+      "source_bytes": 1419,
+      "source_sha256": "868161959815e2b7802d3b4d2e1dd7ba8e2c1125d1fb4a34f570db1f97af9ad8",
+      "export_sha256": "868161959815e2b7802d3b4d2e1dd7ba8e2c1125d1fb4a34f570db1f97af9ad8",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/level2_model_contract.py",
+      "destination": "src/prince_valiant_rl/training/level2_model_contract.py",
+      "source_bytes": 2432,
+      "source_sha256": "6034dfd2b9bcbc2f3268d41030a55e300c9ae30d6ccb9b7a57ac4bb70f2f1b9d",
+      "export_sha256": "6034dfd2b9bcbc2f3268d41030a55e300c9ae30d6ccb9b7a57ac4bb70f2f1b9d",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/level2_runtime.py",
+      "destination": "src/prince_valiant_rl/training/level2_runtime.py",
+      "source_bytes": 5150,
+      "source_sha256": "f32398fb53941f50bbddee953bad2572a788945453702ebee41b84c13575b3e2",
+      "export_sha256": "f32398fb53941f50bbddee953bad2572a788945453702ebee41b84c13575b3e2",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/level2_score_reward.py",
+      "destination": "src/prince_valiant_rl/training/level2_score_reward.py",
+      "source_bytes": 1532,
+      "source_sha256": "024c781c171b533999ca44e8f918fff52676a3b4a4f5b3bbfa1eeed5f9c5f84b",
+      "export_sha256": "024c781c171b533999ca44e8f918fff52676a3b4a4f5b3bbfa1eeed5f9c5f84b",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/level3_evidence.py",
+      "destination": "src/prince_valiant_rl/training/level3_evidence.py",
+      "source_bytes": 882,
+      "source_sha256": "435d8c252d0492858e3fd02bde668d72d870b0fa81cfdf27bf7ec291d0c5ebea",
+      "export_sha256": "435d8c252d0492858e3fd02bde668d72d870b0fa81cfdf27bf7ec291d0c5ebea",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/level3_imitation.py",
+      "destination": "src/prince_valiant_rl/training/level3_imitation.py",
+      "source_bytes": 1079,
+      "source_sha256": "efd640b8557df644a57b15d3024e28acde67b2da27776af3aeb6a2506dc3d6a2",
+      "export_sha256": "efd640b8557df644a57b15d3024e28acde67b2da27776af3aeb6a2506dc3d6a2",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/models.py",
+      "destination": "src/prince_valiant_rl/training/models.py",
+      "source_bytes": 3561,
+      "source_sha256": "f02e0cf51ed4337bee24a97b173f7fc8bdddc41af7f19d689e284611fc1e7201",
+      "export_sha256": "f02e0cf51ed4337bee24a97b173f7fc8bdddc41af7f19d689e284611fc1e7201",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/process_envs.py",
+      "destination": "src/prince_valiant_rl/training/process_envs.py",
+      "source_bytes": 13263,
+      "source_sha256": "8785d0ff78d18bf84c740a8e735eb0ca8d9093d6d3ffbbb0922813580b7b508a",
+      "export_sha256": "8785d0ff78d18bf84c740a8e735eb0ca8d9093d6d3ffbbb0922813580b7b508a",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/scene_pool.py",
+      "destination": "src/prince_valiant_rl/training/scene_pool.py",
+      "source_bytes": 692,
+      "source_sha256": "0f74ef90c91b9a7fd1749f7d37f3379cc32ea2fdaf9c9dbdfba7c335b46b8536",
+      "export_sha256": "0f74ef90c91b9a7fd1749f7d37f3379cc32ea2fdaf9c9dbdfba7c335b46b8536",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/scenes.py",
+      "destination": "src/prince_valiant_rl/training/scenes.py",
+      "source_bytes": 13300,
+      "source_sha256": "71db47a3f616a5791b4245c038f7dba63b645f1a104df187e04620bede11a7ba",
+      "export_sha256": "71db47a3f616a5791b4245c038f7dba63b645f1a104df187e04620bede11a7ba",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/schema.py",
+      "destination": "src/prince_valiant_rl/training/schema.py",
+      "source_bytes": 288,
+      "source_sha256": "3f3066e6c10ee94c03eddf7adcd149796ba88344e0cb1d2b8ec9daa8d5b6fd68",
+      "export_sha256": "3f3066e6c10ee94c03eddf7adcd149796ba88344e0cb1d2b8ec9daa8d5b6fd68",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/starts.py",
+      "destination": "src/prince_valiant_rl/training/starts.py",
+      "source_bytes": 1361,
+      "source_sha256": "5fdbcc5b523e2c583955e9ec0598d883bc84fe80fe2bf9946b542400ded87c75",
+      "export_sha256": "5fdbcc5b523e2c583955e9ec0598d883bc84fe80fe2bf9946b542400ded87c75",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/temporal.py",
+      "destination": "src/prince_valiant_rl/training/temporal.py",
+      "source_bytes": 3211,
+      "source_sha256": "e4e9d106688d8609262c38ac1cd3a7d8b772c0fc19df44d631cd2d9e44c46fd6",
+      "export_sha256": "e4e9d106688d8609262c38ac1cd3a7d8b772c0fc19df44d631cd2d9e44c46fd6",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/temporal_models.py",
+      "destination": "src/prince_valiant_rl/training/temporal_models.py",
+      "source_bytes": 13172,
+      "source_sha256": "8f7bfd57eb2d72aeda7fe74762698e50b1534b07ac172c5ede83d4b16cd7a5a1",
+      "export_sha256": "8f7bfd57eb2d72aeda7fe74762698e50b1534b07ac172c5ede83d4b16cd7a5a1",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/visual.py",
+      "destination": "src/prince_valiant_rl/training/visual.py",
+      "source_bytes": 12808,
+      "source_sha256": "7f02c1ab0af522c0f4c6c5535d8a88a2e884fafe4a776dfa3b80f1845eab617b",
+      "export_sha256": "7f02c1ab0af522c0f4c6c5535d8a88a2e884fafe4a776dfa3b80f1845eab617b",
+      "adapted": false
+    },
+    {
+      "source": "src/prince_valiant_rl/training/window_storage.py",
+      "destination": "src/prince_valiant_rl/training/window_storage.py",
+      "source_bytes": 812,
+      "source_sha256": "6921d1d8cf9604e6d11502df2cc14ee50d124bf265937d8c900e4a8aa831afca",
+      "export_sha256": "6921d1d8cf9604e6d11502df2cc14ee50d124bf265937d8c900e4a8aa831afca",
+      "adapted": false
+    },
+    {
+      "source": "training/level1_condition_B_score_quarantine_v1_20261024/ppo/config.json",
+      "destination": "training/level1_condition_B_score_quarantine_v1_20261024/ppo/config.json",
+      "source_bytes": 6386,
+      "source_sha256": "f2a28db6efc046b8527fab61b39a21fff2de8e3762eedc4638f0eb8e193f6d7d",
+      "export_sha256": "f2a28db6efc046b8527fab61b39a21fff2de8e3762eedc4638f0eb8e193f6d7d",
+      "adapted": false
+    },
+    {
+      "source": "training/level1_dqfd_demo_continuation_20261025/checkpoint_3000.pt",
+      "destination": "training/level1_dqfd_demo_continuation_20261025/checkpoint_3000.pt",
+      "source_bytes": 20073159,
+      "source_sha256": "7e44f1bc067b8cb827dfa8594a15fe7a7a51896a7bf0ab9ff104977c6f97d7c6",
+      "export_sha256": "7e44f1bc067b8cb827dfa8594a15fe7a7a51896a7bf0ab9ff104977c6f97d7c6",
+      "adapted": false
+    },
+    {
+      "source": "training/level1_dqfd_demo_continuation_20261025/checkpoint_3000.pt.receipt.json",
+      "destination": "training/level1_dqfd_demo_continuation_20261025/checkpoint_3000.pt.receipt.json",
+      "source_bytes": 6066,
+      "source_sha256": "db06c3251c923cfb513382ae227b2c6ac81943cbdab3495e2dad29a2165c529d",
+      "export_sha256": "db06c3251c923cfb513382ae227b2c6ac81943cbdab3495e2dad29a2165c529d",
+      "adapted": false
+    },
+    {
+      "source": "training/level2_title_bc_v57_20261026/actor.pt",
+      "destination": "training/level2_title_bc_v57_20261026/actor.pt",
+      "source_bytes": 2257649,
+      "source_sha256": "900c098cbe0376cfbc5aabc4c145b83fcd96b377772c6528e1a42beb9e9efbbd",
+      "export_sha256": "900c098cbe0376cfbc5aabc4c145b83fcd96b377772c6528e1a42beb9e9efbbd",
+      "adapted": false
+    },
+    {
+      "source": "training/level2_title_bc_v57_20261026/authority.json",
+      "destination": "training/level2_title_bc_v57_20261026/authority.json",
+      "source_bytes": 1299,
+      "source_sha256": "cf128d97f9158f55d56856dfcdcfe91081862d5917565559df358f3bc45510c6",
+      "export_sha256": "cf128d97f9158f55d56856dfcdcfe91081862d5917565559df358f3bc45510c6",
+      "adapted": false
+    },
+    {
+      "source": "training/level2_title_bc_v57_20261026/fit.jsonl",
+      "destination": "training/level2_title_bc_v57_20261026/fit.jsonl",
+      "source_bytes": 7070,
+      "source_sha256": "0a1f25a4c9ccb76591ab43a33ec3c468b62c40d2ad5f86cce83b92fa3ffec718",
+      "export_sha256": "0a1f25a4c9ccb76591ab43a33ec3c468b62c40d2ad5f86cce83b92fa3ffec718",
+      "adapted": false
+    },
+    {
+      "source": "training/level2_title_bc_v57_20261026/result.json",
+      "destination": "training/level2_title_bc_v57_20261026/result.json",
+      "source_bytes": 832,
+      "source_sha256": "3f8551fa350e800291766931b198a49f2fb60e8ede3de9e2f4e4e023bfbeab6b",
+      "export_sha256": "3f8551fa350e800291766931b198a49f2fb60e8ede3de9e2f4e4e023bfbeab6b",
+      "adapted": false
+    },
+    {
+      "source": "training/level3_imitation_refine_v2_20261026/authority.json",
+      "destination": "training/level3_imitation_refine_v2_20261026/authority.json",
+      "source_bytes": 1106,
+      "source_sha256": "3791c5ba5d72029d7a99d2a3883008484ef115b12cff3e454c4796e0c3098af5",
+      "export_sha256": "3791c5ba5d72029d7a99d2a3883008484ef115b12cff3e454c4796e0c3098af5",
+      "adapted": false
+    },
+    {
+      "source": "training/level3_imitation_refine_v2_20261026/best.pt",
+      "destination": "training/level3_imitation_refine_v2_20261026/best.pt",
+      "source_bytes": 4764259,
+      "source_sha256": "1481dd27a35a04e97bcb9dd25717171d16d25fa9063e18cda69e404f9f5afbcb",
+      "export_sha256": "1481dd27a35a04e97bcb9dd25717171d16d25fa9063e18cda69e404f9f5afbcb",
+      "adapted": false
+    },
+    {
+      "source": "training/level3_imitation_refine_v2_20261026/fit.jsonl",
+      "destination": "training/level3_imitation_refine_v2_20261026/fit.jsonl",
+      "source_bytes": 7217,
+      "source_sha256": "f21993e46e7b91e9252e5cd6e189f3567fd0a90fde2deb20d302839927d7f2d1",
+      "export_sha256": "f21993e46e7b91e9252e5cd6e189f3567fd0a90fde2deb20d302839927d7f2d1",
+      "adapted": false
+    },
+    {
+      "source": "training/level3_imitation_refine_v2_20261026/result.json",
+      "destination": "training/level3_imitation_refine_v2_20261026/result.json",
+      "source_bytes": 244,
+      "source_sha256": "e0e64740826743b71aff90fe2039baeb45adcdaf3ff788759294399234039330",
+      "export_sha256": "e0e64740826743b71aff90fe2039baeb45adcdaf3ff788759294399234039330",
+      "adapted": false
+    },
+    {
+      "source": "training/level3_imitation_refine_v2_20261026/verification.json",
+      "destination": "training/level3_imitation_refine_v2_20261026/verification.json",
+      "source_bytes": 490,
+      "source_sha256": "e675f425dabe52388c06d8aea9afc945f41739b79500bbaac4373230ec0949fe",
+      "export_sha256": "e675f425dabe52388c06d8aea9afc945f41739b79500bbaac4373230ec0949fe",
+      "adapted": false
+    },
+    {
+      "source": "training/level3_imitation_v1_20261026/authority.json",
+      "destination": "training/level3_imitation_v1_20261026/authority.json",
+      "source_bytes": 1001,
+      "source_sha256": "dbbb407ca2853d5e0f29fb82a59407b311a104744011b0db5c9f402037016f93",
+      "export_sha256": "dbbb407ca2853d5e0f29fb82a59407b311a104744011b0db5c9f402037016f93",
+      "adapted": false
+    },
+    {
+      "source": "training/level3_imitation_v1_20261026/fit.jsonl",
+      "destination": "training/level3_imitation_v1_20261026/fit.jsonl",
+      "source_bytes": 9982,
+      "source_sha256": "7994c5447642f86a3c8e37226811b090764e4561e6051758f2ee1280212970e1",
+      "export_sha256": "7994c5447642f86a3c8e37226811b090764e4561e6051758f2ee1280212970e1",
+      "adapted": false
+    },
+    {
+      "source": "training/level3_imitation_v1_20261026/result.json",
+      "destination": "training/level3_imitation_v1_20261026/result.json",
+      "source_bytes": 246,
+      "source_sha256": "93ff503f5a97cf4e6437c09c6c4ed8bd23dcbb9b7997ad205aa3ab1541942bb1",
+      "export_sha256": "93ff503f5a97cf4e6437c09c6c4ed8bd23dcbb9b7997ad205aa3ab1541942bb1",
+      "adapted": false
+    },
+    {
+      "source": "../submission_demo_videos/level1_full_run_1x.mp4",
+      "destination": "deliverables/videos/level1_full_run_1x.mp4",
+      "source_bytes": 34138523,
+      "source_sha256": "1fdf87a487a2f842818408b707beba28cb71602c8c21e76d7720c53fadc60681",
+      "export_sha256": "1fdf87a487a2f842818408b707beba28cb71602c8c21e76d7720c53fadc60681",
+      "adapted": false
+    },
+    {
+      "source": "../submission_demo_videos/level2_full_run_1x.mp4",
+      "destination": "deliverables/videos/level2_full_run_1x.mp4",
+      "source_bytes": 60643392,
+      "source_sha256": "e35bfcae6c58f8e595a2025757bce294f2098b9049fb8248ada7cf4823bd4f4e",
+      "export_sha256": "e35bfcae6c58f8e595a2025757bce294f2098b9049fb8248ada7cf4823bd4f4e",
+      "adapted": false
+    },
+    {
+      "source": "../submission_demo_videos/level3_full_run_1x.mp4",
+      "destination": "deliverables/videos/level3_full_run_1x.mp4",
+      "source_bytes": 70951515,
+      "source_sha256": "874282a519a7652a661b81b57362ebb3875119af99611a5dfe8b5e5847b24ab7",
+      "export_sha256": "874282a519a7652a661b81b57362ebb3875119af99611a5dfe8b5e5847b24ab7",
+      "adapted": false
+    },
+    {
+      "source": "../submission_demo_videos/progress_presentation.mp4",
+      "destination": "deliverables/videos/progress_presentation.mp4",
+      "source_bytes": 51575304,
+      "source_sha256": "290e3b80b2e55a2624c3aae27bd9f6b5194340b45214f60b7dafa79ced55a032",
+      "export_sha256": "290e3b80b2e55a2624c3aae27bd9f6b5194340b45214f60b7dafa79ced55a032",
+      "adapted": false
+    },
+    {
+      "source": ".gitignore",
+      "destination": ".gitignore",
+      "source_bytes": 488,
+      "source_sha256": "7c3eeb9a896e001511ddaadd479552a3db2b31cc0a8dd43ae721153ddfb0a71e",
+      "export_sha256": "ec6fc3a7b2a3e222d8ad8462d9a21c7b77c8c6900956e92aac29391255348d76",
+      "adapted": true
+    },
+    {
+      "source": "run.py",
+      "destination": "run.py",
+      "source_bytes": 1022,
+      "source_sha256": "09d5121da51f2f38cf4a564a5002661758eebd65b3ed233856b284bba0bc6f16",
+      "export_sha256": "396df91d503179b9d0eebeaf1d8fe033c2e5b732b44aa6b0d99da18a5032fd33",
+      "adapted": true
+    },
+    {
+      "source": "config/level2_reward_current.json",
+      "destination": "config/level2_reward_current.json",
+      "source_bytes": 1549,
+      "source_sha256": "b438a7cce2e36b79f00cf37f263e4c9ae04b338d8eb43a8596e7e50d516a05e2",
+      "export_sha256": "b438a7cce2e36b79f00cf37f263e4c9ae04b338d8eb43a8596e7e50d516a05e2",
+      "adapted": false
+    },
+    {
+      "source": "scripts/prepare_level2_score_replay.py",
+      "destination": "scripts/prepare_level2_score_replay.py",
+      "source_bytes": 4453,
+      "source_sha256": "a1497e481d4a9be62624718254019c664842c5f402fbee4b7a99f97e60427923",
+      "export_sha256": "a1497e481d4a9be62624718254019c664842c5f402fbee4b7a99f97e60427923",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/01_environment_architecture.png",
+      "destination": "docs/case_study_draft/assets/01_environment_architecture.png",
+      "source_bytes": 61906,
+      "source_sha256": "920a9300d515ce662a6e45e6753d07c51a3e1142659ec8753047d364d6adb9e0",
+      "export_sha256": "920a9300d515ce662a6e45e6753d07c51a3e1142659ec8753047d364d6adb9e0",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/02_rl_objective_vs_behavior.png",
+      "destination": "docs/case_study_draft/assets/02_rl_objective_vs_behavior.png",
+      "source_bytes": 144370,
+      "source_sha256": "49ed9ac06c06b49c61e0b2d309458e9e31c9f792249273c4c7481e3153b28499",
+      "export_sha256": "49ed9ac06c06b49c61e0b2d309458e9e31c9f792249273c4c7481e3153b28499",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/03_timing_transfer_and_limit.png",
+      "destination": "docs/case_study_draft/assets/03_timing_transfer_and_limit.png",
+      "source_bytes": 47841,
+      "source_sha256": "4ba60dd4fa03a8b93d994290cec199f362c199ed1a123ff062c6b023bf929b26",
+      "export_sha256": "4ba60dd4fa03a8b93d994290cec199f362c199ed1a123ff062c6b023bf929b26",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/04_level3_supervised_fit.png",
+      "destination": "docs/case_study_draft/assets/04_level3_supervised_fit.png",
+      "source_bytes": 121453,
+      "source_sha256": "ac71e76beea4584188dce07c86f5f8b9e12e6b5c7d5221fec568d2d3be155c63",
+      "export_sha256": "ac71e76beea4584188dce07c86f5f8b9e12e6b5c7d5221fec568d2d3be155c63",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/05_full_run_development.png",
+      "destination": "docs/case_study_draft/assets/05_full_run_development.png",
+      "source_bytes": 59768,
+      "source_sha256": "85dea21680dd9a0b3fe07214289e7ecc4d6f979f2e4c9443191d2a814920ba26",
+      "export_sha256": "85dea21680dd9a0b3fe07214289e7ecc4d6f979f2e4c9443191d2a814920ba26",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/06_completion_evidence_timeline.png",
+      "destination": "docs/case_study_draft/assets/06_completion_evidence_timeline.png",
+      "source_bytes": 57601,
+      "source_sha256": "40fb4eff309e740c7e59d5a593430ddb1c343b7a4102cceda3b1bdf3055916f5",
+      "export_sha256": "40fb4eff309e740c7e59d5a593430ddb1c343b7a4102cceda3b1bdf3055916f5",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/level2_full_attempts.csv",
+      "destination": "docs/case_study_draft/assets/level2_full_attempts.csv",
+      "source_bytes": 246,
+      "source_sha256": "0cb443edd9b805f38b2df1b90b674191638be9f131ef0586e5cbf5d2046499ea",
+      "export_sha256": "0cb443edd9b805f38b2df1b90b674191638be9f131ef0586e5cbf5d2046499ea",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/level3_fit_errors.csv",
+      "destination": "docs/case_study_draft/assets/level3_fit_errors.csv",
+      "source_bytes": 3635,
+      "source_sha256": "9356b06c68fd613efdd222064ba5cf807354ea3d3b52083b884344caaa6c4ac0",
+      "export_sha256": "9356b06c68fd613efdd222064ba5cf807354ea3d3b52083b884344caaa6c4ac0",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_draft/assets/rl_pickup_probe_points.csv",
+      "destination": "docs/case_study_draft/assets/rl_pickup_probe_points.csv",
+      "source_bytes": 95,
+      "source_sha256": "a134681585d53f100b60df81465196ec911832ee3514133f58f9677809d46232",
+      "export_sha256": "a134681585d53f100b60df81465196ec911832ee3514133f58f9677809d46232",
+      "adapted": false
+    }
+  ],
+  "source_location": "Original checkout supplied to exporter; no absolute personal path retained"
+}

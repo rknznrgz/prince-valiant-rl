@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "scenes": {
+    "progress_trap": {
+      "worker": "progress",
+      "sources": [
+        "gameplay",
+        "agent_before_trap"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "destination": {
+        "section": 0,
+        "x": 240
+      },
+      "timeout": 450,
+      "scene_id": "progress_trap",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0
+    },
+    "progress_bridge": {
+      "worker": "progress",
+      "sources": [
+        "agent_bridge_approach"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "destination": {
+        "section": 0,
+        "x": 480
+      },
+      "timeout": 900,
+      "scene_id": "progress_bridge",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0
+    },
+    "progress_rope": {
+      "worker": "progress",
+      "sources": [
+        "agent_before_second_bridge"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "destination": {
+        "section": 0,
+        "x": 1320
+      },
+      "timeout": 700,
+      "scene_id": "progress_rope",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0
+    },
+    "progress_forest_long": {
+      "worker": "progress",
+      "sources": [
+        "agent_bridge_crossed",
+        "agent_after_second_bridge"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "destination": {
+        "section": 0,
+        "x": 1750
+      },
+      "timeout": 2500,
+      "scene_id": "progress_forest_long",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0
+    },
+    "fight_type14": {
+      "worker": "fight",
+      "sources": [
+        "training/scenes/starts/type14_active_72.json",
+        "training/scenes/starts/type14_active_108.json",
+        "training/scenes/starts/type14_active_180.json"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "keep_type": 14,
+      "hits_remaining": [
+        1,
+        3,
+        8
+      ],
+      "health": [
+        159,
+        223,
+        255
+      ],
+      "timeout": 900,
+      "clear_player_projectiles": true,
+      "scene_id": "fight_type14",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0,
+      "facing": [
+        0,
+        1
+      ]
+    },
+    "fight_type19": {
+      "worker": "fight",
+      "sources": [
+        "training/scenes/starts/type19_approach_1450.json",
+        "training/scenes/starts/type19_approach_1470.json"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "keep_type": 19,
+      "keep_slot": 8,
+      "health": [
+        159,
+        223,
+        255
+      ],
+      "timeout": 500,
+      "clear_player_projectiles": true,
+      "scene_id": "fight_type19",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0,
+      "facing": [
+        0,
+        1
+      ],
+      "reward_weights": {
+        "enemy_kills": 10.0,
+        "enemy_damage": 1.0,
+        "encounter_cleared": 0.0
+      }
+    },
+    "evade_type14_survival": {
+      "worker": "evade",
+      "sources": [
+        "training/scenes/starts/type14_active_72.json",
+        "training/scenes/starts/type14_active_108.json",
+        "training/scenes/starts/type14_active_180.json"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "keep_type": 14,
+      "immortal_type14": true,
+      "health": [
+        159,
+        223,
+        255
+      ],
+      "timeout": 360,
+      "clear_player_projectiles": true,
+      "survival_per_second": 1.0,
+      "scene_id": "evade_type14_survival",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0
+    },
+    "evade_type14_movement": {
+      "worker": "evade",
+      "sources": [
+        "training/scenes/starts/type14_active_72.json",
+        "training/scenes/starts/type14_active_108.json",
+        "training/scenes/starts/type14_active_180.json"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "keep_type": 14,
+      "immortal_type14": true,
+      "health": [
+        159,
+        223,
+        255
+      ],
+      "timeout": 360,
+      "clear_player_projectiles": true,
+      "survival_per_second": 1.0,
+      "mask_attacks": true,
+      "scene_id": "evade_type14_movement",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0
+    },
+    "evade_type19_survival": {
+      "worker": "evade",
+      "sources": [
+        "training/scenes/starts/type19_approach_1450.json",
+        "training/scenes/starts/type19_approach_1470.json"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "keep_type": 19,
+      "keep_slot": 8,
+      "health": [
+        159,
+        223,
+        255
+      ],
+      "timeout": 240,
+      "clear_player_projectiles": true,
+      "scene_id": "evade_type19_survival",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0,
+      "immortal_packed_types": [
+        19
+      ],
+      "survival_per_second": 1.0,
+      "mask_attacks": false
+    },
+    "evade_type19_movement": {
+      "worker": "evade",
+      "sources": [
+        "training/scenes/starts/type19_approach_1450.json",
+        "training/scenes/starts/type19_approach_1470.json"
+      ],
+      "remove_types": [
+        2,
+        4,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "keep_type": 19,
+      "keep_slot": 8,
+      "health": [
+        159,
+        223,
+        255
+      ],
+      "timeout": 240,
+      "clear_player_projectiles": true,
+      "scene_id": "evade_type19_movement",
+      "seed": 20261013,
+      "status": "validated",
+      "failure": "verified death onset",
+      "destination_reward": 20.0,
+      "immortal_packed_types": [
+        19
+      ],
+      "survival_per_second": 1.0,
+      "mask_attacks": true
+    }
+  },
+  "unavailable": {
+    "evade_mixed_melee_projectile": "Separate melee and projectile variants implemented; co-location of their real encounters remains unverified.",
+    "fight_multiple_enemies": "No validated coherent multi-encounter configuration yet; single type14/type19 sources are provided.",
+    "progress_section2_pre_boss": "Removing types22/23 can invalidate dispatch7 observations or lock an unverified combat gate; those actors are never blindly cleared.",
+    "escape_to_safety": "Verified sustained-safety detector remains unavailable; survival curriculum is implemented first."
+  },
+  "policy_scene_ids_exposed": false,
+  "note": "Raw numeric observations unchanged. Config names are training tasks, not enemy names supplied to the actor."
+}

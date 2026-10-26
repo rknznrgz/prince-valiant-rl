@@ -1,0 +1,35 @@
+{
+  "status": "verified",
+  "episodes": [
+    {
+      "arm": "neural",
+      "complete": true,
+      "frames": 22509,
+      "score_gain": 9150,
+      "memory_hits": 0,
+      "first_nonreference_frame": 28,
+      "terminal": {
+        "F3": 127,
+        "death": 0,
+        "lives": 2,
+        "energy": 15
+      },
+      "video": "training\\level2_title_bc_v57_20261026\\neural_0\\episode.mp4"
+    }
+  ],
+  "new_native_frames": 22509,
+  "native_uncertain": 0,
+  "human_action_labels": true,
+  "known_route_training_data": true,
+  "exact_state_policy_uses_no_frame_counter": true,
+  "state_policy_capacity": {
+    "states": 22509,
+    "state_bytes": 46098432,
+    "action_values": 22509
+  },
+  "neural_parameters": 559504,
+  "optimizer_steps": 8000,
+  "resource_samples": 157,
+  "videos_decoded": 1,
+  "limitation": "If state-memory completes this is memorized human-route imitation, not model-only neural completion or evidence of independent generalization. Starts at verified Level2 title20700; stale incomingF3 completion is excluded until observed gameplay entryF3=0."
+}

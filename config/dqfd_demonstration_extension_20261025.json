@@ -1,0 +1,29 @@
+{
+  "schema": "dqfd_explicit_study_authorization_v1",
+  "study_id": "dqfd_demonstration_extension_20261025",
+  "user_authorization": "Okay, lets go with it. I want the previous successful runs (human record etc.) to be used for DQN model. Proceed with increasing its budget",
+  "decision_date": "2026-10-25",
+  "training_initialization": "fresh; no failed-phase resume",
+  "predecessor_sha256": "c615e033dff96453714c5aa818c64638ca58b3ee4a59bcc1f5986884fb3ac3c8",
+  "allocation": {
+    "additional_active_seconds": 7200,
+    "effective_total_active_seconds": 12600,
+    "model_io_active_seconds": 1800,
+    "demo_encoding_active_seconds": 1800,
+    "slice_active_seconds": 3600,
+    "fresh_optimizer_updates": 2000,
+    "cumulative_optimizer_step_ceiling": 4160,
+    "historical_optimizer_steps": 2107,
+    "additional_native_frames": 108000,
+    "whole_native_frame_ceiling": 792640,
+    "historical_native_frames": 81014,
+    "slice_episode_count_max": 3,
+    "slice_native_frames_max": 108000,
+    "retained_cap_bytes": 12884901888
+  },
+  "learning_contract": "Retain DQfD paired TD1/TD10, 128-row batches, constant pretraining beta0.6, Adam1e-4, target copy and greedy demos every1000 updates, fixed2000 retention criterion, original17 actions and verified native-frame observation/reward protocol.",
+  "demonstrations": "Read-only verified cache: original human route, two human corrections and two successful policy recoveries; 21599 transitions total. Context/NOOP prefixes are not imitation labels.",
+  "next_live_scope": "One fresh supervised demo-only 2000-update pretraining slice with scheduled demos/gate. No failed-phase resume, automatic retry, online rollout, B/C or final evaluation follows from this slice.",
+  "storage": "Preserve existing12GiB cap and reserves; no deletion or old artifact overwrite.",
+  "accounting": "Old5400s ledger remains historical and unchanged; new effective cumulative ceiling adds7200s. Historical3207.6190676s remains charged. Conservative1800s preparation debit covers this amendment's engineering/acceptance through initial launch; it is not a measured duration. Any known excess must be separately charged before launch. Historical unknown time remains unknown, never reclaimed."
+}

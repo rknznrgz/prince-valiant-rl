@@ -1,0 +1,7 @@
+# Observed Windows CPython 3.13 installed versions; registry availability not checked.
+numpy==2.5.3
+gymnasium==1.4.0
+pillow==12.3.0
+imageio-ffmpeg==0.6.0
+matplotlib==3.11.2
+nes-py==9.0.1

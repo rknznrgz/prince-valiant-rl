@@ -1,0 +1,478 @@
+{
+  "roots": [
+    "scripts/level1_dqfd_pilot.py",
+    "scripts/prepare_level1_dqfd_transitions.py",
+    "scripts/train_backward_level1.py",
+    "scripts/prepare_backward_level1.py",
+    "scripts/prepare_level2_replay.py",
+    "scripts/prepare_level2_title_bc.py",
+    "scripts/run_level2_title_bc.py",
+    "scripts/evaluate_level2_confirmed_completion.py",
+    "scripts/prepare_level3_imitation.py",
+    "scripts/train_level3_imitation.py",
+    "scripts/evaluate_level3_imitation.py",
+    "scripts/review_level3_imitation.py",
+    "scripts/submission_assets.py",
+    "scripts/evaluate_selected_level1.py",
+    "scripts/inspect_models.py",
+    "scripts/prepare_level2_score_replay.py",
+    "src/prince_valiant_rl/rl_env.py",
+    "src/prince_valiant_rl/training/dqfd_level1_adapter.py",
+    "src/prince_valiant_rl/training/dqfd_continuation.py"
+  ],
+  "edges": {
+    "src/prince_valiant_rl/training/dqfd_continuation.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqfd.py",
+      "src/prince_valiant_rl/training/dqfd_execution.py",
+      "src/prince_valiant_rl/training/dqfd_pretraining.py",
+      "src/prince_valiant_rl/training/dqfd_production.py",
+      "src/prince_valiant_rl/training/dqfd_replay.py",
+      "src/prince_valiant_rl/training/dqfd_study_budget.py",
+      "src/prince_valiant_rl/training/dqfd_transitions.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_pretraining.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqfd.py",
+      "src/prince_valiant_rl/training/dqfd_execution.py",
+      "src/prince_valiant_rl/training/dqfd_study_budget.py"
+    ],
+    "src/prince_valiant_rl/training/__init__.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/__init__.py": [
+      "src/prince_valiant_rl/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_execution.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqfd.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqn.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "src/prince_valiant_rl/training/dqn.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "src/prince_valiant_rl/training/temporal_models.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/baseline_gpu_control.py",
+      "src/prince_valiant_rl/training/models.py",
+      "src/prince_valiant_rl/training/temporal.py",
+      "src/prince_valiant_rl/training/visual.py"
+    ],
+    "src/prince_valiant_rl/training/models.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/schema.py"
+    ],
+    "src/prince_valiant_rl/training/schema.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/temporal.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/schema.py"
+    ],
+    "src/prince_valiant_rl/training/visual.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/backward_level1.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/navigation.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "src/prince_valiant_rl/navigation.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/navigation_native.py",
+      "src/prince_valiant_rl/paths.py",
+      "src/prince_valiant_rl/rope_geometry.py",
+      "src/prince_valiant_rl/scene_state.py",
+      "src/prince_valiant_rl/training/interface.py",
+      "src/prince_valiant_rl/training/schema.py",
+      "src/prince_valiant_rl/training/temporal.py"
+    ],
+    "src/prince_valiant_rl/navigation_native.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/paths.py"
+    ],
+    "src/prince_valiant_rl/paths.py": [
+      "src/prince_valiant_rl/__init__.py"
+    ],
+    "src/prince_valiant_rl/rope_geometry.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/navigation.py"
+    ],
+    "src/prince_valiant_rl/game_state.py": [
+      "src/prince_valiant_rl/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/interface.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/paths.py",
+      "src/prince_valiant_rl/rl_env.py",
+      "src/prince_valiant_rl/scene_state.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/events.py"
+    ],
+    "src/prince_valiant_rl/rl_env.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/paths.py",
+      "src/prince_valiant_rl/scene_state.py"
+    ],
+    "src/prince_valiant_rl/scene_state.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py"
+    ],
+    "src/prince_valiant_rl/training/events.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/backward_level1.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/control_history.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/kind18_events.py",
+      "src/prince_valiant_rl/kind18_observer.py",
+      "src/prince_valiant_rl/level1_potential.py",
+      "src/prince_valiant_rl/navigation.py",
+      "src/prince_valiant_rl/paths.py",
+      "src/prince_valiant_rl/recorder_native.py",
+      "src/prince_valiant_rl/route_guidance.py",
+      "src/prince_valiant_rl/route_waypoints.py",
+      "src/prince_valiant_rl/score_clear_capture.py",
+      "src/prince_valiant_rl/training/temporal.py"
+    ],
+    "src/prince_valiant_rl/route_guidance.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/navigation.py",
+      "src/prince_valiant_rl/paths.py"
+    ],
+    "src/prince_valiant_rl/kind18_events.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py"
+    ],
+    "src/prince_valiant_rl/kind18_observer.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/paths.py",
+      "src/prince_valiant_rl/recorder_native.py"
+    ],
+    "src/prince_valiant_rl/recorder_native.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/paths.py"
+    ],
+    "src/prince_valiant_rl/route_waypoints.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/navigation.py",
+      "src/prince_valiant_rl/paths.py"
+    ],
+    "src/prince_valiant_rl/level1_potential.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/navigation.py"
+    ],
+    "src/prince_valiant_rl/control_history.py": [
+      "src/prince_valiant_rl/__init__.py"
+    ],
+    "src/prince_valiant_rl/score_clear_capture.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/game_state.py"
+    ],
+    "src/prince_valiant_rl/training/baseline_gpu_control.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/models.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_study_budget.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_transitions.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqfd_receipts.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_receipts.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_production.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/backward_level1.py",
+      "src/prince_valiant_rl/control_history.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqfd.py",
+      "src/prince_valiant_rl/training/dqfd_evaluation.py",
+      "src/prince_valiant_rl/training/dqfd_execution.py",
+      "src/prince_valiant_rl/training/dqfd_pretraining.py",
+      "src/prince_valiant_rl/training/dqfd_receipts.py",
+      "src/prince_valiant_rl/training/dqfd_replay.py",
+      "src/prince_valiant_rl/training/dqfd_transitions.py",
+      "src/prince_valiant_rl/training/temporal.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_evaluation.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_replay.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_level1_adapter.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/backward_level1.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqfd_receipts.py",
+      "src/prince_valiant_rl/training/dqfd_transitions.py"
+    ],
+    "scripts/prepare_level2_score_replay.py": [
+      "scripts/_bootstrap.py",
+      "src/prince_valiant_rl/training/level2_runtime.py",
+      "src/prince_valiant_rl/training/level2_score_reward.py"
+    ],
+    "scripts/_bootstrap.py": [
+      "src/prince_valiant_rl/paths.py"
+    ],
+    "src/prince_valiant_rl/training/level2_runtime.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/level2_model_contract.py"
+    ],
+    "src/prince_valiant_rl/training/level2_model_contract.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqn.py"
+    ],
+    "src/prince_valiant_rl/training/level2_score_reward.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/level2_runtime.py"
+    ],
+    "scripts/inspect_models.py": [
+      "scripts/_bootstrap.py",
+      "src/prince_valiant_rl/training/dqfd_pretraining.py",
+      "src/prince_valiant_rl/training/level2_demonstration_policy.py",
+      "src/prince_valiant_rl/training/level3_imitation.py"
+    ],
+    "src/prince_valiant_rl/training/level2_demonstration_policy.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/level3_imitation.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "scripts/evaluate_selected_level1.py": [
+      "scripts/_bootstrap.py",
+      "src/prince_valiant_rl/training/dqfd_production.py"
+    ],
+    "scripts/submission_assets.py": [
+      "scripts/_bootstrap.py"
+    ],
+    "scripts/review_level3_imitation.py": [
+      "scripts/_bootstrap.py",
+      "scripts/level2_v12_rollouts.py",
+      "src/prince_valiant_rl/training/level3_evidence.py",
+      "src/prince_valiant_rl/training/level3_imitation.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "scripts/level2_v12_rollouts.py": [
+      "scripts/_bootstrap.py",
+      "src/prince_valiant_rl/training/dqfd_supervision.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_supervision.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqfd_receipts.py",
+      "src/prince_valiant_rl/training/dqfd_transitions.py"
+    ],
+    "src/prince_valiant_rl/training/level3_evidence.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "scripts/evaluate_level3_imitation.py": [
+      "scripts/_bootstrap.py",
+      "scripts/level2_v12_rollouts.py",
+      "src/prince_valiant_rl/recorder_native.py",
+      "src/prince_valiant_rl/training/level3_imitation.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "scripts/train_level3_imitation.py": [
+      "scripts/_bootstrap.py",
+      "scripts/level2_v12_rollouts.py",
+      "src/prince_valiant_rl/training/level3_imitation.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "scripts/prepare_level3_imitation.py": [
+      "scripts/_bootstrap.py",
+      "scripts/level2_v12_rollouts.py",
+      "src/prince_valiant_rl/recorder_native.py"
+    ],
+    "scripts/evaluate_level2_confirmed_completion.py": [
+      "scripts/_bootstrap.py",
+      "scripts/evaluate_level2_transition_tail.py",
+      "scripts/level2_v12_rollouts.py",
+      "src/prince_valiant_rl/training/level2_completion_evidence.py"
+    ],
+    "src/prince_valiant_rl/training/level2_completion_evidence.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "scripts/evaluate_level2_transition_tail.py": [
+      "scripts/_bootstrap.py",
+      "scripts/level2_v12_rollouts.py",
+      "src/prince_valiant_rl/recorder_native.py",
+      "src/prince_valiant_rl/training/level2_demonstration_policy.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "scripts/run_level2_title_bc.py": [
+      "scripts/_bootstrap.py",
+      "scripts/level2_v12_rollouts.py",
+      "src/prince_valiant_rl/recorder_native.py",
+      "src/prince_valiant_rl/training/level2_demonstration_policy.py",
+      "src/prince_valiant_rl/training/level2_score_reward.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "scripts/prepare_level2_title_bc.py": [
+      "scripts/_bootstrap.py",
+      "scripts/level2_v12_rollouts.py"
+    ],
+    "scripts/prepare_level2_replay.py": [
+      "scripts/_bootstrap.py",
+      "src/prince_valiant_rl/training/level2_runtime.py"
+    ],
+    "scripts/prepare_backward_level1.py": [
+      "scripts/_bootstrap.py",
+      "scripts/audit_manual_recording.py",
+      "src/prince_valiant_rl/navigation.py",
+      "src/prince_valiant_rl/recorder_native.py"
+    ],
+    "scripts/audit_manual_recording.py": [
+      "scripts/_bootstrap.py"
+    ],
+    "scripts/train_backward_level1.py": [
+      "scripts/_bootstrap.py",
+      "src/prince_valiant_rl/backward_level1.py",
+      "src/prince_valiant_rl/control_history.py",
+      "src/prince_valiant_rl/forward_curriculum.py",
+      "src/prince_valiant_rl/game_state.py",
+      "src/prince_valiant_rl/level1_potential.py",
+      "src/prince_valiant_rl/navigation.py",
+      "src/prince_valiant_rl/training/checkpoint_io.py",
+      "src/prince_valiant_rl/training/evaluation_capture.py",
+      "src/prince_valiant_rl/training/models.py",
+      "src/prince_valiant_rl/training/process_envs.py",
+      "src/prince_valiant_rl/training/temporal.py",
+      "src/prince_valiant_rl/training/temporal_models.py",
+      "src/prince_valiant_rl/training/window_storage.py"
+    ],
+    "src/prince_valiant_rl/training/checkpoint_io.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/window_storage.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/training/process_envs.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/paths.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/events.py",
+      "src/prince_valiant_rl/training/input_features.py",
+      "src/prince_valiant_rl/training/interface.py",
+      "src/prince_valiant_rl/training/scene_pool.py",
+      "src/prince_valiant_rl/training/scenes.py",
+      "src/prince_valiant_rl/training/starts.py",
+      "src/prince_valiant_rl/training/temporal.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "src/prince_valiant_rl/training/scenes.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/paths.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/events.py",
+      "src/prince_valiant_rl/training/input_features.py",
+      "src/prince_valiant_rl/training/interface.py",
+      "src/prince_valiant_rl/training/starts.py"
+    ],
+    "src/prince_valiant_rl/training/starts.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/interface.py"
+    ],
+    "src/prince_valiant_rl/training/input_features.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/paths.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/events.py",
+      "src/prince_valiant_rl/training/interface.py",
+      "src/prince_valiant_rl/training/temporal_models.py"
+    ],
+    "src/prince_valiant_rl/training/scene_pool.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/scenes.py"
+    ],
+    "src/prince_valiant_rl/training/evaluation_capture.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ],
+    "src/prince_valiant_rl/forward_curriculum.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/backward_level1.py",
+      "src/prince_valiant_rl/navigation.py",
+      "src/prince_valiant_rl/paths.py"
+    ],
+    "scripts/prepare_level1_dqfd_transitions.py": [
+      "src/prince_valiant_rl/training/dqfd_receipts.py",
+      "src/prince_valiant_rl/training/dqfd_supervision.py",
+      "src/prince_valiant_rl/training/dqfd_transitions.py"
+    ],
+    "scripts/level1_dqfd_pilot.py": [
+      "scripts/_bootstrap.py",
+      "src/prince_valiant_rl/training/dqfd_pretrain_entrypoint.py",
+      "src/prince_valiant_rl/training/dqfd_transitions.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_pretrain_entrypoint.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py",
+      "src/prince_valiant_rl/training/dqfd_continuation.py",
+      "src/prince_valiant_rl/training/dqfd_pretraining.py",
+      "src/prince_valiant_rl/training/dqfd_process_ownership.py",
+      "src/prince_valiant_rl/training/dqfd_production.py",
+      "src/prince_valiant_rl/training/dqfd_receipts.py",
+      "src/prince_valiant_rl/training/dqfd_study_budget.py",
+      "src/prince_valiant_rl/training/dqfd_supervision.py"
+    ],
+    "src/prince_valiant_rl/training/dqfd_process_ownership.py": [
+      "src/prince_valiant_rl/__init__.py",
+      "src/prince_valiant_rl/training/__init__.py"
+    ]
+  },
+  "dynamic_dependencies": {
+    "prepare_level1_dqfd_transitions --adapter": "prince_valiant_rl.training.dqfd_level1_adapter:create_adapter",
+    "evaluate_level2_confirmed_completion": "scripts/evaluate_level2_transition_tail.py",
+    "Windows process child": "run.py -> level1_dqfd_pilot / process_envs.level1_child",
+    "native": "build_recorder.py -> nes_emu include/src + recorder_api.cpp; then build_kind18_observer.py -> sidecar source + trace_hooks.hpp"
+  },
+  "removed_after_adaptation": []
+}

@@ -1,0 +1,20 @@
+{
+  "checkpoint": "training\\level2_title_bc_v57_20261026\\actor.pt",
+  "checkpoint_sha256": "900c098cbe0376cfbc5aabc4c145b83fcd96b377772c6528e1a42beb9e9efbbd",
+  "state": "training\\level2_title_bc_v57_20261026\\entry.state",
+  "state_sha256": "096ec7772f3d12773e0454dd5550d6c924dc34ec6d3001fcf28e883482621d2b",
+  "schema": "level2_full_ram_bc_v55",
+  "model_parameters": 559504,
+  "inference_inputs": "Current RAM2048 bytes only",
+  "demonstration_data_loaded": false,
+  "action_retrieval": false,
+  "frame_counter_policy_input": false,
+  "native_cap": 36000,
+  "optimizer_steps": 0,
+  "source_hashes": {
+    "scripts/evaluate_level2_completed_actor.py": "1b2f1330066567b2ecf2142db42e1dc518f66bbfaacfa28a156fa2cc18ef3ec3",
+    "src/prince_valiant_rl/training/level2_demonstration_policy.py": "868161959815e2b7802d3b4d2e1dd7ba8e2c1125d1fb4a34f570db1f97af9ad8",
+    "src/prince_valiant_rl/training/level2_score_reward.py": "024c781c171b533999ca44e8f918fff52676a3b4a4f5b3bbfa1eeed5f9c5f84b",
+    "instrumentation/recorder_build/recorder_native.dll": "76bb13f0d723ca553d69445b435a1e5a475c4fe9264fb55ae42862eebbaa21ec"
+  }
+}

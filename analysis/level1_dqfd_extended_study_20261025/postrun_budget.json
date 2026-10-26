@@ -1,0 +1,13 @@
+{
+  "basis": "New receipt prior includes conservative1800s preparation; add whole measured production interval once.",
+  "effective_total_ticks": 126000000000,
+  "prior_charged_ticks": 50076190676,
+  "production_ticks": 11882035239,
+  "used_ticks": 61958225915,
+  "remaining_ticks": 64041774085,
+  "remaining_seconds": 6404.1774085,
+  "historical_ledger_unchanged": true,
+  "postrun_reporting": "offline report preparation; no further active experiment",
+  "production_returncode": 0,
+  "automatic_downstream_work": false
+}

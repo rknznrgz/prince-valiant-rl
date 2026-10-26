@@ -1,0 +1,328 @@
+{
+  "date": "2026-10-26",
+  "environment": "Existing Windows CPython environment, isolated -I/-B; no original checkout on Python import path",
+  "executions": [
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "--list"
+      ],
+      "exit_code": 0,
+      "stdout": "Usage: python run.py COMMAND [arguments]\nCommands: prepare_level2_score_replay, level1_dqfd_pilot, prepare_level1_dqfd_transitions, train_backward_level1, prepare_backward_level1, prepare_level2_replay, prepare_level2_title_bc, run_level2_title_bc, evaluate_level2_confirmed_completion, prepare_level3_imitation, train_level3_imitation, evaluate_level3_imitation, review_level3_imitation, submission_assets, evaluate_selected_level1, inspect_models\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "level1_dqfd_pilot",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: level1_dqfd_pilot.py [-h] [--output OUTPUT] [--config CONFIG]\n                            [--cache CACHE]\n                            [--protocol-sha256 PROTOCOL_SHA256]\n                            [--execution-budget EXECUTION_BUDGET]\n                            [--report-dir REPORT_DIR] [--dry-run]\n                            {preflight,pretrain}\n\nNative-free DQfD pilot preflight and explicit phase contract surface.\n\npositional arguments:\n  {preflight,pretrain}\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT       fresh implementation report root\n  --config CONFIG\n  --cache CACHE\n  --protocol-sha256 PROTOCOL_SHA256\n  --execution-budget EXECUTION_BUDGET\n                        explicit hash-linked current execution-budget receipt\n                        required for pretrain\n  --report-dir REPORT_DIR\n  --dry-run             validate the full child launch without spawning it\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "prepare_level1_dqfd_transitions",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: prepare_level1_dqfd_transitions.py [-h] [--mode {preflight,replay}]\n                                          [--config CONFIG] [--source SOURCE]\n                                          [--protocol-amendment PROTOCOL_AMENDMENT]\n                                          --output OUTPUT\n                                          --frame-cap FRAME_CAP\n                                          --artifact-cap-bytes ARTIFACT_CAP_BYTES\n                                          --wall-cap-seconds WALL_CAP_SECONDS\n                                          [--adapter ADAPTER]\n                                          [--resource-receipt RESOURCE_RECEIPT]\n                                          [--receipt-dir RECEIPT_DIR]\n\nPreflight or explicitly invoke a configured source-action transition adapter.\n\noptions:\n  -h, --help            show this help message and exit\n  --mode {preflight,replay}\n  --config CONFIG\n  --source SOURCE\n  --protocol-amendment PROTOCOL_AMENDMENT\n  --output OUTPUT       fresh output root; preflight only checks that it does\n                        not exist\n  --frame-cap FRAME_CAP\n  --artifact-cap-bytes ARTIFACT_CAP_BYTES\n  --wall-cap-seconds WALL_CAP_SECONDS\n  --adapter ADAPTER     replay-only module:function factory; imports lazily\n  --resource-receipt RESOURCE_RECEIPT\n                        fresh CPU replay host/disk launch-gate JSON; replay-\n                        only\n  --receipt-dir RECEIPT_DIR\n                        separate parent-side lifecycle/error receipt directory\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "train_backward_level1",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: train_backward_level1.py [-h] [--stage {train,evaluate,benchmark}]\n                                [--config CONFIG] [--output OUTPUT]\n                                [--observer-diagnostics-output OBSERVER_DIAGNOSTICS_OUTPUT]\n                                [--frames FRAMES | --updates UPDATES]\n                                [--resume RESUME] [--trials TRIALS] [--final]\n                                [--record] [--skip-initial-evaluation]\n                                [--reset-frame RESET_FRAME]\n                                [--all-suffix-starts]\n                                [--curriculum-adaptation]\n                                [--normalization-adaptation]\n                                [--timing-adaptation] [--reward-adaptation]\n                                [--scoped-kind18-reward-resume]\n                                [--score-reward-adaptation]\n                                [--adaptation-validation-only]\n                                [--evaluation-preparation-only]\n                                [--evaluation-action-omission-plan EVALUATION_ACTION_OMISSION_PLAN]\n                                [--evaluation-action-omission-condition {A,B,C}]\n                                [--allow-evaluation-provenance-difference]\n                                [--allow-precommitted-actor-difference]\n                                [--reset-resumed-workers]\n                                [--bc-initialized-extension]\n                                [--no-stall-limit]\n                                [--evaluation-seed EVALUATION_SEED]\n                                [--evaluation-id EVALUATION_ID]\n                                [--no-reset-jitter]\n                                [--evaluation-horizon-frames EVALUATION_HORIZON_FRAMES]\n                                [--evaluation-mode {sampled,greedy}]\n                                [--serial-evaluation]\n                                [--save-evaluation-policy-inputs]\n                                [--compact-evaluation-capture]\n                                [--reference-policy-input-fingerprints REFERENCE_POLICY_INPUT_FINGERPRINTS]\n                                [--evaluation-artifact-root EVALUATION_ARTIFACT_ROOT]\n                                [--evaluation-artifact-budget-mib EVALUATION_ARTIFACT_BUDGET_MIB]\n                                [--evaluation-artifact-remaining-mib EVALUATION_ARTIFACT_REMAINING_MIB]\n                                [--evaluation-minimum-free-mib EVALUATION_MINIMUM_FREE_MIB]\n                                [--evaluation-temp-overhead-mib EVALUATION_TEMP_OVERHEAD_MIB]\n                                [--delayed-takeover-noop-prefix-frames {1,2,4,8,16}]\n                                [--stop-on-frontier-mastery]\n\nSingle-policy backward PPO, with separately flagged human BC+PPO extensions.\n\noptions:\n  -h, --help            show this help message and exit\n  --stage {train,evaluate,benchmark}\n  --config CONFIG\n  --output OUTPUT\n  --observer-diagnostics-output OBSERVER_DIAGNOSTICS_OUTPUT\n                        Runtime-only directory for worker observer failure\n                        artifacts\n  --frames FRAMES       Additional fresh emulator frames in this bounded block\n                        (default 500000 when no budget is supplied)\n  --updates UPDATES     Additional outer PPO collection/update cycles; each\n                        cycle collects one rollout and performs its configured\n                        optimization passes\n  --resume RESUME\n  --trials TRIALS\n  --final\n  --record\n  --skip-initial-evaluation\n  --reset-frame RESET_FRAME\n                        Evaluation-only suffix start; never counted as full-\n                        start performance\n  --all-suffix-starts   Evaluate greedy once at EVERY valid native-frame start\n                        in suffix jitter range; sampled count still --trials\n  --curriculum-adaptation\n                        Explicitly fork into a NEW output with changed\n                        coverage anchors only\n  --normalization-adaptation\n                        Explicit NEW-output compatible-weight branch\n                        normalization fork; reset optimizer and rewarm critic\n  --timing-adaptation   Explicit NEW-output held-native-frame timing\n                        comparison; preserve weights and optimizer\n  --reward-adaptation   Explicit new-output baseline -> tested potential-\n                        reward experiment\n  --scoped-kind18-reward-resume\n                        Permit only ABI2 observer activation and the 0/.25\n                        scoped kind18 defeat coefficient; learning state is\n                        preserved\n  --score-reward-adaptation\n                        Activate the tested displayed-score reward while\n                        preserving resumed worker, curriculum, RNG, and actor\n                        state\n  --adaptation-validation-only\n                        Restore and validate an explicit adaptation plan, then\n                        exit before creating workers or training\n  --evaluation-preparation-only\n                        Validate a fixed suffix evaluation through\n                        checkpoint/config preparation, then exit before\n                        emulator or worker creation\n  --evaluation-action-omission-plan EVALUATION_ACTION_OMISSION_PLAN\n                        Evaluation only: one precommitted normal-game one-\n                        frame action omission plan\n  --evaluation-action-omission-condition {A,B,C}\n                        Condition identifier within --evaluation-action-\n                        omission-plan\n  --allow-evaluation-provenance-difference\n                        Evaluation only: permit a different checkpoint\n                        training-run label when its model-config identity and\n                        full runtime contract match\n  --allow-precommitted-actor-difference\n                        Evaluation only: apply the saved\n                        intervention/reference mask to a trained endpoint\n                        while preserving the precommit and runtime contract\n  --reset-resumed-workers\n                        Discard saved live worker episodes and reset using\n                        configured roles; preserve model, optimizer, RNG, and\n                        curriculum\n  --bc-initialized-extension\n                        Explicitly labelled BC initialization/auxiliary\n                        extension; never primary PPO-only\n  --no-stall-limit      Evaluation only: keep the full episode horizon without\n                        the development stall cutoff\n  --evaluation-seed EVALUATION_SEED\n                        Evaluation-only common random seed base, independent\n                        of checkpoint training counter\n  --evaluation-id EVALUATION_ID\n                        Evaluation-only safe identifier for output naming when\n                        no training frame counter is recorded\n  --no-reset-jitter     Evaluation only: use exactly --reset-frame with no\n                        suffix jitter\n  --evaluation-horizon-frames EVALUATION_HORIZON_FRAMES\n                        Evaluation only: fixed native-frame episode horizon\n  --evaluation-mode {sampled,greedy}\n                        Evaluation only: run exactly one policy mode\n  --serial-evaluation   Evaluation only: use one CPU environment worker\n  --save-evaluation-policy-inputs\n                        Save the encoded per-decision observation windows\n                        supplied to the evaluator policy\n  --compact-evaluation-capture\n                        Stream compact action/RAM/reward traces and per-field\n                        policy-input fingerprints\n  --reference-policy-input-fingerprints REFERENCE_POLICY_INPUT_FINGERPRINTS\n                        Verified offline fingerprint manifest for the saved\n                        reference policy inputs\n  --evaluation-artifact-root EVALUATION_ARTIFACT_ROOT\n                        Shared new-artifact root used by compact capture\n                        budget checks\n  --evaluation-artifact-budget-mib EVALUATION_ARTIFACT_BUDGET_MIB\n                        Maximum new artifact budget for compact evaluation\n                        (MiB)\n  --evaluation-artifact-remaining-mib EVALUATION_ARTIFACT_REMAINING_MIB\n                        Remaining portion of the shared artifact cap available\n                        to this serial episode\n  --evaluation-minimum-free-mib EVALUATION_MINIMUM_FREE_MIB\n                        Minimum disk free-space reserve enforced during\n                        compact evaluation (MiB)\n  --evaluation-temp-overhead-mib EVALUATION_TEMP_OVERHEAD_MIB\n                        Measured temporary-file allowance included in compact\n                        evaluation preflight (MiB)\n  --delayed-takeover-noop-prefix-frames {1,2,4,8,16}\n                        Isolated exact-reset evaluation: advance 1, 2, 4, 8,\n                        or 16 normal-game NOOP frames before greedy takeover\n  --stop-on-frontier-mastery\n                        Finish and checkpoint the current PPO update, then\n                        stop after the first earlier-frontier mastery\n                        transition\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "prepare_backward_level1",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: prepare_backward_level1.py [-h] [--session SESSION] [--scan-only]\n                                  [--candidate CANDIDATE] [--output OUTPUT]\n\nAudit human branch paths and replay a successful Level 1 backbone, read-only.\nDerived artifacts are isolated from human recordings and all previous\ntraining.\n\noptions:\n  -h, --help            show this help message and exit\n  --session SESSION\n  --scan-only\n  --candidate CANDIDATE\n  --output OUTPUT       Immutable data version directory; use a NEW directory\n                        for a new/extended session\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "prepare_level2_replay",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: prepare_level2_replay.py [-h] --output OUTPUT\n\nStream selected Level2 human ancestry into a compact RAM-only replay cache.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "prepare_level2_title_bc",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: prepare_level2_title_bc.py [-h] --output OUTPUT\n\nInclude the real Level2 title transition, and never accept its stale\ncompletion flag.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "run_level2_title_bc",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: run_level2_title_bc.py [-h] --output OUTPUT --report REPORT\n\nTrain RAM behavioral cloning and test neural versus explicit state-memory\npolicies.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n  --report REPORT\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "evaluate_level2_confirmed_completion",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: evaluate_level2_confirmed_completion.py [-h] --output OUTPUT\n\nFresh extended inference recording; accept completion only after card+Level3\nevidence.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "prepare_level3_imitation",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: prepare_level3_imitation.py [-h] --output OUTPUT\n\nPrepare exact selected-ancestry Level3 RAM/action supervision and visual\ncontracts.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "train_level3_imitation",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: train_level3_imitation.py [-h] --output OUTPUT [--resume RESUME]\n                                 [--steps STEPS] [--lr LR]\n\nTrain a separate Level3 raw-RAM human-imitation model; never run the emulator\nhere.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n  --resume RESUME\n  --steps STEPS\n  --lr LR\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "evaluate_level3_imitation",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: evaluate_level3_imitation.py [-h] --checkpoint CHECKPOINT\n                                    --output OUTPUT [--max-frames MAX_FRAMES]\n\nStandalone current-RAM neural Level3 play, retaining the real ending and next\ntitle.\n\noptions:\n  -h, --help            show this help message and exit\n  --checkpoint CHECKPOINT\n  --output OUTPUT\n  --max-frames MAX_FRAMES\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "review_level3_imitation",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: review_level3_imitation.py [-h] --output OUTPUT\n\nIndependent neural/observation/continuity/visual ending audit for Level3 play.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "submission_assets",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: submission_assets.py [-h] [--source SOURCE] [--destination DESTINATION]\n                            {audit,restore}\n\nAudit or explicitly restore hash-pinned local inputs. Does not fetch a ROM.\n\npositional arguments:\n  {audit,restore}\n\noptions:\n  -h, --help            show this help message and exit\n  --source SOURCE       Original research checkout; restore only\n  --destination DESTINATION\n                        Restore only this exact manifest destination; repeat\n                        for other inputs\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "evaluate_selected_level1",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: evaluate_selected_level1.py [-h] --output OUTPUT [--device DEVICE]\n\nGreedy selected update-3000 evaluation under the original reset-389 contract.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n  --device DEVICE\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "inspect_models",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: inspect_models.py [-h]\n\nValidate selected checkpoint hashes and model state shapes on CPU; no\ngameplay.\n\noptions:\n  -h, --help  show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "prepare_level2_score_replay",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: prepare_level2_score_replay.py [-h] --output OUTPUT\n\nRelabel the verified Level2 RAM cache with v4 score rewards and paired\nreturns. Offline only: no model, native library, optimizer, CUDA or policy\nexecution. The completed v3 replay/checkpoint/trainer remain unchanged.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-I",
+        "-B",
+        "-X",
+        "utf8",
+        "run.py",
+        "inspect_models"
+      ],
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"level\": 1,\n    \"sha256\": \"7e44f1bc067b8cb827dfa8594a15fe7a7a51896a7bf0ab9ff104977c6f97d7c6\",\n    \"parameters\": 1234458,\n    \"optimizer_steps\": 0\n  },\n  {\n    \"level\": 2,\n    \"schema\": \"level2_full_ram_bc_v55\",\n    \"sha256\": \"900c098cbe0376cfbc5aabc4c145b83fcd96b377772c6528e1a42beb9e9efbbd\",\n    \"parameters\": 559504,\n    \"optimizer_steps\": 0\n  },\n  {\n    \"level\": 3,\n    \"schema\": \"level3_raw_ram_imitation_v1\",\n    \"sha256\": \"1481dd27a35a04e97bcb9dd25717171d16d25fa9063e18cda69e404f9f5afbcb\",\n    \"parameters\": 1186070,\n    \"optimizer_steps\": 0\n  }\n]\n",
+      "stderr": ""
+    }
+  ],
+  "compile_errors": [],
+  "excluded_files_found": [],
+  "absolute_personal_paths": [],
+  "large_files_over_50MiB": [
+    {
+      "path": "deliverables/videos/level2_full_run_1x.mp4",
+      "bytes": 60643392
+    },
+    {
+      "path": "deliverables/videos/level3_full_run_1x.mp4",
+      "bytes": 70951515
+    }
+  ],
+  "isolated_project_imports": {
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"level\": 1,\n    \"sha256\": \"7e44f1bc067b8cb827dfa8594a15fe7a7a51896a7bf0ab9ff104977c6f97d7c6\",\n    \"parameters\": 1234458,\n    \"optimizer_steps\": 0\n  },\n  {\n    \"level\": 2,\n    \"schema\": \"level2_full_ram_bc_v55\",\n    \"sha256\": \"900c098cbe0376cfbc5aabc4c145b83fcd96b377772c6528e1a42beb9e9efbbd\",\n    \"parameters\": 559504,\n    \"optimizer_steps\": 0\n  },\n  {\n    \"level\": 3,\n    \"schema\": \"level3_raw_ram_imitation_v1\",\n    \"sha256\": \"1481dd27a35a04e97bcb9dd25717171d16d25fa9063e18cda69e404f9f5afbcb\",\n    \"parameters\": 1186070,\n    \"optimizer_steps\": 0\n  }\n]\n{\"all_project_modules_from_staging\": true, \"module_count\": 13}\n",
+    "stderr": ""
+  },
+  "video_metadata": [
+    {
+      "file": "level1_full_run_1x.mp4",
+      "sha256": "1fdf87a487a2f842818408b707beba28cb71602c8c21e76d7720c53fadc60681",
+      "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'deliverables\\videos\\level1_full_run_1x.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:05:04.60, start: 0.000000, bitrate: 896 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x960 [SAR 1:1 DAR 4:3], 893 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nAt least one output file must be specified\n",
+      "decode_performed": false
+    },
+    {
+      "file": "level2_full_run_1x.mp4",
+      "sha256": "e35bfcae6c58f8e595a2025757bce294f2098b9049fb8248ada7cf4823bd4f4e",
+      "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'deliverables\\videos\\level2_full_run_1x.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:06:55.17, start: 0.000000, bitrate: 1168 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x960 [SAR 1:1 DAR 4:3], 1165 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nAt least one output file must be specified\n",
+      "decode_performed": false
+    },
+    {
+      "file": "level3_full_run_1x.mp4",
+      "sha256": "874282a519a7652a661b81b57362ebb3875119af99611a5dfe8b5e5847b24ab7",
+      "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'deliverables\\videos\\level3_full_run_1x.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:13:49.60, start: 0.000000, bitrate: 684 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x960 [SAR 1:1 DAR 4:3], 681 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nAt least one output file must be specified\n",
+      "decode_performed": false
+    },
+    {
+      "file": "progress_presentation.mp4",
+      "sha256": "290e3b80b2e55a2624c3aae27bd9f6b5194340b45214f60b7dafa79ced55a032",
+      "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'deliverables\\videos\\progress_presentation.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:04:23.67, start: 0.000000, bitrate: 1564 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x960, 1562 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nAt least one output file must be specified\n",
+      "decode_performed": false
+    }
+  ],
+  "pdf_pages": 10,
+  "selected_config_hash_verified": true,
+  "original_source_hashes_rechecked": 215,
+  "original_sources_unchanged": true,
+  "cli_checks_reused_for_identical_runtime_bytes": true,
+  "exporter_refuses_occupied_output": true,
+  "training_executed": false,
+  "native_loaded": false,
+  "emulator_frames": 0,
+  "clean_machine_verified": false
+}

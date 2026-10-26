@@ -1,0 +1,33 @@
+{
+  "sources": {
+    "training/level2_expanded_drop_adapter_v33_20261025/result.json": "57cc9a2f0f60353b87e0e5de3aeb9770cdea9396f0e1e0db5315d4093f371a83",
+    "training/level2_expanded_drop_adapter_v33_20261025/diagnostics.jsonl": "a3f1176dab8a60b8da1a1afdcce235e8a1362914f350e7ac2a1202942ce99ad1",
+    "training/level2_motion_study_v51_20261026/result.json": "29dd306985d245b4281f5782bc96da8ee40fecaa2c763e60245d7b930e6314f6",
+    "training/level3_imitation_v1_20261026/fit.jsonl": "7994c5447642f86a3c8e37226811b090764e4561e6051758f2ee1280212970e1",
+    "training/level3_imitation_refine_v2_20261026/fit.jsonl": "f21993e46e7b91e9252e5cd6e189f3567fd0a90fde2deb20d302839927d7f2d1",
+    "training/level2_full_route_v54_20261026/result.json": "5534056b319e7bb0486b8fe113d2744d845eef2813d90d269b8203cdc48be3ac",
+    "training/level2_full_demonstration_v55_20261026/result.json": "d4d6d2b8ca0b6c48fbc66a23ba3af0822d213439941594b762d8960d1db4b9d0",
+    "training/level2_full_bc_refinement_v56_20261026/result.json": "0ba30c5fa780e15b7c13a8056d5eb782a1c4c8392ce95cc805f20e392da452e8",
+    "training/level2_title_bc_v57_20261026/result.json": "3f8551fa350e800291766931b198a49f2fb60e8ede3de9e2f4e4e023bfbeab6b",
+    "analysis/level2_transition_tail_v59_20261026/verification.json": "155a423daaefd7f3028651f5b585bea42e3528592b41958a7f58c0a80dd378b3",
+    "analysis/level3_imitation_evaluation_v2_20261026/verification.json": "2c7f67b4b7dfdf5f42a791d893b33ed1f07c223421c31a0b60e13165657c9c7f",
+    "training/level3_imitation_v1_20261026/result.json": "93ff503f5a97cf4e6437c09c6c4ed8bd23dcbb9b7997ad205aa3ab1541942bb1",
+    "training/level3_imitation_refine_v2_20261026/result.json": "e0e64740826743b71aff90fe2039baeb45adcdaf3ff788759294399234039330"
+  },
+  "figures": {
+    "01_environment_architecture.png": "920a9300d515ce662a6e45e6753d07c51a3e1142659ec8753047d364d6adb9e0",
+    "02_rl_objective_vs_behavior.png": "49ed9ac06c06b49c61e0b2d309458e9e31c9f792249273c4c7481e3153b28499",
+    "03_timing_transfer_and_limit.png": "4ba60dd4fa03a8b93d994290cec199f362c199ed1a123ff062c6b023bf929b26",
+    "04_level3_supervised_fit.png": "ac71e76beea4584188dce07c86f5f8b9e12e6b5c7d5221fec568d2d3be155c63",
+    "05_full_run_development.png": "85dea21680dd9a0b3fe07214289e7ecc4d6f979f2e4c9443191d2a814920ba26",
+    "06_completion_evidence_timeline.png": "40fb4eff309e740c7e59d5a593430ddb1c343b7a4102cceda3b1bdf3055916f5"
+  },
+  "limitations": [
+    "No fabricated experiment data.",
+    "Training accuracy is not held-out accuracy.",
+    "Episode return is not interchangeable with game score.",
+    "Timing/reset trials are correlated and not independent generalization samples.",
+    "Full-attempt approaches differ in supervision/action sets/start; descriptive, not controlled algorithm comparison.",
+    "No7-of10 evaluation campaign inferred."
+  ]
+}

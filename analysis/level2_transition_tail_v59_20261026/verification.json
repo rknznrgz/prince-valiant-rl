@@ -1,0 +1,336 @@
+{
+  "status": "verified",
+  "real_level2_completion": true,
+  "level2_complete_card_frame": 22809,
+  "level3_title_frame": 23409,
+  "level3_gameplay_screenshot": "after_flag_1200.png",
+  "neural_play_frames": 22509,
+  "post_flag_frames": 2400,
+  "all_actions_recomputed": true,
+  "E_collections": 7,
+  "T_collections": 3,
+  "energy_restored_raw": 896,
+  "events": [
+    {
+      "frame": 4801,
+      "slot": 1,
+      "type": "E",
+      "phase": 2,
+      "energy_gain": 128,
+      "resource_before": [
+        0,
+        0,
+        1
+      ],
+      "resource_after": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "frame": 13232,
+      "slot": 3,
+      "type": "E",
+      "phase": 2,
+      "energy_gain": 128,
+      "resource_before": [
+        0,
+        1,
+        0
+      ],
+      "resource_after": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "frame": 13724,
+      "slot": 1,
+      "type": "T",
+      "phase": 1,
+      "energy_gain": 0,
+      "resource_before": [
+        0,
+        0,
+        5
+      ],
+      "resource_after": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "frame": 14460,
+      "slot": 0,
+      "type": "E",
+      "phase": 2,
+      "energy_gain": 128,
+      "resource_before": [
+        0,
+        1,
+        2
+      ],
+      "resource_after": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "frame": 15272,
+      "slot": 1,
+      "type": "E",
+      "phase": 2,
+      "energy_gain": 128,
+      "resource_before": [
+        0,
+        1,
+        1
+      ],
+      "resource_after": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "frame": 16802,
+      "slot": 1,
+      "type": "E",
+      "phase": 2,
+      "energy_gain": 128,
+      "resource_before": [
+        0,
+        0,
+        4
+      ],
+      "resource_after": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "frame": 17300,
+      "slot": 0,
+      "type": "T",
+      "phase": 1,
+      "energy_gain": 0,
+      "resource_before": [
+        0,
+        0,
+        3
+      ],
+      "resource_after": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "frame": 18319,
+      "slot": 3,
+      "type": "T",
+      "phase": 1,
+      "energy_gain": 0,
+      "resource_before": [
+        0,
+        1,
+        0
+      ],
+      "resource_after": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "frame": 18580,
+      "slot": 0,
+      "type": "E",
+      "phase": 2,
+      "energy_gain": 128,
+      "resource_before": [
+        0,
+        1,
+        2
+      ],
+      "resource_after": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "frame": 20089,
+      "slot": 0,
+      "type": "E",
+      "phase": 2,
+      "energy_gain": 128,
+      "resource_before": [
+        0,
+        1,
+        0
+      ],
+      "resource_after": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "slot": 0,
+      "start": 3127,
+      "end": 3326,
+      "type": "E",
+      "collected": false
+    },
+    {
+      "slot": 0,
+      "start": 8625,
+      "end": 8830,
+      "type": "E",
+      "collected": false
+    },
+    {
+      "slot": 0,
+      "start": 14298,
+      "end": 14460,
+      "type": "E",
+      "collected": true
+    },
+    {
+      "slot": 0,
+      "start": 17174,
+      "end": 17300,
+      "type": "T",
+      "collected": true
+    },
+    {
+      "slot": 0,
+      "start": 18431,
+      "end": 18580,
+      "type": "E",
+      "collected": true
+    },
+    {
+      "slot": 0,
+      "start": 20049,
+      "end": 20089,
+      "type": "E",
+      "collected": true
+    },
+    {
+      "slot": 1,
+      "start": 1616,
+      "end": 1822,
+      "type": "T",
+      "collected": false
+    },
+    {
+      "slot": 1,
+      "start": 2161,
+      "end": 2364,
+      "type": "E",
+      "collected": false
+    },
+    {
+      "slot": 1,
+      "start": 4695,
+      "end": 4801,
+      "type": "E",
+      "collected": true
+    },
+    {
+      "slot": 1,
+      "start": 5107,
+      "end": 5315,
+      "type": "T",
+      "collected": false
+    },
+    {
+      "slot": 1,
+      "start": 7449,
+      "end": 7655,
+      "type": "T",
+      "collected": false
+    },
+    {
+      "slot": 1,
+      "start": 9419,
+      "end": 9620,
+      "type": "E",
+      "collected": false
+    },
+    {
+      "slot": 1,
+      "start": 11024,
+      "end": 11227,
+      "type": "E",
+      "collected": false
+    },
+    {
+      "slot": 1,
+      "start": 13640,
+      "end": 13724,
+      "type": "T",
+      "collected": true
+    },
+    {
+      "slot": 1,
+      "start": 15097,
+      "end": 15272,
+      "type": "E",
+      "collected": true
+    },
+    {
+      "slot": 1,
+      "start": 16712,
+      "end": 16802,
+      "type": "E",
+      "collected": true
+    },
+    {
+      "slot": 3,
+      "start": 1504,
+      "end": 1708,
+      "type": "E",
+      "collected": false
+    },
+    {
+      "slot": 3,
+      "start": 7377,
+      "end": 7581,
+      "type": "E",
+      "collected": false
+    },
+    {
+      "slot": 3,
+      "start": 13105,
+      "end": 13232,
+      "type": "E",
+      "collected": true
+    },
+    {
+      "slot": 3,
+      "start": 18203,
+      "end": 18319,
+      "type": "T",
+      "collected": true
+    }
+  ],
+  "missed_opportunities": 10,
+  "historical_completion_template_sha256": "e64f5c4ffe7e897e67f9cf126e63ca8e82e50e4a823491178282e89f31fda272",
+  "candidate_flag_alone_accepted": false,
+  "new_native_frames": 24909,
+  "native_uncertain": 0,
+  "timeout": false,
+  "video_decoded": true,
+  "resources": 85,
+  "limitation": "Known recording-derived route; no universal E/T pickup or independent-start robustness claim. T counter changes preserved raw; no assumed time units."
+}

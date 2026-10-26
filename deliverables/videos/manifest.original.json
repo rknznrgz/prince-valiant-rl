@@ -1,0 +1,140 @@
+{
+  "sources": [
+    {
+      "key": "early",
+      "source": "training\\level1_dqfd_demonstration_extension_20261025\\videos\\milestone_1000_candidate.mp4",
+      "source_sha256": "5e6ac0ef744565a5acd35fa99c9412f72cb7d64c7e5936d672a1e4f5fe98723f",
+      "title": "EARLY | Level 1 DQN / DQfD | 1,000 optimizer updates",
+      "reward_label": "Episode reward (total): -22.963344 | Time limit; no objectives cleared",
+      "presentation_speed": 24,
+      "source_video": {
+        "size": [
+          256,
+          240
+        ],
+        "fps": 30.0,
+        "duration": 600.03,
+        "codec": "h264"
+      }
+    },
+    {
+      "key": "middle",
+      "source": "training\\level1_dqfd_demonstration_extension_20261025\\videos\\milestone_2000_fixed2000_gate_candidate.mp4",
+      "source_sha256": "e0335b84a256f0eabee222003b33e8e4f072a5c78fd88eed91a81c940df42109",
+      "title": "MIDDLE | Level 1 DQN / DQfD | 2,000 optimizer updates",
+      "reward_label": "Episode reward (total): -14.202617 | Time limit; no objectives cleared",
+      "presentation_speed": 24,
+      "source_video": {
+        "size": [
+          256,
+          240
+        ],
+        "fps": 30.0,
+        "duration": 600.03,
+        "codec": "h264"
+      }
+    },
+    {
+      "key": "level1",
+      "source": "training\\level1_dqfd_demo_continuation_20261025\\videos\\milestone_3000_continuation_candidate.mp4",
+      "source_sha256": "6f04a5c7af71a3205a47c452bf6e59d13d55a26f329657223f04eb2fb865487c",
+      "title": "SELECTED FINAL | Level 1 DQN / DQfD | 3,000 optimizer updates",
+      "reward_label": "Episode reward (total): +108.091791 | Natural level completion | Reset 389",
+      "presentation_speed": 8,
+      "source_video": {
+        "size": [
+          256,
+          240
+        ],
+        "fps": 30.0,
+        "duration": 304.6,
+        "codec": "h264"
+      }
+    },
+    {
+      "key": "level2",
+      "source": "analysis\\level2_transition_tail_v59_20261026\\full_transition.mp4",
+      "source_sha256": "a224ec3de46b2c3cdcee811391657813b6d57c8c07f2e60808ff469835113a83",
+      "title": "FINAL | Level 2 neural imitation | Title branch: 8,000 optimizer updates",
+      "reward_label": "Episode reward: N/A (not logged) | Gameplay score gain: +9,150",
+      "presentation_speed": 8,
+      "source_video": {
+        "size": [
+          256,
+          240
+        ],
+        "fps": 30.0,
+        "duration": 415.17,
+        "codec": "h264"
+      }
+    },
+    {
+      "key": "level3",
+      "source": "analysis\\level3_imitation_evaluation_v2_20261026\\episode.mp4",
+      "source_sha256": "6e91b32884da8cdc5f51f171ca740796096498fbae44d08f4fd8d9d1a0b6ccc5",
+      "title": "FINAL | Level 3 neural imitation | 35,500 optimizer updates",
+      "reward_label": "Episode reward: N/A (not defined) | Visible clear and Level 4 title retained",
+      "presentation_speed": 8,
+      "source_video": {
+        "size": [
+          256,
+          240
+        ],
+        "fps": 30.0,
+        "duration": 829.6,
+        "codec": "h264"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "file": "level1_full_run_1x.mp4",
+      "bytes": 34138523,
+      "sha256": "1fdf87a487a2f842818408b707beba28cb71602c8c21e76d7720c53fadc60681",
+      "size": [
+        1280,
+        960
+      ],
+      "fps": 30.0,
+      "duration": 304.6,
+      "codec": "h264"
+    },
+    {
+      "file": "level2_full_run_1x.mp4",
+      "bytes": 60643392,
+      "sha256": "e35bfcae6c58f8e595a2025757bce294f2098b9049fb8248ada7cf4823bd4f4e",
+      "size": [
+        1280,
+        960
+      ],
+      "fps": 30.0,
+      "duration": 415.17,
+      "codec": "h264"
+    },
+    {
+      "file": "level3_full_run_1x.mp4",
+      "bytes": 70951515,
+      "sha256": "874282a519a7652a661b81b57362ebb3875119af99611a5dfe8b5e5847b24ab7",
+      "size": [
+        1280,
+        960
+      ],
+      "fps": 30.0,
+      "duration": 829.6,
+      "codec": "h264"
+    },
+    {
+      "file": "progress_presentation.mp4",
+      "bytes": 51575304,
+      "sha256": "290e3b80b2e55a2624c3aae27bd9f6b5194340b45214f60b7dafa79ced55a032",
+      "size": [
+        1280,
+        960
+      ],
+      "fps": 30.0,
+      "duration": 263.67,
+      "codec": "h264"
+    }
+  ],
+  "validation": "All outputs fully decoded with ffmpeg -xerror; 1280x960, 30fps, H.264; presentation duration 180-300 seconds."
+}

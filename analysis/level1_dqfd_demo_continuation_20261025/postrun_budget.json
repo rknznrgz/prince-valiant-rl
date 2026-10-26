@@ -1,0 +1,12 @@
+{
+  "effective_total_ticks": 126000000000,
+  "prior_charged_ticks": 67958225915,
+  "production_ticks": 13536227288,
+  "used_ticks": 81494453203,
+  "remaining_ticks": 44505546797,
+  "remaining_seconds": 4450.5546797,
+  "preparation_charge_seconds_conservative": 600,
+  "production_returncode": 0,
+  "historical_ledgers_unchanged": true,
+  "automatic_followup": false
+}

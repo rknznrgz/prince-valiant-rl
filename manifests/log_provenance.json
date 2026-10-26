@@ -1,0 +1,8 @@
+{
+  "source": "analysis/level1_dqfd_demo_continuation_20261025/production/child_receipts.jsonl",
+  "source_sha256": "952fd713d6cc49e2a87202bb45ffd50f8952f0bcdcef31a4eb4e56bf918dd5c1",
+  "exported_log": "analysis/level1_dqfd_demo_continuation_20261025/training_metrics.csv",
+  "exported_sha256": "7a15015b4685fb752118f1d92350f5f03427d3eb8054202ac69edb66d39b0955",
+  "rows": 3000,
+  "units": "successful_step=global optimizer update; loss/gradient scalars; demo_fraction=sample fraction; not episode reward"
+}

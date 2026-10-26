@@ -1,0 +1,57 @@
+[
+  {
+    "document": "instrumentation/nes-py/LICENSING.md",
+    "target": "pyproject.toml",
+    "classification": "Upstream documentation reference; non-runtime file deliberately excluded"
+  },
+  {
+    "document": "instrumentation/nes-py/LICENSING.md",
+    "target": "CONTRIBUTING.md",
+    "classification": "Upstream documentation reference; non-runtime file deliberately excluded"
+  },
+  {
+    "document": "analysis/level1_dqfd_demo_continuation_20261025/README.md",
+    "target": "../../training/level1_dqfd_demo_continuation_20261025/videos/milestone_3000_continuation_candidate.mp4",
+    "classification": "Historical source-only reference"
+  },
+  {
+    "document": "analysis/level1_dqfd_demo_continuation_20261025/README.md",
+    "target": "../../training/level1_dqfd_demo_continuation_20261025/videos/milestone_4000_continuation_candidate.mp4",
+    "classification": "Historical source-only reference"
+  },
+  {
+    "document": "analysis/level1_dqfd_demo_continuation_20261025/README.md",
+    "target": "../../training/level1_dqfd_demo_continuation_20261025/videos/milestone_5000_continuation_candidate.mp4",
+    "classification": "Historical source-only reference"
+  },
+  {
+    "document": "analysis/level1_dqfd_extended_study_20261025/README.md",
+    "target": "../../training/level1_dqfd_demonstration_extension_20261025/videos/milestone_1000_candidate.mp4",
+    "classification": "Historical source-only reference"
+  },
+  {
+    "document": "analysis/level1_dqfd_extended_study_20261025/README.md",
+    "target": "../../training/level1_dqfd_demonstration_extension_20261025/videos/milestone_2000_fixed2000_gate_candidate.mp4",
+    "classification": "Historical source-only reference"
+  },
+  {
+    "document": "analysis/level2_transition_tail_v59_20261026/README.md",
+    "target": "full_transition.mp4",
+    "classification": "Historical source-only reference"
+  },
+  {
+    "document": "analysis/level2_transition_tail_v59_20261026/README.md",
+    "target": "../level2_bonus_priority_v60_20261026/README.md",
+    "classification": "Historical source-only reference"
+  },
+  {
+    "document": "analysis/level2_transition_tail_v59_20261026/README.md",
+    "target": "../level2_bonus_firefill_v61_20261026/README.md",
+    "classification": "Historical source-only reference"
+  },
+  {
+    "document": "analysis/level3_imitation_evaluation_v2_20261026/README.md",
+    "target": "episode.mp4",
+    "classification": "Historical source-only reference"
+  }
+]

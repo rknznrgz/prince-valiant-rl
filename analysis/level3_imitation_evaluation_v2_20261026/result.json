@@ -1,0 +1,99 @@
+{
+  "status": "completed",
+  "error": null,
+  "candidate_flag_frame": 47675,
+  "snapshots": [
+    {
+      "frame": 60,
+      "relative_to_candidate": null,
+      "path": "frame_000060.png",
+      "sha256": "179ac232ad73c16707c2abea079f4abafd0e812838ee2a92693ab6f485a47cb6"
+    },
+    {
+      "frame": 120,
+      "relative_to_candidate": null,
+      "path": "frame_000120.png",
+      "sha256": "3452f6504ca74f988a6d772a7685a01ac117e51cdf3a92317c499f9cbf0ff1b0"
+    },
+    {
+      "frame": 47675,
+      "relative_to_candidate": 0,
+      "path": "frame_047675.png",
+      "sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6"
+    },
+    {
+      "frame": 47705,
+      "relative_to_candidate": 30,
+      "path": "frame_047705.png",
+      "sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6"
+    },
+    {
+      "frame": 47735,
+      "relative_to_candidate": 60,
+      "path": "frame_047735.png",
+      "sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6"
+    },
+    {
+      "frame": 47795,
+      "relative_to_candidate": 120,
+      "path": "frame_047795.png",
+      "sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6"
+    },
+    {
+      "frame": 47915,
+      "relative_to_candidate": 240,
+      "path": "frame_047915.png",
+      "sha256": "7786fab1b717e7c7ba66f1d462220071d8f88f1827dfe6b957d726e499cca3c6"
+    },
+    {
+      "frame": 47975,
+      "relative_to_candidate": 300,
+      "path": "frame_047975.png",
+      "sha256": "b1fb70f8cf06d2f70374c6730af8bcd8d42c30f5b382e12109bd4af803df2581"
+    },
+    {
+      "frame": 48275,
+      "relative_to_candidate": 600,
+      "path": "frame_048275.png",
+      "sha256": "8dbfc8e1c44aa40b3a93570a82072821886d7fa9271e8c612990a7d5eb097aa6"
+    },
+    {
+      "frame": 48575,
+      "relative_to_candidate": 900,
+      "path": "frame_048575.png",
+      "sha256": "337aa8e22c572f4766fcc384791b178fc29a83d157b5fce34a56af39d549bd0c"
+    },
+    {
+      "frame": 48875,
+      "relative_to_candidate": 1200,
+      "path": "frame_048875.png",
+      "sha256": "ce744ac131751bea84cc5877a017edbe297ec49c6126c8391494de7c693682f4"
+    },
+    {
+      "frame": 49175,
+      "relative_to_candidate": 1500,
+      "path": "frame_049175.png",
+      "sha256": "1524c67580426d2b4999705e1282d8e901c90b01409ee4302a226e4a45668f18"
+    },
+    {
+      "frame": 49475,
+      "relative_to_candidate": 1800,
+      "path": "frame_049475.png",
+      "sha256": "1c79883061d61ddb9517bb94f90eb7fc711167a72cc1af7b9be94dd9935f3506"
+    },
+    {
+      "frame": 49775,
+      "relative_to_candidate": 2100,
+      "path": "frame_049775.png",
+      "sha256": "5fda488de67177128b296d961432af6b863ed0edf31df9fd668fd1a8701eb4f0"
+    }
+  ],
+  "native_attempted": 49775,
+  "native_completed": 49775,
+  "native_uncertain": 0,
+  "dataset_sha256": "b18818a857e2ac06ef60dd2dd857211ef378897e578896669ab4b74218dad4f6",
+  "video_sha256": "6e91b32884da8cdc5f51f171ca740796096498fbae44d08f4fd8d9d1a0b6ccc5",
+  "completion_confirmed": false,
+  "classification": "Requires Level3 complete card and subsequent Level4 evidence; no Level2 byte semantics assumed.",
+  "elapsed_seconds": 99.93641430000025
+}

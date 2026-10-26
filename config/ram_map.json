@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "player_x": {"address": "0x0056", "size": 2},
+    "player_y": {"address": "0x0058", "size": 2},
+    "player_facing_left": {"address": "0x0065"},
+    "camera_x": {"address": "0x0018", "size": 2},
+    "player_death_state": {"address": "0x0060"},
+    "player_action_state": {"address": "0x005F"},
+    "player_action_frame": {"address": "0x005E"},
+    "enemy_slot_0_world_x": {"address": "0x029C", "size": 2},
+    "enemy_slot_0_y": {"address": "0x02B0", "size": 2},
+    "enemy_slot_1_world_x": {"address": "0x029E", "size": 2},
+    "enemy_slot_1_y": {"address": "0x02B2", "size": 2},
+    "object_slot_0_world_x": {"address": "0x028C", "size": 2},
+    "object_slot_0_y": {"address": "0x02A0", "size": 2},
+    "object_slot_0_state": {"address": "0x0099"},
+    "object_slot_0_state_frame": {"address": "0x02BA"},
+    "player_vertical_step": {"address": "0x0066", "signed": true},
+    "player_horizontal_step_magnitude": {"address": "0x0067"},
+    "player_health": {"address": "0x00FC"},
+    "player_retries_remaining": {"address": "0x00F7", "signed": true}
+  }
+}

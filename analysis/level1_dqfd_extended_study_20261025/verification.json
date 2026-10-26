@@ -1,0 +1,88 @@
+{
+  "new_extension_tests": {
+    "ran": 5,
+    "result": "PASS"
+  },
+  "legacy_budget_propagation_tests": {
+    "ran": 5,
+    "result": "PASS"
+  },
+  "legacy_loop_serialization_tests": {
+    "ran": 4,
+    "result": "PASS"
+  },
+  "retention_rank_test": {
+    "ran": 1,
+    "result": "PASS"
+  },
+  "historical_fault_matrix": {
+    "ran": 34,
+    "result": "PASS_AFTER_FIXTURE_MIGRATION",
+    "initial_errors_including_subtests": 18,
+    "initial_observed_errors": [
+      "MappingProxyType not JSON serializable",
+      "mandatory execution_budget argument/receipt omitted"
+    ],
+    "fixture_changes": [
+      "explicit real budget receipt",
+      "complete current-schema fake resource evidence",
+      "current typed failure reasons",
+      "deadline tied to commit publication"
+    ],
+    "failed_intermediate_outputs_retained": true,
+    "production_checks_weakened": false
+  },
+  "total_focused_tests_passed": 49,
+  "compile_checks": "PASS",
+  "real_preflight": "PASS",
+  "real_public_dry_run": "PASS",
+  "receipt_hash_sequences_validated": true,
+  "accepted_chain_verified": true,
+  "dataset_native_binary_checkpoint_loading_in_this_review": false,
+  "new_production_aggregate": "99daea127f63bcd5cd20467c1ce4364de053eefd62f2e43f27db59e80fd5d95c",
+  "old_production_aggregate": "historical; changed by explicit user-authorized budget amendment",
+  "root_git_metadata": "ABSENT",
+  "automatic_retry": false,
+  "checkpoint_video_stream_hash_checks": {
+    "videos": [
+      {
+        "path": "training\\level1_dqfd_demonstration_extension_20261025\\videos\\milestone_1000_candidate.mp4",
+        "sha256_streamed": "5e6ac0ef744565a5acd35fa99c9412f72cb7d64c7e5936d672a1e4f5fe98723f",
+        "bytes": 3621401,
+        "matches_committed_episode": true
+      },
+      {
+        "path": "training\\level1_dqfd_demonstration_extension_20261025\\videos\\milestone_2000_fixed2000_gate_candidate.mp4",
+        "sha256_streamed": "e0335b84a256f0eabee222003b33e8e4f072a5c78fd88eed91a81c940df42109",
+        "bytes": 4830595,
+        "matches_committed_episode": true
+      }
+    ],
+    "checkpoints": [
+      {
+        "path": "training\\level1_dqfd_demonstration_extension_20261025\\checkpoint_1000.pt",
+        "sha256_streamed": "5ceb9fa86858ff5336c4b556ea8c186f9ea2d789f7161038068dbc72559aa878",
+        "bytes": 20069389,
+        "matches_committed_episode_and_checkpoint_receipt": true,
+        "binary_deserialized": false
+      },
+      {
+        "path": "training\\level1_dqfd_demonstration_extension_20261025\\checkpoint_2000.pt",
+        "sha256_streamed": "77a51db47b030fb1a15167774e4c6d2b4d927ae0866ebd6af9d1b7b906c6ae97",
+        "bytes": 20073741,
+        "matches_committed_episode_and_checkpoint_receipt": true,
+        "binary_deserialized": false
+      }
+    ]
+  },
+  "production_files_still_match_launch": true,
+  "predecessor_ledger_unchanged": true,
+  "video_selected_frames_inspected": 12,
+  "learning_plot_inspected": true,
+  "new_applied_optimizer_steps": 2000,
+  "new_native_frames": 72000,
+  "new_episodes": 2,
+  "new_uncertain_native_frames": 0,
+  "new_evaluation_calls_in_offline_review": 0,
+  "failed2000_gate_does_not_invalidate_saved_state_integrity": true
+}

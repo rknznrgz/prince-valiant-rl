@@ -1,0 +1,334 @@
+{
+  "status": "SELECTED_AMONG_RECORDED_CANDIDATES",
+  "update": 3000,
+  "checkpoint": "training\\level1_dqfd_demo_continuation_20261025\\checkpoint_3000.pt",
+  "checkpoint_sha256": "7e44f1bc067b8cb827dfa8594a15fe7a7a51896a7bf0ab9ff104977c6f97d7c6",
+  "state_hashes": {
+    "optimizer": "5faef59f8a77f797a34ce43e34674357f25e22b18af6a045cb43031816ffca97",
+    "per": "0f3ceec315282f604cf3f72d49ea69f6588ba96298ad491e39ca9255d2eca61c",
+    "q": "7edfb00fb9ed42692a9f2295de927c1e89b045e386268a60661c8450d98d43ff",
+    "rng": "7ee7cc981cee8d61fdf64d4047204ae2e8d403536e1a3a95d17887ceae38733a",
+    "target": "7edfb00fb9ed42692a9f2295de927c1e89b045e386268a60661c8450d98d43ff"
+  },
+  "metadata": {
+    "READY_sha256": "bdc6e0c7f3688c56c255ab554479dc5de6a3ab39617cf7dfc4ca7857dcd00f8e",
+    "actions": 17,
+    "actor_sha256": "780269fac004b733b3d8b002e8d4c9854f83958e83eeddce0d72b41e7fcab18e",
+    "architecture": "dueling_window_dqn_v1",
+    "batch_size": 128,
+    "budget_sha256": "aded11a56259912eee8beda9b0115156c1456ba4975d51fb58582cce416e6260",
+    "code_sha256": "1988c95013a967963b2f716a45fa951e97d8c1c3090a609ff70d8780ae007bd0",
+    "config_sha256": "f2a28db6efc046b8527fab61b39a21fff2de8e3762eedc4638f0eb8e193f6d7d",
+    "continuation_parent_checkpoint_sha256": "77a51db47b030fb1a15167774e4c6d2b4d927ae0866ebd6af9d1b7b906c6ae97",
+    "demo_only": true,
+    "gamma": 0.99997,
+    "identity_sha256": "a7590cafce66d89050638bdb44d63dd2767dad18622dbd0e376e6d9d0ce1683b",
+    "manifest_sha256": "23c3b215462f2bf921a965a9e221e45e49447aafbb3b209da5dc30c9ee8d0a84",
+    "model_config": {
+      "action_masks": [
+        0,
+        128,
+        64,
+        32,
+        16,
+        2,
+        1,
+        129,
+        130,
+        65,
+        131,
+        160,
+        176,
+        144,
+        34,
+        66,
+        96
+      ],
+      "actor_learning_rate": 1e-05,
+      "adaptive_refinement": true,
+      "advancement_min_episodes": 40,
+      "advancement_threshold": 0.2,
+      "advancement_window": 60,
+      "architecture": "separate_window_gru_branch_norm_v2",
+      "backward_step_frames": 120,
+      "batch_size": 512,
+      "bc_auxiliary_data": "training\\level1_demo_bc_v1\\data\\route_windows.npz",
+      "bc_auxiliary_schedule": {
+        "end": 0.1,
+        "frames": 2000000,
+        "start": 0.5
+      },
+      "bc_auxiliary_sha256": "737fc394f71de2e369ec7da44edf85d73ff8d04a1a4c17b20c1cc99b89176d67",
+      "bc_auxiliary_start_frames": 0,
+      "bc_edge_weight": 4,
+      "bc_enabled": false,
+      "bc_extra_ratio": 0,
+      "bc_initialization": true,
+      "branch_feature_normalization": true,
+      "checkpoint_interval": 24576,
+      "clip_range": 0.1,
+      "cnn_channels": [
+        16,
+        32
+      ],
+      "cnn_projection": 128,
+      "collector_roles": [
+        "full_start",
+        "full_start",
+        "coverage",
+        "coverage",
+        "coverage",
+        "frontier"
+      ],
+      "combat_observer_diagnostics": true,
+      "confirmation_trials": 20,
+      "control_age_cap_frames": 120,
+      "control_edge_features": true,
+      "coverage_fraction": 0.0,
+      "coverage_reset_frames": [
+        389,
+        1243,
+        1384,
+        1400,
+        1424,
+        1448,
+        1472,
+        1496,
+        1520,
+        1540,
+        1595,
+        2190,
+        3368,
+        3440
+      ],
+      "critic_learning_rate": 0.0003,
+      "critic_rewarmup_frames": 16384,
+      "critic_warmup_frames": 16384,
+      "curriculum_mode": "backward_from_verified_suffix_BC_extension",
+      "defer_critic": true,
+      "demo_bc_protocol": {
+        "action_change_weight": 4,
+        "batch_size": 512,
+        "class_weighting": "sqrt inverse frequency, clipped 0.5..3",
+        "epoch_cap": 40,
+        "gradient_clip": 0.5,
+        "learning_rate": 0.0003,
+        "ppo_auxiliary_schedule_source": "Existing human_BC_plus_PPO_extension_v1 schedule, applied from extension frame0",
+        "seed": 20261022,
+        "selection_metric": "lowest unweighted heldout negative log-likelihood; ties keep earlier epoch"
+      },
+      "deployment_rule": "greedy",
+      "development_stall_frames": 2400,
+      "embedding_dim": 3,
+      "entropy_coefficient": 0.0002,
+      "entropy_schedule": {
+        "end": 0.0002,
+        "frames": 2000000,
+        "start": 0.0002
+      },
+      "environments": 6,
+      "evaluation_interval": 1000000000000,
+      "evaluation_suffix_frames": [
+        17760
+      ],
+      "evaluation_suffix_trials": 2,
+      "evaluation_trials_per_rule": 2,
+      "experiment": "level1_verified_kills_fresh_30updates_20261022",
+      "explicit_map_identity": true,
+      "exploration_epsilon_schedule": {
+        "end": 0.01,
+        "frames": 250000,
+        "start": 0.03
+      },
+      "exploration_start_frames": 2216776,
+      "feature_groups": [
+        "player",
+        "camera",
+        "objects",
+        "projectiles",
+        "terrain",
+        "triggers",
+        "controller",
+        "resources",
+        "reward_history"
+      ],
+      "feature_schema_version": "level1_backward_v5_rea_gaps",
+      "final_encounter_potential": true,
+      "fine_step_regions": [
+        [
+          17700,
+          18500,
+          30
+        ]
+      ],
+      "frame_skip": 1,
+      "frontier_jitter_frames": 24,
+      "full_horizon": 36000,
+      "full_start_fraction": 0.0,
+      "gae_lambda": 0.9995,
+      "gamma": 0.99997,
+      "gru_hidden": 128,
+      "gru_layers": 1,
+      "history_offsets": [
+        -60,
+        -30,
+        -15,
+        -9,
+        -6,
+        -3,
+        0
+      ],
+      "horizon_extra_frames": 600,
+      "horizon_suffix_multiplier": 2.0,
+      "hud_deadline_features": true,
+      "initial_remaining_frames": 722,
+      "latest_action_dependent_reset": 18430,
+      "learning_rate_schedule": "constant",
+      "minimum_backward_step_frames": 15,
+      "minimum_episode_frames": 1200,
+      "mlp_sizes": [
+        128,
+        128
+      ],
+      "network_precision": "strict_fp32",
+      "observation_version": "rea_expanded_v2",
+      "plateau_min_evaluations": 5,
+      "plateau_span_frames": 500000,
+      "potential_version": "level1_type14_potential_v1",
+      "ppo_epochs": 3,
+      "refinement_min_episodes": 40,
+      "refinement_min_frames": 50000,
+      "refinement_success_floor": 0.05,
+      "rehearsal_fraction": 0.2,
+      "required_completions": 18,
+      "reward_version": "level1_phase_corridor_v6",
+      "rollout_per_environment": 2048,
+      "route_guidance_data": "training\\level1_phase_guided_v1\\phase_corridor.npz",
+      "route_guidance_sha256": "bb1ef90db73e9516561efae65be7444b8a63289c73d00b6d0e4ed2d69d3adddf",
+      "route_guidance_version": "level1_route_corridor_stone_phase_v2",
+      "seed": 20261022,
+      "target_kl": 0.01,
+      "task_checkpoint_rule": "deployment",
+      "terrain_embedding_dim": 4,
+      "training_method": "human_BC_plus_PPO_extension_v1",
+      "truncate_suffix_on_life_loss": false,
+      "vanilla_defense_codes": true,
+      "verified_counter_feature": true,
+      "verified_enemy_kills": true,
+      "weights": {
+        "abi2_kind18_defeat": 0,
+        "checkpoint_reached": 2.0,
+        "combat_potential": 6,
+        "death_started": -2.0,
+        "elapsed_seconds": -0.03,
+        "enemy_damage": 0.0,
+        "enemy_kills": 0.25,
+        "game_over": -4.0,
+        "level_completed": 40.0,
+        "lives_lost": -4.0,
+        "new_progress": 0.2,
+        "objective_cleared": 3.0,
+        "player_damage": -2.0,
+        "route_corridor": 2.0,
+        "score_gain": 5e-05
+      }
+    },
+    "optimizer_contract": {
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "lr": 0.0001,
+      "name": "Adam",
+      "weight_decay": 0.0
+    },
+    "protocol_sha256": "74a7f1744688c7c7c6b6f57c059a266f8329d0d14a08c2544163552e9a4880ed",
+    "seed": 20261024,
+    "shapes": {
+      "categorical": [
+        21
+      ],
+      "classes": [
+        12,
+        17
+      ],
+      "dynamic_actors": [
+        12,
+        17,
+        11
+      ],
+      "entities": [
+        10,
+        11
+      ],
+      "entity_codes": [
+        10,
+        9
+      ],
+      "projectile_codes": [
+        3,
+        3
+      ],
+      "projectiles": [
+        3,
+        4
+      ],
+      "resident_codes": [
+        25,
+        11
+      ],
+      "resident_valid": [
+        25,
+        1
+      ],
+      "rope_points": [
+        12,
+        17,
+        9
+      ],
+      "scalars": [
+        61
+      ],
+      "terrain_valid": [
+        12,
+        17
+      ],
+      "tiles": [
+        12,
+        17
+      ],
+      "trigger_codes": [
+        16,
+        5
+      ],
+      "triggers": [
+        16,
+        5
+      ]
+    }
+  },
+  "video": "training\\level1_dqfd_demo_continuation_20261025\\videos\\milestone_3000_continuation_candidate.mp4",
+  "video_sha256": "6f04a5c7af71a3205a47c452bf6e59d13d55a26f329657223f04eb2fb865487c",
+  "end_reason": "level_completed",
+  "native_frames": 18273,
+  "reward": 108.09179112744023,
+  "objective_clear_ids": [
+    513,
+    514,
+    515,
+    516
+  ],
+  "selection": "Natural completion first, distinct verified clears, configured reward, earlier update on tie;3000 ties4000.",
+  "candidate_updates_compared": [
+    2000,
+    3000,
+    4000,
+    5000
+  ],
+  "checkpoint_copied_or_overwritten": false,
+  "assignment_7of10_established": false,
+  "normal_game_start_compliance": "NOT_ESTABLISHED_BY_THIS_PINNED_RESET_EVALUATION",
+  "historical_fixed2000_gate": "FAILED_UNCHANGED",
+  "next_priority": "Audit normal-start/provenance and qualifying acceptance evaluation of3000 before further training."
+}

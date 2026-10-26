@@ -1,0 +1,37 @@
+{
+  "schema": "level2_full_ram_bc_v55",
+  "human_action_labels": true,
+  "training_rows": 22509,
+  "unsupported_legacy_rows": 535,
+  "raw_action_vocabulary": [
+    0,
+    1,
+    16,
+    17,
+    32,
+    33,
+    64,
+    65,
+    80,
+    96,
+    128,
+    129,
+    144,
+    145,
+    160,
+    161
+  ],
+  "source_cache_sha256": "159834da0f4c8a53fd7429000806b6c0cac5e00838b973748887e8db6bc818df",
+  "db_sha256": "6223eeaa7fd4575e6bfbe85fc9be2b1fae20cf9a81abb386fb105ef7fcc541d4",
+  "model_parameters": 559504,
+  "native_frame_cap": 90000,
+  "optimizer_cap": 8000,
+  "parent_bc_sha256": "bb77f45267044a88367ded68704a5fc3720c2dd6b4a130baaecdb2a977bcd733",
+  "scope": "One completed human route; whole route is training data; no unseen-route claim.",
+  "source_hashes": {
+    "scripts/run_level2_title_bc.py": "74b8ec3ae4093249915c456e97df1547e0ad9c28f378c814cc4267ead2727a5b",
+    "src/prince_valiant_rl/training/level2_demonstration_policy.py": "868161959815e2b7802d3b4d2e1dd7ba8e2c1125d1fb4a34f570db1f97af9ad8",
+    "src/prince_valiant_rl/training/level2_score_reward.py": "024c781c171b533999ca44e8f918fff52676a3b4a4f5b3bbfa1eeed5f9c5f84b",
+    "instrumentation/recorder_build/recorder_native.dll": "76bb13f0d723ca553d69445b435a1e5a475c4fe9264fb55ae42862eebbaa21ec"
+  }
+}

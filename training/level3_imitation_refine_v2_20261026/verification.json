@@ -1,0 +1,14 @@
+{
+  "status": "verified",
+  "schema": "level3_raw_ram_imitation_v1",
+  "training_rows": 49100,
+  "single_row_correct": 49100,
+  "train_only_normalization": true,
+  "action_masks_exact": true,
+  "source_lineage_verified": true,
+  "model_parameters": 1186070,
+  "optimizer_steps": 15500,
+  "native_frames": 0,
+  "checkpoint_sha256": "1481dd27a35a04e97bcb9dd25717171d16d25fa9063e18cda69e404f9f5afbcb",
+  "scope": "Training fit only, not a completion or held-out accuracy claim."
+}

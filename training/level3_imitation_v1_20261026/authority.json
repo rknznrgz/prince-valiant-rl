@@ -1,0 +1,41 @@
+{
+  "schema": "level3_raw_ram_imitation_v1",
+  "preparation_sha256": "f7046d7b48f2d8ebc3ef3050ea8cd2900b77015ef13c5e19a50716f429ece45a",
+  "dataset_sha256": "6404d9350a89321f497236f4d569ca3c1d8330f03a5b48dd72d6d5fb673a2830",
+  "observation": "Current2048 uint8 RAM bytes, no source indices, no future observations.",
+  "vocabulary": [
+    0,
+    1,
+    2,
+    3,
+    16,
+    17,
+    32,
+    34,
+    64,
+    65,
+    66,
+    80,
+    81,
+    96,
+    128,
+    129,
+    130,
+    144,
+    145,
+    160,
+    192,
+    193
+  ],
+  "human_demonstration_rows": 49100,
+  "model_parameters": 1186070,
+  "optimizer_cap": 20000,
+  "parent": null,
+  "parent_sha256": null,
+  "initial_lr": 0.001,
+  "native_frames": 0,
+  "source_hashes": {
+    "scripts/train_level3_imitation.py": "dc63281223b9825c118f68bf40fb3ac96bf83aa4f99c7369333cfd96de034e4d",
+    "src/prince_valiant_rl/training/level3_imitation.py": "efd640b8557df644a57b15d3024e28acde67b2da27776af3aeb6a2506dc3d6a2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "error": null,
+  "complete": true,
+  "end_reason": "level_complete",
+  "entry_frame": 22,
+  "frames": 22509,
+  "native_attempted": 22509,
+  "native_completed": 22509,
+  "native_uncertain": 0,
+  "score_gain": 9150,
+  "final_completion_raw": 127,
+  "energy": 15,
+  "lives_raw": 2,
+  "optimizer_steps": 0,
+  "dataset_sha256": "585efb3b36f2c27e6747250dd62ecd7939961e5716e213de1e3981ae760cfa9c",
+  "video_sha256": "652c9812985d14eebc5b2e3bf3c76360b4dcc0a96ad72ed3f76d26f3130e1f76",
+  "elapsed_seconds": 47.24321549999877
+}

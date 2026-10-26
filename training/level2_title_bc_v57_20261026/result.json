@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "error": null,
+  "episodes": [
+    {
+      "arm": "neural",
+      "entry_frame": 22,
+      "title_start_frame": 20700,
+      "variant": 0,
+      "frames": 22509,
+      "score_gain": 9150,
+      "end_reason": "level_complete",
+      "complete": true,
+      "memory_hits": 0,
+      "dataset": "training\\level2_title_bc_v57_20261026\\neural_0\\episode.npz",
+      "dataset_sha256": "addd4843cff0b60264fa8b2de4b12b618e68399f5d1cf067043b88a0f2a7520a",
+      "video": "training\\level2_title_bc_v57_20261026\\neural_0\\episode.mp4",
+      "video_sha256": "628630584e66cc5be7bdeeebc47f15ecc6cb422aa6ecb99a3cddc44458e13f30"
+    }
+  ],
+  "optimizer_steps": 8000,
+  "native_attempted": 22509,
+  "native_completed": 22509,
+  "native_uncertain": 0,
+  "elapsed_seconds": 61.36351789999935
+}

@@ -1,0 +1,16 @@
+.venv*/
+__pycache__/
+*.py[cod]
+roms/
+captures/
+savestates/
+instrumentation/*build/
+*.dll
+*.obj
+*.lib
+*.exp
+*.state*
+*.sqlite3*
+training/submission_*/
+analysis/submission_*/
+.env*

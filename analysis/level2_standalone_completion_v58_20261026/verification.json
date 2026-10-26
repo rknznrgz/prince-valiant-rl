@@ -1,0 +1,16 @@
+{
+  "status": "verified",
+  "complete": true,
+  "frames": 22509,
+  "score_gain": 9150,
+  "all_neural_actions_recomputed": true,
+  "fresh_gameplay_entry_before_completion": true,
+  "demonstration_data_loaded": false,
+  "action_retrieval": false,
+  "mid_episode_resets": 0,
+  "native_uncertain": 0,
+  "video_decoded": true,
+  "resources": 77,
+  "checkpoint_sha256": "900c098cbe0376cfbc5aabc4c145b83fcd96b377772c6528e1a42beb9e9efbbd",
+  "state_sha256": "096ec7772f3d12773e0454dd5550d6c924dc34ec6d3001fcf28e883482621d2b"
+}

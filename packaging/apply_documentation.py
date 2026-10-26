@@ -28,6 +28,7 @@ def apply(root):
     text=json.loads(Path(__file__).with_name('documentation.json').read_text(encoding='utf-8'))
     retired=[]
     for rel in REMOVED:
+        if rel in text:continue
         path=(root/rel).resolve()
         assert path.is_relative_to(root) and path.suffix=='.md'
         if path.is_file():

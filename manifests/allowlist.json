@@ -440,10 +440,29 @@
   "generated_files": "See exact manifests/inventory.json; exporter/finalizer/templates define generated output contents",
   "documentation_files": [
     "README.md",
+    "analysis/README.md",
+    "analysis/level1_dqfd_demo_continuation_20261025/README.md",
+    "analysis/level1_dqfd_extended_study_20261025/README.md",
+    "analysis/level2_standalone_completion_v58_20261026/README.md",
+    "analysis/level2_title_bc_v57_20261026/README.md",
+    "analysis/level2_transition_tail_v59_20261026/README.md",
+    "analysis/level3_imitation_evaluation_v2_20261026/README.md",
+    "config/README.md",
+    "deliverables/README.md",
     "deliverables/videos/README.md",
     "docs/ARCHITECTURE.md",
+    "docs/README.md",
     "docs/REPRODUCIBILITY.md",
     "docs/RESULTS.md",
-    "docs/SETUP.md"
+    "docs/SETUP.md",
+    "docs/case_study_draft/README.md",
+    "instrumentation/README.md",
+    "manifests/README.md",
+    "packaging/README.md",
+    "scripts/README.md",
+    "src/README.md",
+    "src/prince_valiant_rl/README.md",
+    "src/prince_valiant_rl/training/README.md",
+    "training/README.md"
   ]
 }

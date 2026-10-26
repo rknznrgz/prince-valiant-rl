@@ -1,0 +1,5 @@
+update,reward,native_frames,completion,terminal
+2000,-14.202616936275213,36000,0,time_limit
+3000,108.09179112744023,18273,1,level_completed
+4000,108.09179112744023,18273,1,level_completed
+5000,6.722020514690886,27246,0,game_over

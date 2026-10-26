@@ -1,0 +1,6 @@
+approach,frames,score_gain,complete
+Nearest-centre controller,9942,2700,False
+Rightmost-centre controller,10171,2475,False
+Initial raw-RAM clone,7096,0,False
+Refined neural clone,22449,9150,True
+Title-inclusive neural clone,22509,9150,True

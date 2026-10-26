@@ -1,0 +1,10 @@
+{
+  "clear_component_sum": 108.09179112745592,
+  "clear_reported_return": 108.09179112744023,
+  "failure_available_subtotal": -36.324682499999604,
+  "failure_reported_return": -38.08154524509709,
+  "failure_difference": -1.7568627450974859,
+  "legacy_raw_player_damage": -1.7568627450980392,
+  "raw_components_reconcile": true,
+  "failure_complete_verified_semantic_decomposition": false
+}

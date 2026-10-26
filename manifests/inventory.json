@@ -370,6 +370,196 @@
     "sha256": "c69f76c279a0f41cc65d2bf5c821bb9a071d419456bc2dd811677ca0027e4898"
   },
   {
+    "path": "docs/case_study/assets/01_environment_architecture.pdf",
+    "bytes": 24292,
+    "sha256": "edabbbb98d261b8f47dc8a1a32bd179648fab7cbace0dacb0e7a65e69c97cdac"
+  },
+  {
+    "path": "docs/case_study/assets/01_environment_architecture.png",
+    "bytes": 61906,
+    "sha256": "920a9300d515ce662a6e45e6753d07c51a3e1142659ec8753047d364d6adb9e0"
+  },
+  {
+    "path": "docs/case_study/assets/02_rl_objective_vs_behavior.pdf",
+    "bytes": 41783,
+    "sha256": "513179eb8b668f92d5470e0fcc030148b06c33dd432c15f95af2af62944cd886"
+  },
+  {
+    "path": "docs/case_study/assets/02_rl_objective_vs_behavior.png",
+    "bytes": 144370,
+    "sha256": "49ed9ac06c06b49c61e0b2d309458e9e31c9f792249273c4c7481e3153b28499"
+  },
+  {
+    "path": "docs/case_study/assets/03_timing_transfer_and_limit.pdf",
+    "bytes": 24781,
+    "sha256": "e2dcde2770118204d4d7b72f448f36ab0dd4ea1f9a3717b23c4532ad99d96126"
+  },
+  {
+    "path": "docs/case_study/assets/03_timing_transfer_and_limit.png",
+    "bytes": 47841,
+    "sha256": "4ba60dd4fa03a8b93d994290cec199f362c199ed1a123ff062c6b023bf929b26"
+  },
+  {
+    "path": "docs/case_study/assets/04_level3_supervised_fit.pdf",
+    "bytes": 30903,
+    "sha256": "782db2915811f4ccf71067a297e4e7542da0474b6c5849eda298e872b77f173e"
+  },
+  {
+    "path": "docs/case_study/assets/04_level3_supervised_fit.png",
+    "bytes": 121453,
+    "sha256": "ac71e76beea4584188dce07c86f5f8b9e12e6b5c7d5221fec568d2d3be155c63"
+  },
+  {
+    "path": "docs/case_study/assets/05_full_run_development.pdf",
+    "bytes": 23912,
+    "sha256": "3dbd318814d025f45d11ea2e0aeef7547f936558d329a22abcec9c2db48b2f2d"
+  },
+  {
+    "path": "docs/case_study/assets/05_full_run_development.png",
+    "bytes": 59768,
+    "sha256": "85dea21680dd9a0b3fe07214289e7ecc4d6f979f2e4c9443191d2a814920ba26"
+  },
+  {
+    "path": "docs/case_study/assets/06_completion_evidence_timeline.pdf",
+    "bytes": 23088,
+    "sha256": "bfd829d2fe6b404b1762250f2bebe234e35b4cf35bf94fa65feec74e0f56a3ac"
+  },
+  {
+    "path": "docs/case_study/assets/06_completion_evidence_timeline.png",
+    "bytes": 57601,
+    "sha256": "40fb4eff309e740c7e59d5a593430ddb1c343b7a4102cceda3b1bdf3055916f5"
+  },
+  {
+    "path": "docs/case_study/assets/07_level1_milestones.pdf",
+    "bytes": 16901,
+    "sha256": "966a04317af51882c1df1a759d38677c2ddc7d2c61f93d93ec05af88ce4a06ab"
+  },
+  {
+    "path": "docs/case_study/assets/08_gradient_conflict.pdf",
+    "bytes": 14387,
+    "sha256": "8f5a21c4f69ec7b81a565a85e3a5714e321e14d97672be8b56764a437cf3d16a"
+  },
+  {
+    "path": "docs/case_study/assets/09_level3_fit_errors.pdf",
+    "bytes": 15577,
+    "sha256": "2c64c15a22520993a95bfa08a63c0067286fb5d572e888603c1d9c4bcc5b5f0a"
+  },
+  {
+    "path": "docs/case_study/assets/completion_timeline.csv",
+    "bytes": 150,
+    "sha256": "e8bce158a58ba002c810e3bbdd19d146656bbc1871a7258f31ac2627279b946f"
+  },
+  {
+    "path": "docs/case_study/assets/gradient_cosines.csv",
+    "bytes": 255,
+    "sha256": "92a2752dc7e49e413718f8f6892a71dc4914e2dbd4819d335978f08e7bc1a868"
+  },
+  {
+    "path": "docs/case_study/assets/level1_milestones.csv",
+    "bytes": 234,
+    "sha256": "fc7f62a14fc330eee7c240aadfd15d52775d1adb23063736127f97099d298fef"
+  },
+  {
+    "path": "docs/case_study/assets/level2_adapter_diagnostics.csv",
+    "bytes": 51682,
+    "sha256": "6f06a9d976ecd2e95c548f714bdcba8f9013d758a03cf2370941436bd15acd54"
+  },
+  {
+    "path": "docs/case_study/assets/level2_complete.png",
+    "bytes": 3147,
+    "sha256": "e64f5c4ffe7e897e67f9cf126e63ca8e82e50e4a823491178282e89f31fda272"
+  },
+  {
+    "path": "docs/case_study/assets/level2_full_attempts.csv",
+    "bytes": 246,
+    "sha256": "0cb443edd9b805f38b2df1b90b674191638be9f131ef0586e5cbf5d2046499ea"
+  },
+  {
+    "path": "docs/case_study/assets/level2_timing_transfer.csv",
+    "bytes": 121,
+    "sha256": "929a0be2cd6c800af0a8e7097beb0b05399d76994aaba6d79051c9d8337c4661"
+  },
+  {
+    "path": "docs/case_study/assets/level3_complete.png",
+    "bytes": 3161,
+    "sha256": "b1fb70f8cf06d2f70374c6730af8bcd8d42c30f5b382e12109bd4af803df2581"
+  },
+  {
+    "path": "docs/case_study/assets/level3_fit_errors.csv",
+    "bytes": 3635,
+    "sha256": "9356b06c68fd613efdd222064ba5cf807354ea3d3b52083b884344caaa6c4ac0"
+  },
+  {
+    "path": "docs/case_study/assets/level4_title.png",
+    "bytes": 5199,
+    "sha256": "1524c67580426d2b4999705e1282d8e901c90b01409ee4302a226e4a45668f18"
+  },
+  {
+    "path": "docs/case_study/assets/reward_component_examples.csv",
+    "bytes": 525,
+    "sha256": "11cdacd08b18a86b92c868092e34b132e16ffccd2390c07fffbde53188575548"
+  },
+  {
+    "path": "docs/case_study/assets/rl_pickup_probe_points.csv",
+    "bytes": 95,
+    "sha256": "a134681585d53f100b60df81465196ec911832ee3514133f58f9677809d46232"
+  },
+  {
+    "path": "docs/case_study/assets/source_manifest.json",
+    "bytes": 9653,
+    "sha256": "22b7e23c9c1fcc2c37962d40e8bce10e5b358f4b40e30d66df446144637a42d4"
+  },
+  {
+    "path": "docs/case_study/assets/statistics.json",
+    "bytes": 1890,
+    "sha256": "e98a632df39a8f1abe64581908f0dc478823272079b99bc1d189c60f15780018"
+  },
+  {
+    "path": "docs/case_study/evidence_ledger.csv",
+    "bytes": 11310,
+    "sha256": "b197422f08625a2c299c6067d7a6476bc35960b36a727587feee3756ca2cd23d"
+  },
+  {
+    "path": "docs/case_study/evidence_ledger.json",
+    "bytes": 18475,
+    "sha256": "b67cd8980396350ec3ef37ae15ab9ff743a26c08e38141efcd3c36858f47b408"
+  },
+  {
+    "path": "docs/case_study/pdf_validation.json",
+    "bytes": 9439,
+    "sha256": "71ae977e5ff85fc9b70ccaea1c2bbff63dc2883d86a6af7536da4fe6e8bb6a4b"
+  },
+  {
+    "path": "docs/case_study/README.md",
+    "bytes": 2307,
+    "sha256": "0a0c224baf364baf95b2259b7f0d1a086a67042e6f3e25523001fdd777bd6796"
+  },
+  {
+    "path": "docs/case_study/references.bib",
+    "bytes": 1094,
+    "sha256": "137a2503c56c0a5986ead26eef99b88d864d1fed4049ed7d1a600fad9dbe1a1c"
+  },
+  {
+    "path": "docs/case_study/report.pdf",
+    "bytes": 277912,
+    "sha256": "67a02975a29d07a2aa44c8e99358a8e7fb8f0b464f4017fdd2dcfd783ca013b3"
+  },
+  {
+    "path": "docs/case_study/report.tex",
+    "bytes": 65439,
+    "sha256": "18699ab769b592b424967d4440cd8e6f2cb25eae674d519a02ba8b8644adfd55"
+  },
+  {
+    "path": "docs/case_study/REVIEWER_COMMANDS.md",
+    "bytes": 2019,
+    "sha256": "a40d96246283fe2e74445395a0f94d2a0347e04aba6b1545ee21e84335b22b53"
+  },
+  {
+    "path": "docs/case_study/reward_component_verification.json",
+    "bytes": 400,
+    "sha256": "da5030efd014718839d1bf9da19ced14d8f3b66398f323c04a4ae6012ceea166"
+  },
+  {
     "path": "docs/case_study_draft/assets/01_environment_architecture.png",
     "bytes": 61906,
     "sha256": "920a9300d515ce662a6e45e6753d07c51a3e1142659ec8753047d364d6adb9e0"
@@ -436,8 +626,8 @@
   },
   {
     "path": "docs/README.md",
-    "bytes": 350,
-    "sha256": "43ab24d0f695b8d99d7e1f815844d4d0d4944310255fd8b71964cb6e7ab339f7"
+    "bytes": 517,
+    "sha256": "bb71ad8bca11a70d0bee1145373fb62e31e611e686b516d36751997d7ed7eaa5"
   },
   {
     "path": "docs/REPRODUCIBILITY.md",
@@ -446,8 +636,8 @@
   },
   {
     "path": "docs/RESULTS.md",
-    "bytes": 4726,
-    "sha256": "2c8ea9e5c85e7fddee0e6c0dc1b608b5c7ddfddc53dca4dd2cca9f4dfadd950b"
+    "bytes": 4970,
+    "sha256": "0e8eb2a3d26893ad088401c8b6f2d9f9ef04708585b687c7d3b2986a73243074"
   },
   {
     "path": "docs/SETUP.md",
@@ -725,6 +915,11 @@
     "sha256": "f5fe0061b6d98bde224d1453b110c40a138edaa4adc9adbc900f41d20d627f94"
   },
   {
+    "path": "manifests/case_study_update.json",
+    "bytes": 6710,
+    "sha256": "78a4ac0109562cfef07e1a450dfd29fa740bb4bd04d91e279ca17201a2d49c9f"
+  },
+  {
     "path": "manifests/dependency_graph.json",
     "bytes": 20606,
     "sha256": "c64f2579019158b268e8a002cc4c35d3204a6bcaf00b03d4276f99fc1bad0f0f"
@@ -751,8 +946,8 @@
   },
   {
     "path": "manifests/provenance.json",
-    "bytes": 88405,
-    "sha256": "fd6359973e6c8ff335ac227810682496b86607c28f32df6ea9ba5ba2763e680d"
+    "bytes": 103305,
+    "sha256": "6944e2f839d8f505c128d6d52c3ea0cf44507948acfecfaf8e65acf32245f442"
   },
   {
     "path": "manifests/publication.json",
@@ -816,8 +1011,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 2259,
-    "sha256": "bd44548337711afbddcc2de0917e419ac70cdacd9fd90a19fa4140e2bc92fd6f"
+    "bytes": 2337,
+    "sha256": "721922ed3e1a4bf5f4fad9759b3417ac6e1a7d28994a290680e8078825e4adfa"
   },
   {
     "path": "requirements-cuda.txt",

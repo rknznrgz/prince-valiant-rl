@@ -1,0 +1,355 @@
+{
+  "pages": 19,
+  "main_pages": 10,
+  "appendix_pages": 9,
+  "page_details": [
+    {
+      "page": 1,
+      "text_chars": 2482,
+      "opening": "Learning for Prince Valiant RAM instrumentation, reinforcement learning, and route imitation Orkun Taha \u00d6znerg",
+      "boundary_violations": []
+    },
+    {
+      "page": 2,
+      "text_chars": 2979,
+      "opening": "re experiments Native contract. RecorderNative wraps a C ABI through ctypes. A controller mask advances one na",
+      "boundary_violations": []
+    },
+    {
+      "page": 3,
+      "text_chars": 3127,
+      "opening": "ations and neural structure Why RAM and history? RAM exposes compact numeric state without \ufb01rst solving image ",
+      "boundary_violations": []
+    },
+    {
+      "page": 4,
+      "text_chars": 2451,
+      "opening": "on-assisted TD is distinct from cloning Selected Level 1 objective. Dueling Q-learning estimates Q\u03b8(W, a) = V\u03b8",
+      "boundary_violations": []
+    },
+    {
+      "page": 5,
+      "text_chars": 3521,
+      "opening": "xposure before interpreting learning Train the ending, then expand coverage. Backward curricula \ufb01rst expose a ",
+      "boundary_violations": []
+    },
+    {
+      "page": 6,
+      "text_chars": 3246,
+      "opening": "he latest checkpoint 2000 3000 4000 5000 Global update \u221220 0 20 40 60 80 100 Episode return 2000 3000 4000 500",
+      "boundary_violations": []
+    },
+    {
+      "page": 7,
+      "text_chars": 2843,
+      "opening": "the route still failed Problem: sparse useful behavior. The \ufb01rst resource/control baseline\u2019s scratch DQN chose",
+      "boundary_violations": []
+    },
+    {
+      "page": 8,
+      "text_chars": 2847,
+      "opening": "ces the demonstrated route Level 3 was initialized separately, without transferring Level 1/2 semantic assumpt",
+      "boundary_violations": []
+    },
+    {
+      "page": 9,
+      "text_chars": 2756,
+      "opening": "What can be reproduced, and what remains open What a recipient can do today. Read the code, inspect included c",
+      "boundary_violations": []
+    },
+    {
+      "page": 10,
+      "text_chars": 3184,
+      "opening": "usion and equal-capacity teacher distillation Pretrained computer vision as input. A future model can retain a",
+      "boundary_violations": []
+    },
+    {
+      "page": 11,
+      "text_chars": 3412,
+      "opening": "scales, availability and safeguards The selected checkpoint\u2019s embedded con\ufb01g is the authority for Level 1 coe\ufb03",
+      "boundary_violations": []
+    },
+    {
+      "page": 12,
+      "text_chars": 3851,
+      "opening": "tifacts and retained implementation Evidence IDs resolve to the accompanying evidence_ledger.csv/json, includi",
+      "boundary_violations": []
+    },
+    {
+      "page": 13,
+      "text_chars": 2844,
+      "opening": "untime identities and reporting limits Observed PPO evidence and testable hypotheses. Observed evidence Plausi",
+      "boundary_violations": []
+    },
+    {
+      "page": 14,
+      "text_chars": 4064,
+      "opening": "Measured phase costs and selected checkpoints Compute. Recorded hardware is RTX 4060 Laptop GPU (about 8GiB VR",
+      "boundary_violations": []
+    },
+    {
+      "page": 15,
+      "text_chars": 1564,
+      "opening": "er, interference and continuous-route development \u22121.00 \u22120.75 \u22120.50 \u22120.25 0.00 0.25 0.50 0.75 1.00 Gradient co",
+      "boundary_violations": []
+    },
+    {
+      "page": 16,
+      "text_chars": 2664,
+      "opening": " SCHEMA Algorithm sources and the concatenated student design Proposed student tensor schema. Each of three eq",
+      "boundary_violations": []
+    },
+    {
+      "page": 17,
+      "text_chars": 4358,
+      "opening": "Tensor schema, replay settings and diagnostics Selected Level1 per-timestamp schema. The main-text architectur",
+      "boundary_violations": []
+    },
+    {
+      "page": 18,
+      "text_chars": 2144,
+      "opening": "served scales, not a reward ablation The clear column is the saved original_389 training trajectory in analysi",
+      "boundary_violations": []
+    },
+    {
+      "page": 19,
+      "text_chars": 3015,
+      "opening": "ands, dependencies and acceptance From the staged package root, after installing its pinned dependencies, mode",
+      "boundary_violations": []
+    }
+  ],
+  "fonts": [
+    {
+      "xref": 5,
+      "name": "IHAIZV+LMRoman10-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 6,
+      "name": "BZIVMZ+LMRoman10-Bold",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 7,
+      "name": "IXFAWU+LMRoman12-Bold",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 8,
+      "name": "TQTHRL+LMRoman12-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 9,
+      "name": "YEUUOC+LMRoman10-Italic",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 10,
+      "name": "AKHCZK+LMMathSymbols10-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 15,
+      "name": "VDVGTR+LMMono10-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 19,
+      "name": "CAFSZL+LMMathItalic10-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 20,
+      "name": "DDIEWW+LMMathItalic8-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 21,
+      "name": "FKPJSN+LMRoman10-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 22,
+      "name": "PVTTLK+LMRoman8-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 23,
+      "name": "JAGKKY+LMMathSymbols8-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 24,
+      "name": "NOMARO+LMRoman6-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 28,
+      "name": "KPXLOM+LMMathExtension10-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 29,
+      "name": "UTACNV+LMMathItalic6-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 30,
+      "name": "FZDNHS+LMRoman10-Bold",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 41,
+      "name": "BCXJOQ+DejaVuSans",
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    {
+      "xref": 48,
+      "name": "GXDUII+DejaVuSans",
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    {
+      "xref": 67,
+      "name": "BSPXKQ+DejaVuSans-Bold",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 94,
+      "name": "GIQTON+DejaVuSans",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 144,
+      "name": "CPUQYB+DejaVuSans",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 161,
+      "name": "CHJEQV+DejaVuSans",
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    {
+      "xref": 168,
+      "name": "CPUQYB+DejaVuSans",
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    {
+      "xref": 190,
+      "name": "DZGKAF+LMMathItalic7-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 191,
+      "name": "GJMHKB+MSBM10",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 195,
+      "name": "NITCSQ+LMRoman7-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 203,
+      "name": "UBBQTN+LMMathItalic5-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 209,
+      "name": "LPOGEQ+LMMathSymbols7-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 214,
+      "name": "DHOTWY+DejaVuSans",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 250,
+      "name": "DSRLVY+DejaVuSans",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 263,
+      "name": "IIAFFI+DejaVuSans-Bold",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 291,
+      "name": "BGIFYJ+DejaVuSans",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 334,
+      "name": "EEZAWI+DejaVuSans",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 346,
+      "name": "FUCJGG+DejaVuSans-Bold",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 370,
+      "name": "EEEFED+DejaVuSans",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 413,
+      "name": "CPUQYB+DejaVuSans",
+      "subtype": "/Type3",
+      "embedded": true
+    },
+    {
+      "xref": 430,
+      "name": "GQYLQL+LMRoman7-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    {
+      "xref": 438,
+      "name": "WXMALW+LMMono10-Regular",
+      "subtype": "/Type1",
+      "embedded": true
+    }
+  ],
+  "overfull_boxes": false,
+  "undefined_references": false,
+  "missing_characters": false,
+  "rendered_all_pages": true
+}

@@ -32,7 +32,7 @@ The repository includes selected checkpoints, logs, code, and videos. ROMs, reco
 - [Architecture](docs/ARCHITECTURE.md): native bridge, RAM processing, models, and learning code.
 - [Results](docs/RESULTS.md): selected checkpoints, measured outcomes, and evidence.
 - [Reproducibility](docs/REPRODUCIBILITY.md): verification, required assets, and current limitations.
-- [Draft report](docs/case_study_draft/REPORT_DRAFT.pdf): 10-page project report.
+- [Case study](docs/case_study/report.pdf): revised report, 10 main pages plus appendices; [editable source and build instructions](docs/case_study/README.md).
 - [Progress video](deliverables/videos/progress_presentation.mp4): 4m23.67s presentation; [full-run videos](deliverables/videos/README.md).
 
 Third-party notices and unresolved licensing questions are documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). No project-wide license has been selected.

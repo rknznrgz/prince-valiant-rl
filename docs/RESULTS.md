@@ -54,3 +54,7 @@ See [verification](../analysis/level3_imitation_evaluation_v2_20261026/verificat
 ## Scope
 
 The assignment requires at least seven successful episodes out of ten for each level, with Level 1 starting from the game's normal start. Those criteria remain unestablished. Levels 2 and 3 use imitation learning; the selected Level 1 continuation uses demonstration-assisted TD learning without online interaction. Controlled diagnostic probes are separate from normal-input gameplay evaluation.
+
+## Case study
+
+The [revised case study](case_study/report.pdf) explains the implementation decisions and experimental results in ten main pages plus technical appendices. [Source and build instructions](case_study/README.md) are included.

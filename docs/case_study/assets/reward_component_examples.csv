@@ -1,0 +1,14 @@
+term,clear_training_trace_reset389,failed_PPO_suffix_reset17760
+checkpoint_reached,4.0,0.0
+combat_potential,-0.15147750000006965,-2.3552999999997635
+death_started,0.0,-8.0
+elapsed_seconds,-9.136499999999675,-1.9854999999998368
+enemy_kills,2.0,0.0
+game_over,0.0,-4.0
+level_completed,40.0,0.0
+lives_lost,0.0,-20.0
+new_progress,59.68750000000468,0.0
+objective_cleared,12.0,0.0
+player_damage,-0.8784313725490196,unavailable
+route_corridor,0.0,0.008617499999994616
+score_gain,0.5706999999999984,0.007500000000000001

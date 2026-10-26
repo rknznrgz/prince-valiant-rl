@@ -1,0 +1,92 @@
+{
+  "level2_expanded_probe_points": [
+    {
+      "update": 0,
+      "successes": 9,
+      "trials": 18
+    },
+    {
+      "update": 200,
+      "successes": 9,
+      "trials": 18
+    },
+    {
+      "update": 400,
+      "successes": 0,
+      "trials": 18
+    },
+    {
+      "update": 600,
+      "successes": 3,
+      "trials": 18
+    },
+    {
+      "update": 800,
+      "successes": 2,
+      "trials": 18
+    },
+    {
+      "update": 1000,
+      "successes": 0,
+      "trials": 18
+    },
+    {
+      "update": 1200,
+      "successes": 2,
+      "trials": 18
+    }
+  ],
+  "level2_matched_timing": {
+    "baseline": {
+      "familiar": 3,
+      "reserved": 1
+    },
+    "motion": {
+      "familiar": 14,
+      "reserved": 0
+    }
+  },
+  "level2_full_attempts": [
+    {
+      "approach": "Nearest-centre controller",
+      "frames": 9942,
+      "score_gain": 2700,
+      "complete": false
+    },
+    {
+      "approach": "Rightmost-centre controller",
+      "frames": 10171,
+      "score_gain": 2475,
+      "complete": false
+    },
+    {
+      "approach": "Initial raw-RAM clone",
+      "frames": 7096,
+      "score_gain": 0,
+      "complete": false
+    },
+    {
+      "approach": "Refined neural clone",
+      "frames": 22449,
+      "score_gain": 9150,
+      "complete": true
+    },
+    {
+      "approach": "Title-inclusive neural clone",
+      "frames": 22509,
+      "score_gain": 9150,
+      "complete": true
+    }
+  ],
+  "level3_fit_steps": 35500,
+  "level3_rows": 49100,
+  "level3_fit_wall_seconds": 86.17528429999948,
+  "level2_E_collections": 7,
+  "level2_T_collections": 3,
+  "level2_missed": 10,
+  "level3_evaluation_frames": 49775,
+  "level3_first_complete_card": 47975,
+  "level3_next_title": 49175,
+  "evaluation_campaign_7_of_10_established": false,
+  "plots_are_executed_data_only": true
+}

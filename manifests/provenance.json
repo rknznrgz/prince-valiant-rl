@@ -1698,6 +1698,302 @@
       "source_sha256": "a134681585d53f100b60df81465196ec911832ee3514133f58f9677809d46232",
       "export_sha256": "a134681585d53f100b60df81465196ec911832ee3514133f58f9677809d46232",
       "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/report.pdf",
+      "destination": "docs/case_study/report.pdf",
+      "source_bytes": 277912,
+      "source_sha256": "67a02975a29d07a2aa44c8e99358a8e7fb8f0b464f4017fdd2dcfd783ca013b3",
+      "export_sha256": "67a02975a29d07a2aa44c8e99358a8e7fb8f0b464f4017fdd2dcfd783ca013b3",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/report.tex",
+      "destination": "docs/case_study/report.tex",
+      "source_bytes": 65439,
+      "source_sha256": "18699ab769b592b424967d4440cd8e6f2cb25eae674d519a02ba8b8644adfd55",
+      "export_sha256": "18699ab769b592b424967d4440cd8e6f2cb25eae674d519a02ba8b8644adfd55",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/references.bib",
+      "destination": "docs/case_study/references.bib",
+      "source_bytes": 1094,
+      "source_sha256": "137a2503c56c0a5986ead26eef99b88d864d1fed4049ed7d1a600fad9dbe1a1c",
+      "export_sha256": "137a2503c56c0a5986ead26eef99b88d864d1fed4049ed7d1a600fad9dbe1a1c",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/evidence_ledger.csv",
+      "destination": "docs/case_study/evidence_ledger.csv",
+      "source_bytes": 11310,
+      "source_sha256": "b197422f08625a2c299c6067d7a6476bc35960b36a727587feee3756ca2cd23d",
+      "export_sha256": "b197422f08625a2c299c6067d7a6476bc35960b36a727587feee3756ca2cd23d",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/evidence_ledger.json",
+      "destination": "docs/case_study/evidence_ledger.json",
+      "source_bytes": 18475,
+      "source_sha256": "b67cd8980396350ec3ef37ae15ab9ff743a26c08e38141efcd3c36858f47b408",
+      "export_sha256": "b67cd8980396350ec3ef37ae15ab9ff743a26c08e38141efcd3c36858f47b408",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/reward_component_verification.json",
+      "destination": "docs/case_study/reward_component_verification.json",
+      "source_bytes": 400,
+      "source_sha256": "da5030efd014718839d1bf9da19ced14d8f3b66398f323c04a4ae6012ceea166",
+      "export_sha256": "da5030efd014718839d1bf9da19ced14d8f3b66398f323c04a4ae6012ceea166",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/pdf_validation.json",
+      "destination": "docs/case_study/pdf_validation.json",
+      "source_bytes": 9439,
+      "source_sha256": "71ae977e5ff85fc9b70ccaea1c2bbff63dc2883d86a6af7536da4fe6e8bb6a4b",
+      "export_sha256": "71ae977e5ff85fc9b70ccaea1c2bbff63dc2883d86a6af7536da4fe6e8bb6a4b",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/01_environment_architecture.pdf",
+      "destination": "docs/case_study/assets/01_environment_architecture.pdf",
+      "source_bytes": 24292,
+      "source_sha256": "edabbbb98d261b8f47dc8a1a32bd179648fab7cbace0dacb0e7a65e69c97cdac",
+      "export_sha256": "edabbbb98d261b8f47dc8a1a32bd179648fab7cbace0dacb0e7a65e69c97cdac",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/01_environment_architecture.png",
+      "destination": "docs/case_study/assets/01_environment_architecture.png",
+      "source_bytes": 61906,
+      "source_sha256": "920a9300d515ce662a6e45e6753d07c51a3e1142659ec8753047d364d6adb9e0",
+      "export_sha256": "920a9300d515ce662a6e45e6753d07c51a3e1142659ec8753047d364d6adb9e0",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/02_rl_objective_vs_behavior.pdf",
+      "destination": "docs/case_study/assets/02_rl_objective_vs_behavior.pdf",
+      "source_bytes": 41783,
+      "source_sha256": "513179eb8b668f92d5470e0fcc030148b06c33dd432c15f95af2af62944cd886",
+      "export_sha256": "513179eb8b668f92d5470e0fcc030148b06c33dd432c15f95af2af62944cd886",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/02_rl_objective_vs_behavior.png",
+      "destination": "docs/case_study/assets/02_rl_objective_vs_behavior.png",
+      "source_bytes": 144370,
+      "source_sha256": "49ed9ac06c06b49c61e0b2d309458e9e31c9f792249273c4c7481e3153b28499",
+      "export_sha256": "49ed9ac06c06b49c61e0b2d309458e9e31c9f792249273c4c7481e3153b28499",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/03_timing_transfer_and_limit.pdf",
+      "destination": "docs/case_study/assets/03_timing_transfer_and_limit.pdf",
+      "source_bytes": 24781,
+      "source_sha256": "e2dcde2770118204d4d7b72f448f36ab0dd4ea1f9a3717b23c4532ad99d96126",
+      "export_sha256": "e2dcde2770118204d4d7b72f448f36ab0dd4ea1f9a3717b23c4532ad99d96126",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/03_timing_transfer_and_limit.png",
+      "destination": "docs/case_study/assets/03_timing_transfer_and_limit.png",
+      "source_bytes": 47841,
+      "source_sha256": "4ba60dd4fa03a8b93d994290cec199f362c199ed1a123ff062c6b023bf929b26",
+      "export_sha256": "4ba60dd4fa03a8b93d994290cec199f362c199ed1a123ff062c6b023bf929b26",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/04_level3_supervised_fit.pdf",
+      "destination": "docs/case_study/assets/04_level3_supervised_fit.pdf",
+      "source_bytes": 30903,
+      "source_sha256": "782db2915811f4ccf71067a297e4e7542da0474b6c5849eda298e872b77f173e",
+      "export_sha256": "782db2915811f4ccf71067a297e4e7542da0474b6c5849eda298e872b77f173e",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/04_level3_supervised_fit.png",
+      "destination": "docs/case_study/assets/04_level3_supervised_fit.png",
+      "source_bytes": 121453,
+      "source_sha256": "ac71e76beea4584188dce07c86f5f8b9e12e6b5c7d5221fec568d2d3be155c63",
+      "export_sha256": "ac71e76beea4584188dce07c86f5f8b9e12e6b5c7d5221fec568d2d3be155c63",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/05_full_run_development.pdf",
+      "destination": "docs/case_study/assets/05_full_run_development.pdf",
+      "source_bytes": 23912,
+      "source_sha256": "3dbd318814d025f45d11ea2e0aeef7547f936558d329a22abcec9c2db48b2f2d",
+      "export_sha256": "3dbd318814d025f45d11ea2e0aeef7547f936558d329a22abcec9c2db48b2f2d",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/05_full_run_development.png",
+      "destination": "docs/case_study/assets/05_full_run_development.png",
+      "source_bytes": 59768,
+      "source_sha256": "85dea21680dd9a0b3fe07214289e7ecc4d6f979f2e4c9443191d2a814920ba26",
+      "export_sha256": "85dea21680dd9a0b3fe07214289e7ecc4d6f979f2e4c9443191d2a814920ba26",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/06_completion_evidence_timeline.pdf",
+      "destination": "docs/case_study/assets/06_completion_evidence_timeline.pdf",
+      "source_bytes": 23088,
+      "source_sha256": "bfd829d2fe6b404b1762250f2bebe234e35b4cf35bf94fa65feec74e0f56a3ac",
+      "export_sha256": "bfd829d2fe6b404b1762250f2bebe234e35b4cf35bf94fa65feec74e0f56a3ac",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/06_completion_evidence_timeline.png",
+      "destination": "docs/case_study/assets/06_completion_evidence_timeline.png",
+      "source_bytes": 57601,
+      "source_sha256": "40fb4eff309e740c7e59d5a593430ddb1c343b7a4102cceda3b1bdf3055916f5",
+      "export_sha256": "40fb4eff309e740c7e59d5a593430ddb1c343b7a4102cceda3b1bdf3055916f5",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/07_level1_milestones.pdf",
+      "destination": "docs/case_study/assets/07_level1_milestones.pdf",
+      "source_bytes": 16901,
+      "source_sha256": "966a04317af51882c1df1a759d38677c2ddc7d2c61f93d93ec05af88ce4a06ab",
+      "export_sha256": "966a04317af51882c1df1a759d38677c2ddc7d2c61f93d93ec05af88ce4a06ab",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/08_gradient_conflict.pdf",
+      "destination": "docs/case_study/assets/08_gradient_conflict.pdf",
+      "source_bytes": 14387,
+      "source_sha256": "8f5a21c4f69ec7b81a565a85e3a5714e321e14d97672be8b56764a437cf3d16a",
+      "export_sha256": "8f5a21c4f69ec7b81a565a85e3a5714e321e14d97672be8b56764a437cf3d16a",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/09_level3_fit_errors.pdf",
+      "destination": "docs/case_study/assets/09_level3_fit_errors.pdf",
+      "source_bytes": 15577,
+      "source_sha256": "2c64c15a22520993a95bfa08a63c0067286fb5d572e888603c1d9c4bcc5b5f0a",
+      "export_sha256": "2c64c15a22520993a95bfa08a63c0067286fb5d572e888603c1d9c4bcc5b5f0a",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/completion_timeline.csv",
+      "destination": "docs/case_study/assets/completion_timeline.csv",
+      "source_bytes": 150,
+      "source_sha256": "e8bce158a58ba002c810e3bbdd19d146656bbc1871a7258f31ac2627279b946f",
+      "export_sha256": "e8bce158a58ba002c810e3bbdd19d146656bbc1871a7258f31ac2627279b946f",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/gradient_cosines.csv",
+      "destination": "docs/case_study/assets/gradient_cosines.csv",
+      "source_bytes": 255,
+      "source_sha256": "92a2752dc7e49e413718f8f6892a71dc4914e2dbd4819d335978f08e7bc1a868",
+      "export_sha256": "92a2752dc7e49e413718f8f6892a71dc4914e2dbd4819d335978f08e7bc1a868",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/level1_milestones.csv",
+      "destination": "docs/case_study/assets/level1_milestones.csv",
+      "source_bytes": 234,
+      "source_sha256": "fc7f62a14fc330eee7c240aadfd15d52775d1adb23063736127f97099d298fef",
+      "export_sha256": "fc7f62a14fc330eee7c240aadfd15d52775d1adb23063736127f97099d298fef",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/level2_adapter_diagnostics.csv",
+      "destination": "docs/case_study/assets/level2_adapter_diagnostics.csv",
+      "source_bytes": 51682,
+      "source_sha256": "6f06a9d976ecd2e95c548f714bdcba8f9013d758a03cf2370941436bd15acd54",
+      "export_sha256": "6f06a9d976ecd2e95c548f714bdcba8f9013d758a03cf2370941436bd15acd54",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/level2_complete.png",
+      "destination": "docs/case_study/assets/level2_complete.png",
+      "source_bytes": 3147,
+      "source_sha256": "e64f5c4ffe7e897e67f9cf126e63ca8e82e50e4a823491178282e89f31fda272",
+      "export_sha256": "e64f5c4ffe7e897e67f9cf126e63ca8e82e50e4a823491178282e89f31fda272",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/level2_full_attempts.csv",
+      "destination": "docs/case_study/assets/level2_full_attempts.csv",
+      "source_bytes": 246,
+      "source_sha256": "0cb443edd9b805f38b2df1b90b674191638be9f131ef0586e5cbf5d2046499ea",
+      "export_sha256": "0cb443edd9b805f38b2df1b90b674191638be9f131ef0586e5cbf5d2046499ea",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/level2_timing_transfer.csv",
+      "destination": "docs/case_study/assets/level2_timing_transfer.csv",
+      "source_bytes": 121,
+      "source_sha256": "929a0be2cd6c800af0a8e7097beb0b05399d76994aaba6d79051c9d8337c4661",
+      "export_sha256": "929a0be2cd6c800af0a8e7097beb0b05399d76994aaba6d79051c9d8337c4661",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/level3_complete.png",
+      "destination": "docs/case_study/assets/level3_complete.png",
+      "source_bytes": 3161,
+      "source_sha256": "b1fb70f8cf06d2f70374c6730af8bcd8d42c30f5b382e12109bd4af803df2581",
+      "export_sha256": "b1fb70f8cf06d2f70374c6730af8bcd8d42c30f5b382e12109bd4af803df2581",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/level3_fit_errors.csv",
+      "destination": "docs/case_study/assets/level3_fit_errors.csv",
+      "source_bytes": 3635,
+      "source_sha256": "9356b06c68fd613efdd222064ba5cf807354ea3d3b52083b884344caaa6c4ac0",
+      "export_sha256": "9356b06c68fd613efdd222064ba5cf807354ea3d3b52083b884344caaa6c4ac0",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/level4_title.png",
+      "destination": "docs/case_study/assets/level4_title.png",
+      "source_bytes": 5199,
+      "source_sha256": "1524c67580426d2b4999705e1282d8e901c90b01409ee4302a226e4a45668f18",
+      "export_sha256": "1524c67580426d2b4999705e1282d8e901c90b01409ee4302a226e4a45668f18",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/reward_component_examples.csv",
+      "destination": "docs/case_study/assets/reward_component_examples.csv",
+      "source_bytes": 525,
+      "source_sha256": "11cdacd08b18a86b92c868092e34b132e16ffccd2390c07fffbde53188575548",
+      "export_sha256": "11cdacd08b18a86b92c868092e34b132e16ffccd2390c07fffbde53188575548",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/rl_pickup_probe_points.csv",
+      "destination": "docs/case_study/assets/rl_pickup_probe_points.csv",
+      "source_bytes": 95,
+      "source_sha256": "a134681585d53f100b60df81465196ec911832ee3514133f58f9677809d46232",
+      "export_sha256": "a134681585d53f100b60df81465196ec911832ee3514133f58f9677809d46232",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/source_manifest.json",
+      "destination": "docs/case_study/assets/source_manifest.json",
+      "source_bytes": 9653,
+      "source_sha256": "22b7e23c9c1fcc2c37962d40e8bce10e5b358f4b40e30d66df446144637a42d4",
+      "export_sha256": "22b7e23c9c1fcc2c37962d40e8bce10e5b358f4b40e30d66df446144637a42d4",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/assets/statistics.json",
+      "destination": "docs/case_study/assets/statistics.json",
+      "source_bytes": 1890,
+      "source_sha256": "e98a632df39a8f1abe64581908f0dc478823272079b99bc1d189c60f15780018",
+      "export_sha256": "e98a632df39a8f1abe64581908f0dc478823272079b99bc1d189c60f15780018",
+      "adapted": false
+    },
+    {
+      "source": "docs/case_study_latex_draft/REVIEWER_COMMANDS.md",
+      "destination": "docs/case_study/REVIEWER_COMMANDS.md",
+      "source_bytes": 1999,
+      "source_sha256": "7acaefdc76f0f666b2bdb201308e1ce575f2a08462c16831ef2894820daf0274",
+      "export_sha256": "a40d96246283fe2e74445395a0f94d2a0347e04aba6b1545ee21e84335b22b53",
+      "adapted": true
     }
   ],
   "source_location": "Original checkout supplied to exporter; no absolute personal path retained",

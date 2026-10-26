@@ -1,17 +1,20 @@
-# Redistribution review
+# Third-party notices
 
-No project license has been selected. The owner must decide before publication.
-The narrowly retained nes-py native include/src files preserve their notices;
-see instrumentation/nes-py/LICENSE, LICENSING.md and CITATION.cff.
-The checked-in LICENSING.md explicitly records an unresolved MIT versus upstream
-SimpleNES GPLv3 provenance discrepancy. This local review copy is NOT cleared
-for publication; establish applicable imported-revision terms first. No entire
-vendor checkout, tests, build outputs or DLLs are exported.
+No project-wide license has been selected. Publication of this repository does
+not resolve the licensing and rights questions below.
 
-Python dependencies are installed separately, not vendored. Observed version and
-license metadata is in manifests/dependency_licenses.json. Those metadata do not
-resolve upstream native licensing. No ROM is included. Reset states, human SQLite
-recordings and derived training datasets are withheld pending game-content and
-recording redistribution review. Screenshots/videos/report contain game artwork;
-their publication rights also need review. Exact local asset hashes are provided,
-not fabricated public download links.
+The retained nes-py native sources preserve their original notices. See
+`instrumentation/nes-py/LICENSE`, `LICENSING.md`, and `CITATION.cff`. That licensing
+guide records an unresolved discrepancy between nes-py's MIT declaration and
+upstream SimpleNES GPLv3 provenance. Applicable imported-revision terms and any
+required permissions have not been established; the MIT notice alone is not a
+clearance for all native source material.
+
+Python dependencies are installed separately and retain their own licenses.
+Observed version/license metadata is in `manifests/dependency_licenses.json`.
+
+No ROM is included. Game artwork appears in screenshots, videos, and the draft
+report; no rights to that artwork are granted by this project. Private recordings,
+reset states, and derived training datasets are withheld pending redistribution
+review. Required local inputs and their access conditions are recorded in
+`manifests/artifacts.json`.

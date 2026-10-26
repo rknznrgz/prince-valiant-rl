@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-26",
+  "removed": [
+    {
+      "path": "github.md",
+      "previous_sha256": "946d96f6cb72989447e36fc96016be1be5eb5c23310f1e216f5a984e5d743ca6",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    },
+    {
+      "path": "docs/LEVEL3_IMITATION.md",
+      "previous_sha256": "f694fa1227f7360cd2ec321e0dbbf5f175d35494169ee4aedd176432f7e1d66b",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    },
+    {
+      "path": "deliverables/videos/README.original.md",
+      "previous_sha256": "ccc06099d84397ec6bef4346fef5ec4ddc7cedff60e83c8c6c0386ac162586ed",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    },
+    {
+      "path": "analysis/level1_dqfd_demo_continuation_20261025/README.md",
+      "previous_sha256": "17dec237e866f520f9260307eec58859d3baf9bebf7fb513f06a3619af955943",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    },
+    {
+      "path": "analysis/level1_dqfd_extended_study_20261025/README.md",
+      "previous_sha256": "ddbe6444d25f4624f7686a2eeed6807255311e10f6cb6df1844bd29a98d2da98",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    },
+    {
+      "path": "analysis/level2_title_bc_v57_20261026/README.md",
+      "previous_sha256": "cec335294abcb918ffbd3d5b2a4a3ab1e650bdd11e880eb27993f4e27191cf92",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    },
+    {
+      "path": "analysis/level2_standalone_completion_v58_20261026/README.md",
+      "previous_sha256": "a1e8fc7d1133c4e8bac00152888c093ed046a831e04f9552093a515456b0a920",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    },
+    {
+      "path": "analysis/level2_transition_tail_v59_20261026/README.md",
+      "previous_sha256": "a31fd8fab1479b7d7820cd9e77995ce351c5ee8c284af49f72525b3780ff8487",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    },
+    {
+      "path": "analysis/level3_imitation_evaluation_v2_20261026/README.md",
+      "previous_sha256": "b748c0f48c080937f895110223d997e7d73111816badfb2fea408cf8704806d5",
+      "reason": "Replaced by consolidated reader-facing documentation"
+    }
+  ],
+  "runtime_code_changed": false,
+  "models_or_evidence_changed": false,
+  "original_research_documents_preserved": true,
+  "replacements": [
+    "README.md",
+    "deliverables/videos/README.md",
+    "docs/ARCHITECTURE.md",
+    "docs/REPRODUCIBILITY.md",
+    "docs/RESULTS.md",
+    "docs/SETUP.md"
+  ],
+  "third_party_notices_preserved": true
+}

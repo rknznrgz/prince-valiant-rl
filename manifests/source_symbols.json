@@ -1,0 +1,2001 @@
+{
+  "src/prince_valiant_rl/__init__.py": [],
+  "src/prince_valiant_rl/backward_level1.py": [
+    {
+      "name": "section0_timeout_terminal",
+      "line": 59,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "TaskHistory",
+      "line": 74,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "HumanRoute",
+      "line": 122,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "Level1Env",
+      "line": 179,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "BackwardCurriculum",
+      "line": 950,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "level1_child",
+      "line": 1079,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/control_history.py": [
+    {
+      "name": "ControlHistory",
+      "line": 7,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/forward_curriculum.py": [
+    {
+      "name": "load_manifest",
+      "line": 10,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "milestone_reached",
+      "line": 16,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "ForwardExposureCurriculum",
+      "line": 30,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/game_state.py": [
+    {
+      "name": "word",
+      "line": 11,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "signed_byte",
+      "line": 15,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "decode_display_score",
+      "line": 19,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "forest_dispatch_valid",
+      "line": 38,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "extract_game_state",
+      "line": 49,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/kind18_events.py": [
+    {
+      "name": "scene",
+      "line": 22,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "Kind18Events",
+      "line": 28,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/kind18_observer.py": [
+    {
+      "name": "Kind18Event",
+      "line": 13,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "Kind18ObserverNative",
+      "line": 20,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/level1_potential.py": [
+    {
+      "name": "final_encounter_potential",
+      "line": 14,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "potential_difference",
+      "line": 25,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/navigation.py": [
+    {
+      "name": "map_section",
+      "line": 25,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "supported",
+      "line": 29,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "live",
+      "line": 33,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "completed",
+      "line": 37,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "NavigationInterventions",
+      "line": 42,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "NavigationHistory",
+      "line": 88,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "NavigationEncoder",
+      "line": 111,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "NavigationEnv",
+      "line": 267,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "navigation_child",
+      "line": 346,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/navigation_native.py": [
+    {
+      "name": "library",
+      "line": 7,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "Snapshot",
+      "line": 18,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "NavigationNative",
+      "line": 23,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/paths.py": [],
+  "src/prince_valiant_rl/recorder_native.py": [
+    {
+      "name": "library",
+      "line": 16,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "configure_library",
+      "line": 25,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "RecorderNative",
+      "line": 39,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/rl_env.py": [
+    {
+      "name": "PrinceValiantRamEnv",
+      "line": 20,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/rope_geometry.py": [
+    {
+      "name": "RopeGeometry",
+      "line": 18,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/route_guidance.py": [
+    {
+      "name": "distance_potential",
+      "line": 19,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "build_corridor",
+      "line": 30,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "stone_phase_key",
+      "line": 40,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "build_phase_corridor",
+      "line": 50,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "RouteGuidance",
+      "line": 59,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/route_waypoints.py": [
+    {
+      "name": "demonstrated_goals",
+      "line": 15,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "RouteWaypoints",
+      "line": 29,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/scene_state.py": [
+    {
+      "name": "ForestTerrain",
+      "line": 8,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/score_clear_capture.py": [
+    {
+      "name": "ScoreClearRing",
+      "line": 11,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/__init__.py": [],
+  "src/prince_valiant_rl/training/baseline_gpu_control.py": [
+    {
+      "name": "CurrentPath",
+      "line": 13,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "BaselineCudaControl",
+      "line": 19,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "ArchivedCudaPolicy",
+      "line": 35,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/checkpoint_io.py": [
+    {
+      "name": "CheckpointFinalizationError",
+      "line": 12,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "_file_sha256",
+      "line": 27,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_path_diagnostics",
+      "line": 35,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_feed",
+      "line": 47,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "checkpoint_state_sha256",
+      "line": 53,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_saved_state_matches",
+      "line": 98,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "atomic_torch_save",
+      "line": 106,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd.py": [
+    {
+      "name": "paired_return",
+      "line": 25,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "paired_targets",
+      "line": 49,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "dqfd_objective",
+      "line": 69,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "GlobalPER",
+      "line": 103,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "OwnerNStep",
+      "line": 194,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "LosslessFrameRing",
+      "line": 221,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "build_q_from_actor",
+      "line": 339,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "optimizer_for",
+      "line": 353,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "optimizer_step",
+      "line": 357,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "output_comparison",
+      "line": 380,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "OnlineCadence",
+      "line": 400,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "GreedyQPolicy",
+      "line": 423,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "evaluate_greedy_episode",
+      "line": 437,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_continuation.py": [
+    {
+      "name": "digest",
+      "line": 17,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_budget",
+      "line": 24,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "restore_payload",
+      "line": 58,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "create_continuation_learner",
+      "line": 78,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "run_continuation",
+      "line": 119,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_evaluation.py": [
+    {
+      "name": "evaluate_reset389_video",
+      "line": 16,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_execution.py": [
+    {
+      "name": "state_hash",
+      "line": 23,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_tensor",
+      "line": 44,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_stack_windows",
+      "line": 51,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_online_row",
+      "line": 59,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "gather_mixed_batch",
+      "line": 72,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "LearnerCounters",
+      "line": 122,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "DQfDBatchLearner",
+      "line": 134,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "FixedBCollector",
+      "line": 260,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_level1_adapter.py": [
+    {
+      "name": "_read_header",
+      "line": 28,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_NpyRows",
+      "line": 37,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "_ArchiveRows",
+      "line": 61,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "_CountingNative",
+      "line": 139,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "Level1DQfDAdapter",
+      "line": 166,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "create_adapter",
+      "line": 359,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_pretrain_entrypoint.py": [
+    {
+      "name": "production_code_hash",
+      "line": 76,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_counter_snapshot",
+      "line": 81,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_elapsed_ticks",
+      "line": 90,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "check_original_total_deadline",
+      "line": 97,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_canonical_receipt_hash",
+      "line": 107,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_execution_budget_receipt",
+      "line": 113,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "load_execution_budget_receipt",
+      "line": 173,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "ParentResourceEvidenceError",
+      "line": 181,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "verify_parent_work_evidence",
+      "line": 187,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "verify_accepted_handoff",
+      "line": 266,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_publish_parent_acceptance",
+      "line": 325,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_publish_immutable_json",
+      "line": 341,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_launch",
+      "line": 354,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "private_child",
+      "line": 377,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "dispatch_pretrain",
+      "line": 686,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_pretraining.py": [
+    {
+      "name": "learner_state_hashes",
+      "line": 17,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_save_milestone",
+      "line": 27,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "load_committed_milestone",
+      "line": 65,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_rank",
+      "line": 131,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_retention_passed",
+      "line": 157,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "run_demo_pretraining",
+      "line": 161,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_process_ownership.py": [
+    {
+      "name": "process_record",
+      "line": 8,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_private_child_ownership",
+      "line": 17,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_production.py": [
+    {
+      "name": "_window_digest",
+      "line": 46,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_pinned_original_389_pre_window",
+      "line": 56,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_same_array_exact",
+      "line": 83,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_same_window_exact",
+      "line": 88,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "production_reset389_episode",
+      "line": 93,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_production_reset389_episode",
+      "line": 123,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_sha256",
+      "line": 273,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_validate_inputs",
+      "line": 281,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "create_fresh_demo_learner",
+      "line": 296,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_receipts.py": [
+    {
+      "name": "_fsync_receipt",
+      "line": 16,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_canonical",
+      "line": 21,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "serialize_record",
+      "line": 25,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "append_record",
+      "line": 35,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_parse_records",
+      "line": 54,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "read_records",
+      "line": 83,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "latest_record",
+      "line": 90,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "IncrementalRecordReader",
+      "line": 119,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_replay.py": [
+    {
+      "name": "DemoRow",
+      "line": 11,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "DemoReplayIndex",
+      "line": 31,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_study_budget.py": [
+    {
+      "name": "canonical_hash",
+      "line": 37,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_read_bound",
+      "line": 42,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_extended_receipt",
+      "line": 52,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_loop_limits",
+      "line": 96,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "caps_for_budget",
+      "line": 109,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_supervision.py": [
+    {
+      "name": "PERFORMANCE_INFORMATION",
+      "line": 33,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "resource_sample",
+      "line": 43,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "gpu_free_memory_sample",
+      "line": 108,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "ml_resource_sample",
+      "line": 163,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_ml_resource_sample",
+      "line": 190,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_resource_sample",
+      "line": 246,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_append_bounded",
+      "line": 263,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_artifact_bytes",
+      "line": 270,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "supervise_replay",
+      "line": 279,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_atomic_receipt",
+      "line": 669,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqfd_transitions.py": [
+    {
+      "name": "frame_index_capacity",
+      "line": 45,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "progress_receipt_budget",
+      "line": 119,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "TransitionError",
+      "line": 172,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "sha256_file",
+      "line": 176,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_summary",
+      "line": 184,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "compare_window",
+      "line": 189,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "lossless_cast",
+      "line": 198,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "boundary",
+      "line": 213,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "FrameLedger",
+      "line": 225,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "_atomic_json",
+      "line": 243,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_guard",
+      "line": 258,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_accounting_snapshot",
+      "line": 278,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_reserve_growth",
+      "line": 291,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_commit_growth",
+      "line": 295,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_reconcile_files",
+      "line": 301,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_append_outcome",
+      "line": 328,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_uncertain_frames",
+      "line": 346,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_completed_frames",
+      "line": 351,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_validate_outcomes",
+      "line": 356,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "build_cache",
+      "line": 375,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_WindowStore",
+      "line": 807,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "_FrameIndexedWindowStore",
+      "line": 901,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "_validate_measurements",
+      "line": 1177,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_FrameIndexedReader",
+      "line": 1199,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "TransitionCache",
+      "line": 1341,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "inspect_npz",
+      "line": 1523,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/dqn.py": [
+    {
+      "name": "DuelingQ",
+      "line": 11,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "masked_argmax",
+      "line": 26,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "double_target",
+      "line": 33,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "storage_dtype",
+      "line": 38,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "WindowReplay",
+      "line": 43,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "NStep",
+      "line": 107,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "optimize_q",
+      "line": 126,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "load_q",
+      "line": 140,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/evaluation_capture.py": [
+    {
+      "name": "atomic_write_json",
+      "line": 25,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "_canonical_arrays",
+      "line": 56,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "policy_input_schema",
+      "line": 62,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "fingerprint_policy_input",
+      "line": 78,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "fingerprint_reference_record",
+      "line": 92,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "fingerprints_equal",
+      "line": 113,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "BoundedJsonlWriter",
+      "line": 123,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "StorageGuardInterruption",
+      "line": 208,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "ArtifactBudgetInterruption",
+      "line": 218,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "ArtifactBudgetGuard",
+      "line": 228,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "disk_measurements",
+      "line": 266,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "DiskGuard",
+      "line": 292,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "ReferenceFingerprintReader",
+      "line": 308,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "assess_storage",
+      "line": 335,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "partial_capture_status",
+      "line": 354,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "iter_json_array",
+      "line": 368,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "build_reference_fingerprint_bundle",
+      "line": 424,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/events.py": [
+    {
+      "name": "word",
+      "line": 14,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "section",
+      "line": 17,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "live_position",
+      "line": 23,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "EventTracker",
+      "line": 30,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "reward_components",
+      "line": 103,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "bootstrap_allowed",
+      "line": 109,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "duration_gae",
+      "line": 112,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/input_features.py": [
+    {
+      "name": "InputFeatureEncoder",
+      "line": 6,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "configure_encoder",
+      "line": 15,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "upgrade_model",
+      "line": 23,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "augment_unavailable_demonstrations",
+      "line": 46,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "attach_recorded_demonstrations",
+      "line": 53,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/interface.py": [
+    {
+      "name": "action_name",
+      "line": 15,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "load_catalog",
+      "line": 18,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "FeatureEncoder",
+      "line": 21,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "TrainingEnv",
+      "line": 81,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/level2_completion_evidence.py": [
+    {
+      "name": "region",
+      "line": 8,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "CompletionEvidence",
+      "line": 15,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "bonus_event",
+      "line": 32,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/level2_demonstration_policy.py": [
+    {
+      "name": "DemonstrationActor",
+      "line": 10,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "KnownStatePolicy",
+      "line": 18,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/level2_model_contract.py": [
+    {
+      "name": "load_contract",
+      "line": 13,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "create_fresh_level2_model",
+      "line": 32,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "parameter_signature",
+      "line": 52,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/level2_runtime.py": [
+    {
+      "name": "checked_ram",
+      "line": 18,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "transition",
+      "line": 23,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "Encoder",
+      "line": 40,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "History",
+      "line": 62,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "ten_step_arrays",
+      "line": 73,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/level2_score_reward.py": [
+    {
+      "name": "ScoreDiscontinuity",
+      "line": 12,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "decode_score",
+      "line": 15,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "transition",
+      "line": 25,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/level3_evidence.py": [
+    {
+      "name": "match_reference_region",
+      "line": 5,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/level3_imitation.py": [
+    {
+      "name": "observe_ram",
+      "line": 10,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "Level3ImitationActor",
+      "line": 16,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/models.py": [
+    {
+      "name": "tensor_observation",
+      "line": 9,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "ActorCritic",
+      "line": 12,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "parameter_hash",
+      "line": 58,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "freeze",
+      "line": 64,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/process_envs.py": [
+    {
+      "name": "child_main",
+      "line": 6,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "ProcessEnvs",
+      "line": 98,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "grouped_advantages",
+      "line": 150,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "condition_critic",
+      "line": 161,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "resident_bytes",
+      "line": 187,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/scene_pool.py": [
+    {
+      "name": "SequentialScenePool",
+      "line": 4,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/scenes.py": [
+    {
+      "name": "scene_catalog",
+      "line": 11,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "ControlledScene",
+      "line": 13,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/schema.py": [],
+  "src/prince_valiant_rl/training/starts.py": [
+    {
+      "name": "CachedStart",
+      "line": 6,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/temporal.py": [
+    {
+      "name": "offsets_checked",
+      "line": 7,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "empty_observation",
+      "line": 13,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "FrameHistory",
+      "line": 17,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "TemporalEnv",
+      "line": 35,
+      "kind": "ClassDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/temporal_models.py": [
+    {
+      "name": "configure_precision",
+      "line": 13,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "cuda_device",
+      "line": 23,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "window_tensors",
+      "line": 31,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "indexed_window_tensors",
+      "line": 36,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "infer_shapes",
+      "line": 52,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "masked_distribution",
+      "line": 63,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "WindowPath",
+      "line": 71,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "TemporalActorCritic",
+      "line": 133,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "save_temporal",
+      "line": 171,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "load_temporal",
+      "line": 175,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/visual.py": [
+    {
+      "name": "preprocess",
+      "line": 21,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "image_stack",
+      "line": 28,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "VisualLevel1Env",
+      "line": 33,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "VisualEncoder",
+      "line": 87,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "VisualPredictor",
+      "line": 100,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "VisualAuxiliary",
+      "line": 111,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "balanced_bce",
+      "line": 132,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "prediction_loss",
+      "line": 140,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "labels",
+      "line": 149,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "VisualWindowPath",
+      "line": 192,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "VisualActorCritic",
+      "line": 212,
+      "kind": "ClassDef"
+    },
+    {
+      "name": "optimizer_groups",
+      "line": 242,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "parameter_digest",
+      "line": 254,
+      "kind": "FunctionDef"
+    }
+  ],
+  "src/prince_valiant_rl/training/window_storage.py": [
+    {
+      "name": "compact_window",
+      "line": 6,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "materialize_observation_batch",
+      "line": 15,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/_bootstrap.py": [],
+  "scripts/audit_manual_recording.py": [
+    {
+      "name": "audit",
+      "line": 11,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "main",
+      "line": 53,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/evaluate_level2_confirmed_completion.py": [
+    {
+      "name": "main",
+      "line": 11,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/evaluate_level2_transition_tail.py": [
+    {
+      "name": "main",
+      "line": 17,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/evaluate_level3_imitation.py": [
+    {
+      "name": "main",
+      "line": 16,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/evaluate_selected_level1.py": [
+    {
+      "name": "main",
+      "line": 6,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/inspect_models.py": [
+    {
+      "name": "main",
+      "line": 7,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/level1_dqfd_pilot.py": [
+    {
+      "name": "main",
+      "line": 30,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/level2_v12_rollouts.py": [
+    {
+      "name": "digest",
+      "line": 31,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "write",
+      "line": 38,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "resource_gate",
+      "line": 42,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/prepare_backward_level1.py": [
+    {
+      "name": "dump",
+      "line": 26,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "recording_identity",
+      "line": 30,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "assert_same_snapshot",
+      "line": 45,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "branch_path",
+      "line": 52,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "main",
+      "line": 73,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/prepare_level1_dqfd_transitions.py": [
+    {
+      "name": "_write_parent_failure_receipts",
+      "line": 37,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "digest",
+      "line": 51,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "tree_bytes",
+      "line": 59,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "verify_preserved_budget",
+      "line": 66,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "bounded_array",
+      "line": 106,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "preflight",
+      "line": 126,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "main",
+      "line": 275,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/prepare_level2_replay.py": [
+    {
+      "name": "digest",
+      "line": 11,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "main",
+      "line": 17,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/prepare_level2_score_replay.py": [
+    {
+      "name": "digest",
+      "line": 13,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "main",
+      "line": 19,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/prepare_level2_title_bc.py": [
+    {
+      "name": "main",
+      "line": 13,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/prepare_level3_imitation.py": [
+    {
+      "name": "main",
+      "line": 16,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/review_level3_imitation.py": [
+    {
+      "name": "crop",
+      "line": 19,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "main",
+      "line": 23,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/run_level2_title_bc.py": [
+    {
+      "name": "main",
+      "line": 21,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/submission_assets.py": [
+    {
+      "name": "sha",
+      "line": 9,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "main",
+      "line": 12,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/train_backward_level1.py": [
+    {
+      "name": "write_json",
+      "line": 44,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "sha256_file",
+      "line": 48,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "log",
+      "line": 52,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "training_memory_sample",
+      "line": 57,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "training_case",
+      "line": 90,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "apply_fixed_anchor_prefix",
+      "line": 109,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "empty_combat_scope_collection",
+      "line": 156,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "accumulate_combat_scope_transition",
+      "line": 163,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "summarize_combat_scope_collection",
+      "line": 203,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "empty_score_scope_collection",
+      "line": 231,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "accumulate_score_scope_transition",
+      "line": 237,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "summarize_score_scope_collection",
+      "line": 274,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "reset_resumed_worker_state",
+      "line": 290,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "reset_collector_role_worker_state",
+      "line": 304,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "is_frontier_mastery_transition",
+      "line": 326,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "reset_record",
+      "line": 332,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "entropy_weight",
+      "line": 340,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "critic_warmup_rollout",
+      "line": 347,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "training_budget_targets",
+      "line": 353,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "configuration_diff_paths",
+      "line": 372,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "configuration_changed_keys",
+      "line": 393,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_curriculum_adaptation",
+      "line": 397,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_timing_adaptation",
+      "line": 450,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_normalization_adaptation",
+      "line": 458,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "rng_state",
+      "line": 467,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "load_rng",
+      "line": 471,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_reward_adaptation",
+      "line": 476,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_score_reward_adaptation",
+      "line": 493,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_adaptation_composition",
+      "line": 521,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_score_curriculum_adaptation",
+      "line": 562,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_scoped_kind18_reward_resume",
+      "line": 568,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_navigation_reward_adaptation",
+      "line": 593,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_time_cost_adaptation",
+      "line": 610,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_forward_progress_adaptation",
+      "line": 624,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "optional_training_counter",
+      "line": 637,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_evaluation_identifier",
+      "line": 646,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "snapshots",
+      "line": 653,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "adaptation_validation_result",
+      "line": 658,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_checkpoint_experiment_provenance",
+      "line": 719,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "checkpoint_route_observation_window",
+      "line": 752,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_evaluation_checkpoint_contract",
+      "line": 774,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_action_omission_plan",
+      "line": 841,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "action_with_one_shot_omission",
+      "line": 971,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "compare_reference_greedy_action",
+      "line": 982,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "policy_input_schema_matches_reference",
+      "line": 1026,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "fingerprint_schema_matches_reference",
+      "line": 1033,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "evaluation_preparation_result",
+      "line": 1045,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "save",
+      "line": 1090,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "behavior_distribution",
+      "line": 1099,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "exploration_epsilon",
+      "line": 1110,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "task_score",
+      "line": 1117,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "validate_bc_mode",
+      "line": 1123,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "auxiliary_weight",
+      "line": 1133,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "load_human_auxiliary",
+      "line": 1139,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "human_auxiliary_loss",
+      "line": 1245,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "optimize",
+      "line": 1260,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "flush_evaluation_values",
+      "line": 1357,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "evaluate",
+      "line": 1369,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "curves",
+      "line": 1974,
+      "kind": "FunctionDef"
+    },
+    {
+      "name": "main",
+      "line": 2015,
+      "kind": "FunctionDef"
+    }
+  ],
+  "scripts/train_level3_imitation.py": [
+    {
+      "name": "main",
+      "line": 14,
+      "kind": "FunctionDef"
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 {
   "source_files": [
     ".gitignore",
-    "analysis/level1_dqfd_demo_continuation_20261025/README.md",
     "analysis/level1_dqfd_demo_continuation_20261025/candidate_comparison.png",
     "analysis/level1_dqfd_demo_continuation_20261025/contact_3000.png",
     "analysis/level1_dqfd_demo_continuation_20261025/contact_5000.png",
@@ -10,20 +9,16 @@
     "analysis/level1_dqfd_demo_continuation_20261025/result.json",
     "analysis/level1_dqfd_demo_continuation_20261025/selected_checkpoint.json",
     "analysis/level1_dqfd_demo_continuation_20261025/verification.json",
-    "analysis/level1_dqfd_extended_study_20261025/README.md",
     "analysis/level1_dqfd_extended_study_20261025/learning_trends.png",
     "analysis/level1_dqfd_extended_study_20261025/postrun_budget.json",
     "analysis/level1_dqfd_extended_study_20261025/result.json",
     "analysis/level1_dqfd_extended_study_20261025/update2000_contact_sheet.png",
     "analysis/level1_dqfd_extended_study_20261025/verification.json",
-    "analysis/level2_standalone_completion_v58_20261026/README.md",
     "analysis/level2_standalone_completion_v58_20261026/authority.json",
     "analysis/level2_standalone_completion_v58_20261026/ending_review.png",
     "analysis/level2_standalone_completion_v58_20261026/result.json",
     "analysis/level2_standalone_completion_v58_20261026/verification.json",
-    "analysis/level2_title_bc_v57_20261026/README.md",
     "analysis/level2_title_bc_v57_20261026/verification.json",
-    "analysis/level2_transition_tail_v59_20261026/README.md",
     "analysis/level2_transition_tail_v59_20261026/after_flag_0000.png",
     "analysis/level2_transition_tail_v59_20261026/after_flag_0120.png",
     "analysis/level2_transition_tail_v59_20261026/after_flag_0300.png",
@@ -36,7 +31,6 @@
     "analysis/level2_transition_tail_v59_20261026/after_flag_2400.png",
     "analysis/level2_transition_tail_v59_20261026/result.json",
     "analysis/level2_transition_tail_v59_20261026/verification.json",
-    "analysis/level3_imitation_evaluation_v2_20261026/README.md",
     "analysis/level3_imitation_evaluation_v2_20261026/authority.json",
     "analysis/level3_imitation_evaluation_v2_20261026/frame_000060.png",
     "analysis/level3_imitation_evaluation_v2_20261026/frame_000120.png",
@@ -62,7 +56,6 @@
     "config/level2_reward_current.json",
     "config/ram_map.json",
     "config/training.json",
-    "docs/LEVEL3_IMITATION.md",
     "docs/case_study_draft/REPORT_DRAFT.md",
     "docs/case_study_draft/REPORT_DRAFT.pdf",
     "docs/case_study_draft/assets/01_environment_architecture.png",
@@ -444,5 +437,13 @@
     "training/level3_imitation_v1_20261026/fit.jsonl",
     "training/level3_imitation_v1_20261026/result.json"
   ],
-  "generated_files": "See exact manifests/inventory.json; exporter/finalizer/templates define generated output contents"
+  "generated_files": "See exact manifests/inventory.json; exporter/finalizer/templates define generated output contents",
+  "documentation_files": [
+    "README.md",
+    "deliverables/videos/README.md",
+    "docs/ARCHITECTURE.md",
+    "docs/REPRODUCIBILITY.md",
+    "docs/RESULTS.md",
+    "docs/SETUP.md"
+  ]
 }

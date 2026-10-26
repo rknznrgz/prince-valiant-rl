@@ -1,7 +1,7 @@
 # Prince Valiant: curated local submission preparation
 
-Prepared 26 October 2026. This is a reviewable local export, not a published
-repository or a fully compliant assignment submission. See [github.md](github.md)
+Prepared 26 October 2026. This curated research submission is public at [https://github.com/rknznrgz/prince-valiant-rl](https://github.com/rknznrgz/prince-valiant-rl). It is not a fully
+compliant assignment submission; the documented evidence and reproducibility gaps remain. See [github.md](github.md)
 for implementation review, dependency maps, verification and blockers.
 
 Use Windows x64 and CPython 3.13. Selected training and gameplay runners require

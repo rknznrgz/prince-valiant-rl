@@ -1,5 +1,14 @@
 # GitHub preparation and report implementation review
 
+## Publication update — 26 October 2026
+
+The curated package is now public at [https://github.com/rknznrgz/prince-valiant-rl](https://github.com/rknznrgz/prince-valiant-rl), as explicitly requested
+by the owner. Initial upload commit: `78ac6c269832849a7fe9b6c000a799b63c6df0f8`. GitHub API visibility
+and the remote main-branch commit were verified. The preparation record below
+describes the earlier local export; its statements that publication had not yet
+occurred are historical. No individual collaborator invitations were sent.
+All documented scientific, licensing and reproducibility limitations remain.
+
 Prepared **26 October 2026**, local package `github_submission/prince-valiant-rl`
 beside original `prince-valiant-rl`. No research-root Git metadata exists: no
 revision identity, clean diff or commit history is claimed. Original tests,

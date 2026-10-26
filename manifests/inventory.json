@@ -1,5 +1,10 @@
 [
   {
+    "path": ".gitattributes",
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  {
     "path": ".gitignore",
     "bytes": 195,
     "sha256": "ec6fc3a7b2a3e222d8ad8462d9a21c7b77c8c6900956e92aac29391255348d76"
@@ -411,8 +416,8 @@
   },
   {
     "path": "github.md",
-    "bytes": 33880,
-    "sha256": "fda6dc9bb8a118fc684a92ec0955ed312ce73e053d7e828d1dcefffb970a0b0f"
+    "bytes": 34503,
+    "sha256": "946d96f6cb72989447e36fc96016be1be5eb5c23310f1e216f5a984e5d743ca6"
   },
   {
     "path": "instrumentation/build_kind18_observer.py",
@@ -705,6 +710,11 @@
     "sha256": "c98169cb0890c2e895fbc5c57a2eb16cd4356e107842da03d43fad30f42d329b"
   },
   {
+    "path": "manifests/publication.json",
+    "bytes": 240,
+    "sha256": "c1811d3508e05bd804070371db37f0bb22543918aba8692b319ad64406f87207"
+  },
+  {
     "path": "manifests/verification.json",
     "bytes": 26672,
     "sha256": "9029da84203b9200b34715462be013893319077dc5169da674a17c803bdab3bc"
@@ -736,8 +746,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 9421,
-    "sha256": "56bce18f6084d622fa5c8791364befc0b9696c6a25f2e695e4b2d9576bc5f856"
+    "bytes": 9565,
+    "sha256": "36935d2a72a5751f19e79326300ab8d3d00b927b28049644a30852bb048552be"
   },
   {
     "path": "requirements-cuda.txt",
